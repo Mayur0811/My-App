@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/_6sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clMessageTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_6sdp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/tvMsgTime"
+            style="@style/AppTextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textSize="tertiary"
+            tools:text="January 30 - 2:35 PM" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clMessageBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/clMessageTime">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clMessageBg"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/chat_received_bg"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_max="@dimen/_220sdp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivMessage"
+                android:layout_width="@dimen/_212sdp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@color/app_color"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@id/tvMessageText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearance="@style/RoundImageView_10"
+                tools:visibility="gone" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/tvMessageText"
+                style="@style/AppTextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_3sdp"
+                android:textColor="@color/app_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivMessage"
+                app:textSize="secondary"
+                tools:text="hi"
+                tools:visibility="gone" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivAttachFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_marginEnd="@dimen/_7sdp"
+                android:paddingVertical="@dimen/_5sdp"
+                android:src="@drawable/ic_attach_file"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tvAttachFileName"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/tvAttachFileName"
+                style="@style/AppTextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingHorizontal="@dimen/_3sdp"
+                android:textColor="@color/app_black"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivAttachFile"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_max="@dimen/_150sdp"
+                app:textSize="primary"
+                tools:text="data experience across"
+                tools:visibility="visible" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.Material.ProgressBar.Large"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/app_color"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/ivTranslate"
+            app:layout_constraintEnd_toEndOf="@id/ivTranslate"
+            app:layout_constraintStart_toStartOf="@id/ivTranslate"
+            app:layout_constraintTop_toTopOf="@id/ivTranslate"
+            tools:visibility="visible" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/ic_translate_icon"
+            app:layout_constraintBottom_toBottomOf="@id/clMessageBg"
+            app:layout_constraintStart_toEndOf="@id/clMessageBg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvMessageTime"
+        style="@style/AppTextMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/app_gray"
+        app:layout_constraintStart_toStartOf="@id/clMessageBody"
+        app:layout_constraintTop_toBottomOf="@id/clMessageBody"
+        app:textSize="tertiary"
+        tools:text="1:23 PM" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

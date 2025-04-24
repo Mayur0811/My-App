@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/_14sdp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivDetailsIcon"
+        android:layout_width="@dimen/_31sdp"
+        android:layout_height="@dimen/_31sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_bg"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_call"
+        android:tint="@color/app_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvDetailsTitle"
+        style="@style/AppTextBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/app_blue"
+        app:layout_constraintBottom_toBottomOf="@id/ivDetailsIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivDetailsIcon"
+        app:layout_constraintTop_toTopOf="@id/ivDetailsIcon"
+        app:textSize="primary"
+        tools:text="@string/app_name" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_next"
+        android:tint="@color/app_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@color/app_light_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tvDetailsTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

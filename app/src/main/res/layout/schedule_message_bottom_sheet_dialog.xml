@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scheduled_message_dialog_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+    android:backgroundTint="@color/app_bg"
+    android:paddingHorizontal="@dimen/_8sdp">
+
+    <View
+        android:id="@+id/viewScheduleTop"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="5dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/scheduleTitle"
+        style="@style/AppTextMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/schedule_send_warning"
+        android:textColor="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewScheduleTop"
+        app:textSize="primary" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clScheduleDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/scheduleTitle">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivDate"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="4dp"
+            android:tint="@color/app_blue"
+            android:src="@drawable/ic_calendar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/tvScheduleDate"
+            style="@style/AppTextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            app:layout_constraintBottom_toBottomOf="@id/ivDate"
+            app:layout_constraintStart_toEndOf="@id/ivDate"
+            app:layout_constraintTop_toTopOf="@id/ivDate"
+            app:textSize="primary"
+            tools:text="@string/app_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clScheduleTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_bg"
+        android:gravity="center_vertical"
+        android:paddingVertical="@dimen/_8sdp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/clScheduleDate">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivTime"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="4dp"
+            android:src="@drawable/ic_alarm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/tvScheduleTime"
+            style="@style/AppTextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            app:layout_constraintBottom_toBottomOf="@id/ivTime"
+            app:layout_constraintStart_toEndOf="@id/ivTime"
+            app:layout_constraintTop_toTopOf="@id/ivTime"
+            app:textSize="primary"
+            tools:text="@string/app_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/viewButtonGuide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/clScheduleTime" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnCancel"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/app_light_gray"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/cancel"
+        android:textColor="@color/app_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnDone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnDone"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/done"
+        android:textColor="@color/only_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnCancel"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

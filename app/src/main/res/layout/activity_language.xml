@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.language.ui.LanguageActivity">
+
+    <com.messages.common.custom_views.AppToolbar
+        android:id="@+id/toolbarLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/toolbar_bg"
+        android:elevation="5dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/AppToolbarStyle"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_17sdp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/toolbarLanguage">
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/tvLanguageTitle"
+            style="@style/AppTextBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:text="@string/choose_your_language"
+            android:textColor="@color/app_blue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textSize="primary" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLanguageDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_14sdp"
+            android:background="@drawable/button_bg"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="@dimen/_11sdp"
+            android:paddingVertical="@dimen/_5sdp"
+            android:text="@string/done"
+            android:textAllCaps="false"
+            android:textColor="@color/only_white"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/tvLanguageTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvLanguageTitle"
+            app:layout_constraintWidth_max="@dimen/_75sdp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:paddingHorizontal="@dimen/_6sdp"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/_5sdp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/nativeAd"
+        app:layout_constraintTop_toBottomOf="@id/clToolbar"
+        app:spanCount="2"
+        tools:listitem="@layout/item_languages" />
+
+    <FrameLayout
+        android:id="@+id/nativeAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

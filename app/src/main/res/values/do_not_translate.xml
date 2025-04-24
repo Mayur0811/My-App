@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Messages</string>
+    <string name="app_name_label" translatable="false">#Messages</string>
+
+    <string name="splash_ad_message" translatable="false">This action can contain ads</string>
+
+    <string name="simple_commons" translatable="false">Simple Commons</string>
+    <string name="date_range_picker" translatable="false">DATE RANGE PICKER</string>
+    <string name="date_picker" translatable="false">DATE PICKER</string>
+    <string name="time_picker" translatable="false">TIME PICKER</string>
+    <string name="question_mark" translatable="false">\?</string>
+
+    <string name="schedule_time_show" translatable="false">%1$d:%2$d %3$s</string>
+
+    <string name="label_month" translatable="false">MONTH</string>
+    <string name="label_year" translatable="false">YEAR</string>
+
+    <integer name="default_filter">0</integer>
+    <integer name="today_filter">1</integer>
+    <integer name="month_filter">2</integer>
+    <integer name="year_filter">3</integer>
+    <integer name="date_range_filter">4</integer>
+
+    <string name="call_end_string" translatable="false">"%02d:%02d:%02d"</string>
+
+    <string name="digit_0" translatable="false">0</string>
+
+
+    <string name="number_1" translatable="false">1</string>
+    <string name="number_2" translatable="false">2</string>
+    <string name="number_3" translatable="false">3</string>
+    <string name="number_4" translatable="false">4</string>
+    <string name="number_5" translatable="false">5</string>
+    <string name="number_6" translatable="false">6</string>
+    <string name="number_7" translatable="false">7</string>
+    <string name="number_8" translatable="false">8</string>
+    <string name="number_9" translatable="false">9</string>
+    <string name="number_0" translatable="false">0</string>
+    <string name="number_null" translatable="false" />
+    <string name="backspace" translatable="false">backspace</string>
+
+    <string name="kb_100" translatable="false">100KB</string>
+    <string name="kb_200" translatable="false">200KB</string>
+    <string name="kb_300" translatable="false">300KB</string>
+    <string name="kb_600" translatable="false">600KB</string>
+    <string name="mb_1" translatable="false">1MB</string>
+    <string name="mb_2" translatable="false">2MB</string>
+
+    <string name="unknown" translatable="false">Unknown</string>
+    <string name="sms" translatable="false">SMS</string>
+    <string name="mms" translatable="false">MMS</string>
+</resources>

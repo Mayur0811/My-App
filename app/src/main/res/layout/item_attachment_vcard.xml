@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/attachmert_doc_bg"
+            android:padding="@dimen/_5sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/vcardPhoto"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/vcardTitle"
+                style="@style/AppTextMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:maxLines="1"
+                app:layout_constraintStart_toEndOf="@id/vcardPhoto"
+                app:layout_constraintTop_toTopOf="parent"
+                app:textSize="secondary"
+                tools:text="Elon Reeve Musk"
+                tools:visibility="visible" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/vcardSubtitle"
+                style="@style/AppTextRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_gray"
+                app:layout_constraintStart_toStartOf="@id/vcardTitle"
+                app:layout_constraintTop_toBottomOf="@id/vcardTitle"
+                app:textSize="tertiary"
+                tools:text="and 6 others"
+                tools:visibility="visible" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/viewContactDetails"
+                style="@style/AppTextRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/view_contact_details"
+                android:textColor="@color/app_color"
+                app:layout_constraintStart_toStartOf="@id/vcardTitle"
+                app:layout_constraintTop_toBottomOf="@id/vcardSubtitle"
+                app:textSize="tertiary"
+                tools:visibility="visible" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clRemove"
+        android:layout_width="@dimen/_19sdp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
+        android:padding="@dimen/_3sdp"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

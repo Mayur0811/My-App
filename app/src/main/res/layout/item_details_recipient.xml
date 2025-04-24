@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.messages.common.custom_views.AvatarView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginVertical="@dimen/_7sdp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvRecipientTitle"
+        style="@style/AppTextBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_11sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/app_blue"
+        app:layout_constraintEnd_toStartOf="@id/ivRecipientCall"
+        app:layout_constraintStart_toEndOf="@id/avatar"
+        app:layout_constraintTop_toTopOf="@id/avatar"
+        app:textSize="dialog"
+        tools:text="VX-FMA09K" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvRecipientDesc"
+        style="@style/AppTextRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/app_blue"
+        app:layout_constraintEnd_toStartOf="@id/ivRecipientCall"
+        app:layout_constraintStart_toStartOf="@id/tvRecipientTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvRecipientTitle"
+        app:textSize="secondary"
+        tools:text="Hey, How are you!!" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivRecipientCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_call"
+        android:tint="@color/app_color"
+        app:layout_constraintBottom_toBottomOf="@id/avatar"
+        app:layout_constraintEnd_toStartOf="@id/ivRecipientMessage"
+        app:layout_constraintTop_toTopOf="@id/avatar" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivRecipientMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_msg"
+        android:tint="@color/app_color"
+        app:layout_constraintBottom_toBottomOf="@id/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/avatar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

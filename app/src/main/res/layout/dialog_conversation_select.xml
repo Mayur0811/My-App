@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg">
+
+    <View
+        android:id="@+id/viewTop"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="5dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvSelectConversations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:paddingVertical="@dimen/_11sdp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintHeight_max="@dimen/_400sdp"
+        app:layout_constraintTop_toBottomOf="@id/viewTop"
+        tools:listitem="@layout/item_conversation" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/rcvSelectConversations">
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/tvSelectedConversation"
+            style="@style/AppTextBold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:text="@string/action_add_private"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnAddTo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textSize="primary"
+            tools:text="@string/action_add_private" />
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/btnAddTo"
+            style="@style/AppTextExtraBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="@drawable/button_bg"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="@dimen/_18sdp"
+            android:paddingVertical="@dimen/_8sdp"
+            android:text="@string/add"
+            android:textColor="@color/only_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

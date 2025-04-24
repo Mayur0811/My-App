@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.messages.common.custom_views.MessageTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvSpinner"
+    style="@style/AppTextRegular"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:includeFontPadding="false"
+    android:textColor="@color/app_gray"
+    app:textSize="secondary"
+    tools:text="@string/app_name" />

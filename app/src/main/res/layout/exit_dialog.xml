@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+    android:backgroundTint="@color/app_bg"
+    android:paddingHorizontal="@dimen/_14sdp">
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/exitTitle"
+        style="@style/AppTextBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/leave_this_app"
+        android:textColor="@color/app_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textSize="toolbar" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/exitSubTitle"
+        style="@style/AppTextMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="@string/are_you_sure_leave_this_app"
+        android:textColor="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/exitTitle"
+        app:textSize="primary" />
+
+
+    <View
+        android:id="@+id/viewButtonGuide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/exitSubTitle" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnYes"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/app_light_gray"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/yes"
+        android:textColor="@color/app_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnNo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnNo"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/no"
+        android:textColor="@color/only_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnYes"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

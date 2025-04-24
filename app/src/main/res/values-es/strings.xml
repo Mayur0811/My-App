@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Spanish -->
+
+    <string name="choose_your_language">Elige tu idioma</string>
+    <string name="done">Hecho</string>
+    <string name="skip">Saltar</string>
+    <string name="next">Siguiente</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">Organiza tus mensajes sin esfuerzo</string>
+    <string name="first_onboarding_msg">Los mensajes se ordenan automáticamente en Personal, OTP,\nTransacciones y Ofertas para un acceso fácil.</string>
+    <string name="second_onboarding_title">Mantén tus chats seguros</string>
+    <string name="second_onboarding_msg">Usa el bloqueo de chat para proteger conversaciones privadas y\nmantenerlas seguras.</string>
+    <string name="third_onboarding_title">Personaliza tu experiencia de chat</string>
+    <string name="third_onboarding_msg">Personaliza los chats con colores, fondos de pantalla y\nfuentes ajustables.</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">Configurar Mensajes como predeterminado</string>
+    <string name="set_as_default_msg">Activa Mensajes como tu aplicación predeterminada para enviar y\nrecibir mensajes de texto.</string>
+    <string name="set_as_default_btn_text">Establecer como predeterminado</string>
+
+    <string name="notification_per_title">Permiso de notificación</string>
+    <string name="notification_per_msg">¡Mantente actualizado! Activa las notificaciones para recibir mensajes\ny no perderte nada.</string>
+    <string name="notification_per_btn_text">Permitir permiso</string>
+
+    <string name="phone_state_per_title">¡Necesitamos algunos permisos!</string>
+    <string name="phone_state_per_msg">Permite el permiso para enviar respuestas rápidas después de las llamadas\npara una experiencia de mensajería más rápida.</string>
+    <string name="phone_state_per_btn_text">Otorgar permiso</string>
+    <string name="phone_state_per_text">Habilita la app para leer el estado de tu teléfono</string>
+    <string name="phone_state_per_guide">Para un acceso rápido y fácil a los mensajes después de las llamadas.</string>
+
+    <string name="unknown_error_occurred">Ocurrió un error desconocido</string>
+    <string name="enable_quick_actions_in_3_easy_steps">Habilita acciones rápidas en 3 simples pasos.</string>
+    <string name="tap_the_enable_button_below">Toca el botón "Habilitar" a continuación.</string>
+    <string name="locate_our_app_in_the_list">Ubica nuestra app en la lista.</string>
+    <string name="turn_on_the_toggle_to_activate">Activa el interruptor para habilitarlo.</string>
+    <string name="enable">Habilitar</string>
+    <string name="overlay_permission_denied">¡Permiso de superposición denegado!</string>
+    <string name="find_and_allow_permission">Encuentra %s y permite el permiso</string>
+
+    <!-- drawer menu -->
+    <string name="inbox">Bandeja de entrada</string>
+    <string name="archived">Archivado</string>
+    <string name="private_chat">Chat privado</string>
+    <string name="spam_blocked">Spam y bloqueados</string>
+    <string name="scheduled">Programado</string>
+    <string name="theme">Tema</string>
+    <string name="backup_restore">Copia de seguridad y restauración</string>
+    <string name="setting">Configuración</string>
+    <string name="share">Compartir</string>
+    <string name="rate_app">Calificar la aplicación</string>
+    <string name="privacy_policy">Política de privacidad</string>
+
+    <!-- main filter -->
+    <string name="all">Todo</string>
+    <string name="personal">Personal</string>
+    <string name="otp_s">OTPs</string>
+    <string name="transactions">Transacciones</string>
+    <string name="offers">Ofertas</string>
+
+    <string name="chat">Chat</string>
+    <string name="copy_otp">Copiar OTP</string>
+    <string name="add">Agregar</string>
+    <string name="save">Guardar</string>
+
+    <string name="sender_does_not_support_replies">El remitente no admite respuestas</string>
+    <string name="sender_does_not_support_call">El remitente no admite llamadas</string>
+
+    <string name="call">Llamar</string>
+    <string name="conversation_details">Detalles de la conversación</string>
+    <string name="appearance">Apariencia</string>
+    <string name="chat_wallpaper">Fondo de chat</string>
+    <string name="show_subject_field">Mostrar campo de asunto</string>
+    <string name="copy">Copiar</string>
+    <string name="delete">Eliminar</string>
+    <string name="forward">Reenviar</string>
+    <string name="view_details">Ver detalles</string>
+
+    <string name="translate_massage">Traducir mensaje</string>
+    <string name="choose_language">Elige un idioma</string>
+    <string name="text_message">Mensaje de texto</string>
+    <string name="subject">Asunto:</string>
+
+    <string name="contact">Contacto</string>
+    <string name="image">Imagen</string>
+    <string name="camera">Cámara</string>
+    <string name="files">Archivos</string>
+    <string name="voice">Voz</string>
+    <string name="schedule">Programar</string>
+    <string name="location">Ubicación</string>
+    <string name="clipboard">Portapapeles</string>
+
+    <string name="view_contact_details">Ver detalles del contacto</string>
+    <string name="copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="share_via">Compartir vía</string>
+    <string name="no_app_found">No se encontró ninguna aplicación válida</string>
+    <string name="maximum_share_reached">No puedes compartir tanto contenido a la vez</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">¿Estás seguro de que deseas eliminar este\nmensaje?</string>
+    <string name="something_went_wrong_please_try_after_some_time">Algo salió mal, inténtalo de nuevo más tarde.</string>
+    <string name="message_details">Detalles del mensaje</string>
+    <string name="ok">OK</string>
+    <string name="message_details_received">Tipo: %1$s\n\nDe: %2$s\n\nRecibido: %3$s</string>
+    <string name="message_details_send">Tipo: %1$s\n\nPara: %2$s\n\nEnviado: %3$s</string>
+
+    <string name="pin">Fijar</string>
+    <string name="unpin">Desfijar</string>
+    <string name="archive">Archivar</string>
+    <string name="unarchive">Desarchivar</string>
+    <string name="private_text">Privado</string>
+    <string name="add_to_contacts">Agregar a contactos</string>
+    <string name="mark_as_unread">Marcar como no leído</string>
+    <string name="mark_as_read">Marcar como leído</string>
+    <string name="block">Bloquear</string>
+    <string name="unblock">Desbloquear</string>
+    <string name="dial_number">Marcar número</string>
+    <string name="copy_to_clipboard">Copiar al portapapeles</string>
+
+    <string name="want_to_delete_conversation">¿Estás seguro de que deseas eliminar esta\nconversación?</string>
+    <string name="want_to_block_conversation">¿Estás segura de que quieres %1$s esta \ nconversaciones?</string>
+    <string name="search_here">Buscar aquí</string>
+    <string name="no_items_found">No se encontraron elementos.</string>
+    <string name="type_2_characters">Escribe al menos 2 caracteres para iniciar la búsqueda.</string>
+
+    <string name="apply">Aplicar</string>
+    <string name="filter">Filtrar</string>
+    <string name="default_filter">Por defecto</string>
+    <string name="today_filter">Hoy</string>
+    <string name="monthly_filter">Mensual</string>
+    <string name="year_filter">Anual</string>
+    <string name="date_range_filter">Rango de fechas</string>
+    <string name="date_show">Fecha: %1$s</string>
+    <string name="select_range">SELECCIONAR RANGO</string>
+    <string name="range_show">Rango: %1$s</string>
+    <string name="year_show">Año: %1$d</string>
+    <string name="month_show">Mes: %1$s</string>
+
+    <string name="language_model_error">Algo salió mal, inténtalo de nuevo más tarde.</string>
+    <string name="language_translate_error">Actualmente estamos experimentando problemas con la traducción de texto. Inténtalo de nuevo más tarde.</string>
+
+    <string name="new_chat">Nuevo chat</string>
+    <string name="import_messages">Importar mensajes</string>
+    <string name="font_size">Tamaño de fuente</string>
+    <string name="preview">Vista previa</string>
+    <string name="chat_color">Color del chat</string>
+    <string name="add_photos">Agregar fotos</string>
+    <string name="none">Ninguno</string>
+
+    <string name="set_password">Establecer contraseña</string>
+    <string name="confirm_your_password">Confirma tu contraseña</string>
+    <string name="enter_password">Ingresa una contraseña</string>
+    <string name="set_pin">Establecer PIN</string>
+    <string name="incorrect_password">Contraseña incorrecta</string>
+    <string name="enter_correct_password">Ingresa la contraseña correcta</string>
+
+    <string name="preview_receive">¡Hola chicos!</string>
+    <string name="preview_send">Sí… ¡este es mi color favorito!</string>
+    <string name="confirm_pin_title">Estimados usuarios,\nEl PIN de su Chat Privado es:</string>
+    <string name="confirm_pin_guide">Se recomienda que configure una pregunta de seguridad para\nprevenir olvidar su contraseña.</string>
+    <string name="set_now">Configurar ahora</string>
+    <string name="submit">Enviar</string>
+    <string name="enter_security_answer">Ingrese la respuesta de seguridad</string>
+    <string name="write_your_answer">Escriba su respuesta</string>
+    <string name="select_security_question">Seleccione una pregunta de seguridad</string>
+    <string name="secret_question">Pregunta secreta</string>
+    <string name="forget_password">¿Olvidó su contraseña?</string>
+    <string name="verify_your_identity">Si olvidó el PIN, se utilizará la pregunta de seguridad para verificar su identidad y así poder restablecer la contraseña.</string>
+    <string name="wrong_qa_answer">Está seleccionando o respondiendo una pregunta incorrecta. Seleccione la pregunta correcta y proporcione una respuesta precisa.</string>
+
+    <string name="select_your_security_question">Seleccione su pregunta de seguridad</string>
+    <string name="teacher_question">¿Quién es su profesor favorito?</string>
+    <string name="actor_question">¿Quién es su actor favorito?</string>
+    <string name="actress_question">¿Quién es su actriz favorita?</string>
+    <string name="cricketer_question">¿Quién es su jugador de críquet favorito?</string>
+    <string name="footballer_question">¿Quién es su futbolista favorito?</string>
+    <string name="pet_name_question">¿Cuál es el nombre de su mascota?</string>
+
+    <string name="empty_private_chat_title">Chat Privado Vacío</string>
+    <string name="empty_private_chat_sub_title">Aún no hay chats. ¡Comience uno nuevo ahora!</string>
+    <string name="change_security">Cambiar seguridad</string>
+    <string name="edit_password">Editar contraseña</string>
+    <string name="private_message_notification">Notificación de mensaje</string>
+    <string name="private_message_notification_guide">Al deshabilitar esta opción, los mensajes de contactos privados no aparecerán en la notificación.</string>
+    <string name="password_change_successfully">¡Contraseña cambiada con éxito!</string>
+
+    <string name="choose_app_theme">Elegir tema de la aplicación</string>
+    <string name="choose_theme_to_personalize_your_app">Elija un tema para personalizar su aplicación.</string>
+    <string name="system_default">Predeterminado del sistema</string>
+    <string name="light_theme">Tema claro</string>
+    <string name="dark_theme">Tema oscuro</string>
+
+    <string name="normal">Normal</string>
+    <string name="small">Pequeño</string>
+    <string name="large">Grande</string>
+    <string name="larger">Más grande</string>
+    <string name="use_system_font">Usar fuente del sistema</string>
+    <string name="language">Idioma</string>
+    <string name="lock_screen_notification">Notificación en pantalla de bloqueo</string>
+    <string name="sender_and_messages">Remitente y mensajes</string>
+    <string name="sender_only">Solo remitente</string>
+    <string name="nothing">Nada</string>
+    <string name="resize_send_mms_images">Redimensionar imágenes enviadas por MMS</string>
+    <string name="customize_notification">Personalizar notificación</string>
+    <string name="swipe_actions">Acciones de deslizamiento</string>
+    <string name="configure_swipe_actions_for_conversations">Configurar acciones de deslizamiento para conversaciones</string>
+    <string name="post_call_screen">Pantalla posterior a la llamada</string>
+    <string name="show_call_screen_after_call">Mostrar pantalla de llamada después de la llamada</string>
+    <string name="delivery_reports">Informes de entrega</string>
+    <string name="use_24_hour_time_format">Usar formato de hora de 24 horas</string>
+    <string name="show_character_counter_writing_messages">Mostrar un contador de caracteres al escribir mensajes</string>
+    <string name="remove_accents_diacritics_sending_messages">Eliminar acentos y diacríticos al enviar mensajes</string>
+    <string name="share_app">Compartir aplicación</string>
+    <string name="rate_us">Califícanos</string>
+    <string name="feedback">Comentarios</string>
+    <string name="about_app">Acerca de %1$s</string>
+    <string name="app_version">Versión %1$s</string>
+    <string name="no_limit">Sin límite</string>
+    <string name="resize_sent_mms_image">Redimensionar imágenes enviadas por MMS</string>
+
+    <string name="right_swipe">Deslizar a la derecha</string>
+    <string name="left_swipe">Deslizar a la izquierda</string>
+    <string name="change">Cambiar</string>
+    <string name="right_swipe_action">Acción de deslizamiento a la derecha</string>
+    <string name="left_swipe_action">Acción de deslizamiento a la izquierda</string>
+
+    <string name="action_none">Ninguno</string>
+    <string name="action_archive">Archivar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_call">Llamar</string>
+    <string name="action_mark_read">Marcar como leído</string>
+    <string name="action_mark_unread">Marcar como no leído</string>
+    <string name="action_add_private">Agregar al chat privado</string>
+    <string name="action_remove_private">Eliminar del chat privado</string>
+
+    <string name="carrier_send_error">No se pudo enviar el mensaje, error del operador</string>
+    <string name="error_service_is_unavailable">No se pudo enviar el mensaje, servicio no disponible</string>
+    <string name="error_radio_turned_off">No se pudo enviar el mensaje, la radio está apagada</string>
+    <string name="sim_card_not_available">Tarjeta SIM no disponible</string>
+    <string name="unknown_error_occurred_sending_message">No se pudo enviar el mensaje, código de error: %d</string>
+    <string name="an_error_occurred">Ocurrió un error: %s</string>
+    <string name="empty_destination_address">No se puede enviar el mensaje a un número vacío</string>
+    <string name="unable_to_save_message">No se pudo guardar el mensaje en la base de datos de telefonía</string>
+    <string name="must_pick_time_in_the_future">Debe elegir una hora en el futuro</string>
+
+    <string name="message_not_sent_short">Mensaje no enviado</string>
+    <string name="message_sending_error">Tu mensaje a \'%s\' no se ha enviado</string>
+    <string name="channel_received_sms">SMS recibido</string>
+    <string name="new_message">Nuevo mensaje</string>
+    <string name="reply">Responder</string>
+    <string name="me">Yo</string>
+    <string name="sens_to">Enviar a %s</string>
+
+    <string name="blocked_number">Número bloqueado</string>
+    <string name="delete_conversation">Eliminar conversación</string>
+    <string name="conversation_title">Título de la conversación</string>
+    <string name="schedule_send_warning">Mantén el teléfono encendido y asegúrate de que\nnada cierre la aplicación en segundo plano.</string>
+
+    <string name="option">Opción</string>
+    <string name="messages">Mensajes</string>
+    <string name="more">Más</string>
+
+    <string name="send_message">Enviar mensaje</string>
+    <string name="send_message_desc">¡Envía mensajes a cualquier persona con facilidad!</string>
+    <string name="view_message">Ver mensaje</string>
+    <string name="view_message_desc">¡Visualiza mensajes en lista con un solo toque!</string>
+
+    <string name="instant_msg_1">Estoy en una reunión, te llamaré más tarde.</string>
+    <string name="instant_msg_2">Por favor, llámame más tarde. ¡Gracias!</string>
+    <string name="instant_msg_3">¡Que tengas un buen día!</string>
+    <string name="instant_msg_4">OK, entendido.</string>
+    <string name="instant_msg_5">Voy en camino, llegaré pronto.</string>
+
+    <string name="edit_contact">Editar contacto</string>
+    <string name="send_mail">Enviar correo</string>
+    <string name="calendar">Calendario</string>
+    <string name="web">Web</string>
+
+    <string name="incoming_call">Llamada entrante</string>
+    <string name="outgoing_call">Llamada saliente</string>
+    <string name="private_number">Número privado</string>
+
+    <string name="last_backup">Última copia de seguridad</string>
+    <string name="restore">Restaurar</string>
+    <string name="select_backup">Seleccionar una copia de seguridad</string>
+    <string name="no_backup_available">No hay copias de seguridad disponibles</string>
+    <string name="last_backup_time">Última copia de seguridad: %s</string>
+
+    <string name="empty_name">Por favor, introduce un nombre</string>
+    <string name="name_taken">Ya existe un archivo o carpeta con ese nombre</string>
+    <string name="invalid_name">El nombre contiene caracteres no válidos</string>
+
+    <string name="importing">Importando…</string>
+    <string name="invalid_file_format">Formato de archivo no válido</string>
+    <string name="no_entries_for_importing">No se encontraron entradas para importar</string>
+    <string name="importing_failed">Error al importar</string>
+    <string name="importing_some_entries_failed">Algunas entradas no se pudieron importar</string>
+    <string name="importing_successful">Importación exitosa</string>
+    <string name="improved_color_customization">Personalización de colores mejorada</string>
+    <string name="exporting_successful">Exportación exitosa</string>
+    <string name="exporting">Exportando…</string>
+    <string name="no_entries_for_exporting">No se encontraron entradas para exportar</string>
+
+    <string name="backup_files">Archivos de copia de seguridad</string>
+    <string name="please_select_backup_file">Por favor, selecciona un archivo de copia de seguridad de la lista para restaurar mensajes.</string>
+    <string name="folder_does_not_exist">La carpeta no existe o no es un directorio.</string>
+    <string name="you_have_not_any_backup_file">No tienes ninguna copia de seguridad, por favor realiza una copia primero.</string>
+    <string name="not_found_any_backup_file">No se encontró ninguna copia de seguridad.</string>
+
+    <plurals name="and_other_contacts" tools:ignore="MissingQuantity">
+        <item quantity="one">y %d otro</item>
+        <item quantity="other">y %d otros</item>
+    </plurals>
+
+    <string name="action_add_to_fav">Agregar a favoritos</string>
+    <string name="duration_sec">Duración %1$s  seg</string>
+    <string name="picked_contact">Nombre: %1$s\nNúmero: %2$s</string>
+
+    <string name="default_category">Predeterminado</string>
+    <string name="default_sentence_1">En una reunión, te llamaré más tarde.</string>
+    <string name="default_sentence_2">Por favor, llámame más tarde. ¡Gracias!</string>
+    <string name="default_sentence_3">¡Que tengas un buen día!</string>
+    <string name="default_sentence_4">Ok, entendido.</string>
+    <string name="default_sentence_5">Voy en camino, llegaré pronto.</string>
+    <string name="default_sentence_6">Estoy bien, no te preocupes.</string>
+    <string name="default_sentence_7">Gracias.</string>
+    <string name="default_sentence_8">De nada.</string>
+    <string name="default_sentence_9">Te deseo lo mejor.</string>
+    <string name="default_sentence_10">Ven aquí, ahora.</string>
+
+    <string name="funny_category">Gracioso</string>
+    <string name="funny_sentence_1">Amo mi trabajo solo cuando estoy de vacaciones.</string>
+    <string name="funny_sentence_2">No soy perezoso, solo estoy en modo de ahorro de energía.</string>
+    <string name="funny_sentence_3">No hay un amanecer tan hermoso que valga la pena despertarme para verlo.</string>
+    <string name="funny_sentence_4">No soy completamente inútil, puedo servir como un mal ejemplo.</string>
+    <string name="funny_sentence_5">Si la gente pudiera leer mi mente, me darían muchos golpes en la cara.</string>
+    <string name="funny_sentence_6">Algún día llegarás lejos, y espero que te quedes allí.</string>
+    <string name="funny_sentence_7">Ya no uso gafas, he visto suficiente…</string>
+    <string name="funny_sentence_8">Si al principio no tienes éxito, el paracaidismo no es para ti.</string>
+    <string name="funny_sentence_9">No entiendo tu tipo específico de locura, pero admiro tu total compromiso con ella.</string>
+    <string name="funny_sentence_10">Un día sin sol es como, ya sabes, la noche.</string>
+
+    <string name="love_category">Amor</string>
+    <string name="love_sentence_1">Solo pensar en ti me pone una sonrisa en la cara.</string>
+    <string name="love_sentence_2">Mi día parece incompleto sin ti.</string>
+    <string name="love_sentence_3">Lo más importante en este mundo es la familia y el amor.</string>
+    <string name="love_sentence_4">No puedes culpar a la gravedad por enamorarte.</string>
+    <string name="love_sentence_5">Eres la persona más hermosa, por dentro y por fuera. Soy muy afortunado de tenerte.</string>
+    <string name="love_sentence_6">Un millón de gracias a la persona más increíble que conozco.</string>
+    <string name="love_sentence_7">No hay palabras para describir el amor que compartimos. Estoy increíblemente agradecido por ti.</string>
+    <string name="love_sentence_8">El amor es cuando tienes opciones para irte, pero decides quedarte.</string>
+    <string name="love_sentence_9">Me gusta cuando sonríes. Pero me encanta cuando soy la razón…</string>
+    <string name="love_sentence_10">El amor entiende el amor; no necesita palabras.</string>
+
+    <string name="wishes_category">Deseos</string>
+    <string name="wishes_sentence_1">¡Todo lo mejor! Te deseo lo mejor para un futuro próspero.</string>
+    <string name="wishes_sentence_2">¡Feliz cumpleaños! ¡Que todos tus sueños se hagan realidad!</string>
+    <string name="wishes_sentence_3">¡Feliz Navidad! Difunde amor donde quiera que vayas.</string>
+    <string name="wishes_sentence_4">Lo más importante es disfrutar tu vida y ser feliz. Eso es todo lo que importa.</string>
+    <string name="wishes_sentence_5">Cuando tienes un sueño, debes aferrarte a él y nunca soltarlo.</string>
+    <string name="wishes_sentence_6">A veces, cuando las cosas se desmoronan, en realidad están cayendo en su lugar.</string>
+    <string name="wishes_sentence_7">Eres más valiente de lo que crees, más fuerte de lo que pareces y más inteligente de lo que piensas.</string>
+    <string name="wishes_sentence_8">¡Te envío los mejores deseos para un viaje increíble por delante!</string>
+    <string name="wishes_sentence_9">¡Felicidades! ¡Brindemos por tu éxito y un futuro brillante!</string>
+    <string name="wishes_sentence_10">Un callejón sin salida es solo un buen lugar para dar la vuelta.</string>
+
+    <string name="sad_category">Tristeza</string>
+    <string name="sad_sentence_1">Los que dan necesitan poner límites porque los que toman rara vez lo hacen.</string>
+    <string name="sad_sentence_2">No te aferres a un error solo porque pasaste mucho tiempo cometiéndolo.</string>
+    <string name="sad_sentence_3">Ahora me doy cuenta de que la persona que solía ser ya no soy yo.</string>
+    <string name="sad_sentence_4">La tristeza no es lo opuesto a la felicidad. Es parte de ella.</string>
+    <string name="sad_sentence_5">El peor tipo de dolor es cuando tu corazón llora y tus ojos están secos.</string>
+    <string name="sad_sentence_6">El tiempo no puede curar tu dolor emocional si no aprendes a soltar.</string>
+    <string name="sad_sentence_7">Dicen: "Sigue a tu corazón", pero si tu corazón está en un millón de pedazos, ¿qué parte sigues?</string>
+    <string name="sad_sentence_8">Si hay algo cierto en tu vida, es el momento presente que pasa. La tristeza es parte de ello.</string>
+    <string name="sad_sentence_9">Otro capítulo tiene que terminar antes de que uno nuevo pueda comenzar.</string>
+    <string name="sad_sentence_10">Detrás de cada dulce sonrisa, hay una tristeza amarga que nadie puede ver ni sentir.</string>
+
+    <string name="friend_category">Amigo</string>
+    <string name="friends_sentence_1">Un mejor amigo es como un trébol de cuatro hojas, difícil de encontrar, afortunado de tener.</string>
+    <string name="friends_sentence_2">El ojo de un amigo es un buen espejo.</string>
+    <string name="friends_sentence_3">Los amigos son la manera en que Dios cuida de nosotros.</string>
+    <string name="friends_sentence_4">Tú sonríes, yo sonrío; tú te lastimas, yo me lastimo; tú lloras, yo lloro; tú saltas de un puente… te voy a extrañar, amigo.</string>
+    <string name="friends_sentence_5">Los verdaderos amigos son como los diamantes, puros y raros. Los falsos amigos son como las hojas, se encuentran en todas partes.</string>
+    <string name="friends_sentence_6">Un verdadero amigo abrirá tus ojos, mente y corazón a una vida mejor y más plena.</string>
+    <string name="friends_sentence_7">Un amigo es alguien que entiende tu pasado, cree en tu futuro y te acepta hoy tal como eres.</string>
+    <string name="friends_sentence_8">Para tener verdaderos amigos, debes ser un verdadero amigo.</string>
+    <string name="friends_sentence_9">La amistad es como un violín. La música puede detenerse de vez en cuando, pero las cuerdas pueden permanecer juntas para siempre.</string>
+    <string name="friends_sentence_10">El enemigo de mi enemigo es mi amigo.</string>
+
+    <string name="birthday_category">Cumpleaños</string>
+    <string name="birthday_sentence_1">Que tu cumpleaños esté lleno de alegría, amor y celebración. ¡Te mereces lo mejor!</string>
+    <string name="birthday_sentence_2">¡Espero que todos tus deseos de cumpleaños se hagan realidad!</string>
+    <string name="birthday_sentence_3">No puedo pensar en un mejor regalo que tu amistad. ¡Feliz cumpleaños!</string>
+    <string name="birthday_sentence_4">¡Brindemos por otro viaje alrededor del sol!</string>
+    <string name="birthday_sentence_5">Olvida el pasado; mira hacia el futuro, porque lo mejor está por venir.</string>
+    <string name="birthday_sentence_6">Hoy eres mayor que ayer, pero más joven que mañana. ¡Feliz cumpleaños!</string>
+    <string name="birthday_sentence_7">¡Feliz cumpleaños a alguien que siempre será joven!</string>
+    <string name="birthday_sentence_8">Una celebración sencilla, una reunión de amigos; te deseo una gran felicidad y una alegría que nunca termine.</string>
+    <string name="birthday_sentence_9">¡Mis mejores deseos en tu cumpleaños! Que tengas la máxima diversión hoy y la mínima resaca mañana.</string>
+    <string name="birthday_sentence_10">Hoy se trata de ti. ¡No puedo esperar para celebrarte todo el día!</string>
+
+    <string name="life_category">Vida</string>
+    <string name="life_sentence_1">Un viaje de mil millas comienza con un solo paso.</string>
+    <string name="life_sentence_2">El mayor placer de la vida es hacer lo que la gente dice que no puedes hacer.</string>
+    <string name="life_sentence_3">No puedes tener un mejor mañana si estás pensando en el ayer todo el tiempo.</string>
+    <string name="life_sentence_4">La felicidad no es una meta, sino una forma de vida.</string>
+    <string name="life_sentence_5">Ten cuidado con tus palabras. Una vez dichas, solo pueden ser perdonadas, no olvidadas.</string>
+    <string name="life_sentence_6">Si no vives por algo, morirás por nada.</string>
+    <string name="life_sentence_7">Reconoce las pequeñas cosas, suelen ser las que más importan.</string>
+    <string name="life_sentence_8">Perdonar requiere fuerza, olvidar requiere necedad.</string>
+    <string name="life_sentence_9">La vida se trata de sueños. Sueña en grande y logra grandes cosas en la vida.</string>
+    <string name="life_sentence_10">Todo estará bien al final. Si no está bien, no es el final…</string>
+
+    <string name="motivation_category">Motivación</string>
+    <string name="motivation_sentence_1">Nada es imposible.</string>
+    <string name="motivation_sentence_2">Cree en ti mismo. Tu único límite es tu imaginación.</string>
+    <string name="motivation_sentence_3">Nunca es demasiado tarde para ser lo que podrías haber sido.</string>
+    <string name="motivation_sentence_4">Tienes que creer en ti mismo cuando nadie más lo haga.</string>
+    <string name="motivation_sentence_5">Trabaja duro. Esfuérzate, porque nadie más lo hará por ti.</string>
+    <string name="motivation_sentence_6">La vida tiene muchas vueltas y giros. Tienes que aferrarte con fuerza y seguir adelante.</string>
+    <string name="motivation_sentence_7">Mantén tu rostro siempre hacia el sol y las sombras quedarán atrás.</string>
+    <string name="motivation_sentence_8">El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar.</string>
+    <string name="motivation_sentence_9">No permitas que la gente apague tu brillo porque les ciega. Diles que se pongan gafas de sol.</string>
+    <string name="motivation_sentence_10">No tener la mejor situación, pero ver lo mejor en tu situación es la clave.</string>
+
+    <string name="savage_category">Atrevido</string>
+    <string name="savage_sentence_1">Lo mejor de ser yo es que soy edición limitada, ¡no hay otras copias!</string>
+    <string name="savage_sentence_2">La única diferencia entre yo y un loco es que yo no estoy loco.</string>
+    <string name="savage_sentence_3">Si piensas que soy malo, ven a mí y te daré una mejor razón para odiarme.</string>
+    <string name="savage_sentence_4">La vida es una pasarela, y yo soy la supermodelo.</string>
+    <string name="savage_sentence_5">Estoy demasiado ocupado siendo un jefe.</string>
+    <string name="savage_sentence_6">Dicen que las cosas buenas toman tiempo, por eso siempre llego tarde.</string>
+    <string name="savage_sentence_7">La vida es corta, sonríe mientras aún tengas dientes.</string>
+    <string name="savage_sentence_8">No me estudies, no te graduarás.</string>
+    <string name="savage_sentence_9">Sin maquillaje, sin problema. Sin filtros y sin disculpas.</string>
+    <string name="savage_sentence_10">No necesito GPS, sigo mi propio camino.</string>
+
+    <string name="message_not_sent_touch_retry">No enviado. Toque para volver a intentarlo.</string>
+
+    <string name="attachment">Adjunto</string>
+    <string name="empty_blocked_conversation_title">No se encontró ninguna conversación bloqueada.</string>
+    <string name="empty_archived_conversation_title">No se encontró ninguna conversación archivada.</string>
+    <string name="empty_scheduled_conversation_title">No se encontró ninguna conversación programada.</string>
+
+    <string name="send_now">Enviar ahora</string>
+    <string name="please_click_back_again_to_exit">Por favor haga clic en ATRÁS nuevamente para salir</string>
+
+    <string name="leave_this_app">¿Dejar esta aplicación…?</string>
+    <string name="are_you_sure_leave_this_app">¿Estás segura de dejar esta aplicación?</string>
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+
+    <string name="set_private_pin_toast">Primero configure el PIN de seguridad e intente agregar la conversación a privada.</string>
+    <string name="no_any_message_found">No se encontró ningún mensaje para este destinatario.</string>
+    <string name="please_select_another_image">Encontramos algún problema al seleccionar la imagen. Elija otra imagen.</string>
+
+    <string name="attachment_sized_exceeds_max_limit">El tamaño del archivo adjunto excede el límite máximo de MMS</string>
+    <string name="compress_error">No se puede comprimir la imagen al tamaño seleccionado</string>
+
+    <string name="device_not_support_this_feature">Su dispositivo no admite esta función.</string>
+    <string name="add_conversation_to">Agregar %1$d conversaciones a %2$s</string>
+
+    <string name="app_data_sync_message">Sincronizando tus mensajes…\nPor favor espera mientras actualizamos tus conversaciones.</string>
+    <string name="empty_filter_conversation_title">No se encontró ninguna conversación %1$s.</string>
+    <string name="app_language">Idioma de la aplicación</string>
+    <string name="sending">Envío…</string>
+
+</resources>

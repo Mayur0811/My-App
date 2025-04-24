@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Russian -->
+
+    <string name="choose_your_language">Выберите ваш язык</string>
+    <string name="done">Готово</string>
+    <string name="skip">Пропустить</string>
+    <string name="next">Далее</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">Упорядочивайте свои сообщения без усилий</string>
+    <string name="first_onboarding_msg">Сообщения автоматически сортируются на Личные, OTP,\nТранзакции и Предложения для удобного доступа.</string>
+    <string name="second_onboarding_title">Защитите свои чаты</string>
+    <string name="second_onboarding_msg">Используйте блокировку чатов для защиты личных бесед\nи сохранения их в безопасности.</string>
+    <string name="third_onboarding_title">Настройте свой чат</string>
+    <string name="third_onboarding_msg">Персонализируйте чаты с помощью цветов, обоев и\nрегулируемых шрифтов.</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">Установите «Сообщения» по умолчанию</string>
+    <string name="set_as_default_msg">Включите «Сообщения» в качестве приложения по умолчанию\nдля отправки и получения сообщений.</string>
+    <string name="set_as_default_btn_text">Установить по умолчанию</string>
+
+    <string name="notification_per_title">Разрешение на уведомления</string>
+    <string name="notification_per_msg">Будьте в курсе! Включите уведомления, чтобы получать\nсообщения без пропусков.</string>
+    <string name="notification_per_btn_text">Разрешить уведомления</string>
+
+    <string name="phone_state_per_title">Нам нужно ваше разрешение!</string>
+    <string name="phone_state_per_msg">Разрешите доступ, чтобы отправлять быстрые ответы сразу\nпосле звонков для ускоренного общения.</string>
+    <string name="phone_state_per_btn_text">Предоставить разрешение</string>
+    <string name="phone_state_per_text">Разрешите приложению считывать состояние телефона</string>
+    <string name="phone_state_per_guide">Для быстрого и удобного доступа к сообщениям сразу после звонков.</string>
+
+    <string name="unknown_error_occurred">Произошла неизвестная ошибка</string>
+    <string name="enable_quick_actions_in_3_easy_steps">Включите быстрые действия в 3 простых шага.</string>
+    <string name="tap_the_enable_button_below">Нажмите кнопку «Включить» ниже.</string>
+    <string name="locate_our_app_in_the_list">Найдите наше приложение в списке.</string>
+    <string name="turn_on_the_toggle_to_activate">Включите переключатель для активации.</string>
+    <string name="enable">Включить</string>
+    <string name="overlay_permission_denied">Разрешение на наложение отклонено!</string>
+    <string name="find_and_allow_permission">Найдите %s и разрешите доступ</string>
+
+    <!-- drawer menu -->
+    <string name="inbox">Входящие</string>
+    <string name="archived">Архив</string>
+    <string name="private_chat">Личный чат</string>
+    <string name="spam_blocked">Спам и заблокированные</string>
+    <string name="scheduled">Запланированные</string>
+    <string name="theme">Тема</string>
+    <string name="backup_restore">Резервное копирование и восстановление</string>
+    <string name="setting">Настройки</string>
+    <string name="share">Поделиться</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+
+    <!-- main filter -->
+    <string name="all">Все</string>
+    <string name="personal">Личное</string>
+    <string name="otp_s">OTP</string>
+    <string name="transactions">Транзакции</string>
+    <string name="offers">Предложения</string>
+
+    <string name="chat">Чат</string>
+    <string name="copy_otp">Копировать OTP</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+
+    <string name="sender_does_not_support_replies">Отправитель не поддерживает ответы</string>
+    <string name="sender_does_not_support_call">Отправитель не поддерживает звонки</string>
+
+    <string name="call">Звонок</string>
+    <string name="conversation_details">Детали разговора</string>
+    <string name="appearance">Оформление</string>
+    <string name="chat_wallpaper">Обои чата</string>
+    <string name="show_subject_field">Показать поле темы</string>
+    <string name="copy">Копировать</string>
+    <string name="delete">Удалить</string>
+    <string name="forward">Переслать</string>
+    <string name="view_details">Просмотреть детали</string>
+
+    <string name="translate_massage">Перевести сообщение</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="text_message">Текстовое сообщение</string>
+    <string name="subject">Тема:</string>
+
+    <string name="contact">Контакт</string>
+    <string name="image">Изображение</string>
+    <string name="camera">Камера</string>
+    <string name="files">Файлы</string>
+    <string name="voice">Голос</string>
+    <string name="schedule">Запланировать</string>
+    <string name="location">Местоположение</string>
+    <string name="clipboard">Буфер обмена</string>
+
+    <string name="view_contact_details">Просмотреть детали контакта</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="share_via">Поделиться через</string>
+    <string name="no_app_found">Не найдено подходящего приложения</string>
+    <string name="maximum_share_reached">Вы не можете поделиться таким объемом данных сразу</string>
+
+    <string name="cancel">Отмена</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">Вы уверены, что хотите удалить это\nсообщение?</string>
+    <string name="something_went_wrong_please_try_after_some_time">Что-то пошло не так. Пожалуйста, попробуйте позже.</string>
+    <string name="message_details">Детали сообщения</string>
+    <string name="ok">ОК</string>
+    <string name="message_details_received">Тип: %1$s\n\nОт: %2$s\n\nПолучено: %3$s</string>
+    <string name="message_details_send">Тип: %1$s\n\nКому: %2$s\n\nОтправлено: %3$s</string>
+
+    <string name="pin">Закрепить</string>
+    <string name="unpin">Открепить</string>
+    <string name="archive">Архивировать</string>
+    <string name="unarchive">Разархивировать</string>
+    <string name="private_text">Личное</string>
+    <string name="add_to_contacts">Добавить в контакты</string>
+    <string name="mark_as_unread">Пометить как непрочитанное</string>
+    <string name="mark_as_read">Пометить как прочитанное</string>
+    <string name="block">Заблокировать</string>
+    <string name="unblock">Разблокировать</string>
+    <string name="dial_number">Набрать номер</string>
+    <string name="copy_to_clipboard">Копировать в буфер</string>
+
+    <string name="want_to_delete_conversation">Вы уверены, что хотите удалить этот\nдиалог?</string>
+    <string name="want_to_block_conversation">Вы уверены, что хотите %1$s\nэту беседу?</string>
+    <string name="search_here">Искать здесь</string>
+    <string name="no_items_found">Ничего не найдено.</string>
+    <string name="type_2_characters">Введите минимум 2 символа для начала поиска.</string>
+
+    <string name="apply">Применить</string>
+    <string name="filter">Фильтр</string>
+    <string name="default_filter">По умолчанию</string>
+    <string name="today_filter">Сегодня</string>
+    <string name="monthly_filter">Месяц</string>
+    <string name="year_filter">Год</string>
+    <string name="date_range_filter">Диапазон дат</string>
+    <string name="date_show">Дата: %1$s</string>
+    <string name="select_range">ВЫБРАТЬ ДИАПАЗОН</string>
+    <string name="range_show">Диапазон: %1$s</string>
+    <string name="year_show">Год: %1$d</string>
+    <string name="month_show">Месяц: %1$s</string>
+
+    <string name="language_model_error">Что-то пошло не так. Попробуйте позже.</string>
+    <string name="language_translate_error">В настоящее время возникли проблемы с переводом текста. Пожалуйста, попробуйте позже.</string>
+
+    <string name="new_chat">Новый чат</string>
+    <string name="import_messages">Импорт сообщений</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="preview">Предпросмотр</string>
+    <string name="chat_color">Цвет чата</string>
+    <string name="add_photos">Добавить фото</string>
+    <string name="none">Нет</string>
+
+    <string name="set_password">Установить пароль</string>
+    <string name="confirm_your_password">Подтвердите пароль</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="set_pin">Установить PIN</string>
+    <string name="incorrect_password">Неверный пароль</string>
+    <string name="enter_correct_password">Введите правильный пароль</string>
+
+    <string name="preview_receive">Привет, ребята!</string>
+    <string name="preview_send">Да… это мой любимый цвет!</string>
+    <string name="confirm_pin_title">Дорогие пользователи,\nПИН-код вашего личного чата:</string>
+    <string name="confirm_pin_guide">Рекомендуется настроить контрольный вопрос,\nчтобы избежать потери пароля.</string>
+    <string name="set_now">Настроить сейчас</string>
+    <string name="submit">Отправить</string>
+    <string name="enter_security_answer">Введите ответ на контрольный вопрос</string>
+    <string name="write_your_answer">Напишите ваш ответ</string>
+    <string name="select_security_question">Выберите контрольный вопрос</string>
+    <string name="secret_question">Контрольный вопрос</string>
+    <string name="forget_password">Забыли пароль?</string>
+    <string name="verify_your_identity">Если вы забыли ПИН-код, контрольный вопрос поможет подтвердить вашу личность и сбросить пароль.</string>
+    <string name="wrong_qa_answer">Вы выбрали или ответили неправильно. Пожалуйста, выберите правильный вопрос и введите точный ответ.</string>
+
+    <string name="select_your_security_question">Выберите ваш контрольный вопрос</string>
+    <string name="teacher_question">Кто ваш любимый учитель?</string>
+    <string name="actor_question">Кто ваш любимый актер?</string>
+    <string name="actress_question">Кто ваша любимая актриса?</string>
+    <string name="cricketer_question">Кто ваш любимый крикетист?</string>
+    <string name="footballer_question">Кто ваш любимый футболист?</string>
+    <string name="pet_name_question">Как зовут вашего питомца?</string>
+
+    <string name="empty_private_chat_title">Пустой личный чат</string>
+    <string name="empty_private_chat_sub_title">Пока нет чатов. Начните новый прямо сейчас!</string>
+    <string name="change_security">Изменить безопасность</string>
+    <string name="edit_password">Изменить пароль</string>
+    <string name="private_message_notification">Уведомление о сообщении</string>
+    <string name="private_message_notification_guide">При отключении этой опции сообщения от личных контактов не будут отображаться в уведомлениях.</string>
+    <string name="password_change_successfully">Пароль успешно изменен!!</string>
+
+    <string name="choose_app_theme">Выберите тему приложения</string>
+    <string name="choose_theme_to_personalize_your_app">Выберите тему для персонализации приложения.</string>
+    <string name="system_default">Системная тема</string>
+    <string name="light_theme">Светлая тема</string>
+    <string name="dark_theme">Темная тема</string>
+
+    <string name="normal">Обычный</string>
+    <string name="small">Маленький</string>
+    <string name="large">Большой</string>
+    <string name="larger">Очень большой</string>
+    <string name="use_system_font">Использовать системный шрифт</string>
+    <string name="language">Язык</string>
+    <string name="lock_screen_notification">Уведомления на экране блокировки</string>
+    <string name="sender_and_messages">Отправитель и сообщения</string>
+    <string name="sender_only">Только отправитель</string>
+    <string name="nothing">Ничего</string>
+    <string name="resize_send_mms_images">Изменить размер отправляемых MMS-изображений</string>
+    <string name="customize_notification">Настроить уведомления</string>
+    <string name="swipe_actions">Действия при свайпе</string>
+    <string name="configure_swipe_actions_for_conversations">Настроить действия при свайпе для чатов</string>
+    <string name="post_call_screen">Экран после звонка</string>
+    <string name="show_call_screen_after_call">Показывать экран звонка после завершения вызова</string>
+    <string name="delivery_reports">Отчеты о доставке</string>
+    <string name="use_24_hour_time_format">Использовать 24-часовой формат времени</string>
+    <string name="show_character_counter_writing_messages">Показывать счетчик символов при написании сообщений</string>
+    <string name="remove_accents_diacritics_sending_messages">Удалять акценты и диакритические знаки при отправке сообщений</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="about_app">О приложении %1$s</string>
+    <string name="app_version">Версия %1$s</string>
+    <string name="no_limit">Без ограничений</string>
+    <string name="resize_sent_mms_image">Изменить размер отправленного MMS-изображения</string>
+
+    <string name="right_swipe">Свайп вправо</string>
+    <string name="left_swipe">Свайп влево</string>
+    <string name="change">Изменить</string>
+    <string name="right_swipe_action">Действие при свайпе вправо</string>
+    <string name="left_swipe_action">Действие при свайпе влево</string>
+
+    <string name="action_none">Нет</string>
+    <string name="action_archive">Архив</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_call">Вызов</string>
+    <string name="action_mark_read">Отметить как прочитанное</string>
+    <string name="action_mark_unread">Отметить как непрочитанное</string>
+    <string name="action_add_private">Добавить в приватный чат</string>
+    <string name="action_remove_private">Удалить из приватного чата</string>
+
+    <string name="carrier_send_error">Не удалось отправить сообщение, ошибка оператора</string>
+    <string name="error_service_is_unavailable">Не удалось отправить сообщение, сервис недоступен</string>
+    <string name="error_radio_turned_off">Не удалось отправить сообщение, радио выключено</string>
+    <string name="sim_card_not_available">SIM-карта недоступна</string>
+    <string name="unknown_error_occurred_sending_message">Не удалось отправить сообщение, код ошибки: %d</string>
+    <string name="an_error_occurred">Произошла ошибка: %s</string>
+    <string name="empty_destination_address">Нельзя отправить сообщение на пустой номер</string>
+    <string name="unable_to_save_message">Не удалось сохранить сообщение в базе данных телефонии</string>
+    <string name="must_pick_time_in_the_future">Вы должны выбрать время в будущем</string>
+
+    <string name="message_not_sent_short">Сообщение не отправлено</string>
+    <string name="message_sending_error">Ваше сообщение для \'%s\' не было отправлено</string>
+    <string name="channel_received_sms">Получено SMS</string>
+    <string name="new_message">Новое сообщение</string>
+    <string name="reply">Ответить</string>
+    <string name="me">Я</string>
+    <string name="sens_to">Отправить %s</string>
+
+    <string name="blocked_number">Заблокированный номер</string>
+    <string name="delete_conversation">Удалить разговор</string>
+    <string name="conversation_title">Название разговора</string>
+    <string name="schedule_send_warning">Оставьте телефон включённым и убедитесь,\nчто приложение не закрывается в фоне.</string>
+
+    <string name="option">Опция</string>
+    <string name="messages">Сообщения</string>
+    <string name="more">Больше</string>
+
+    <string name="send_message">Отправить сообщение</string>
+    <string name="send_message_desc">Отправляйте сообщения легко!</string>
+    <string name="view_message">Просмотреть сообщение</string>
+    <string name="view_message_desc">Просматривайте сообщения в списке одним нажатием!</string>
+
+    <string name="instant_msg_1">На встрече, перезвоню позже.</string>
+    <string name="instant_msg_2">Позвоните мне позже. Спасибо!</string>
+    <string name="instant_msg_3">Хорошего дня!</string>
+    <string name="instant_msg_4">ОК, понял.</string>
+    <string name="instant_msg_5">В пути, скоро буду.</string>
+
+    <string name="edit_contact">Редактировать контакт</string>
+    <string name="send_mail">Отправить письмо</string>
+    <string name="calendar">Календарь</string>
+    <string name="web">Веб</string>
+
+    <string name="incoming_call">Входящий вызов</string>
+    <string name="outgoing_call">Исходящий вызов</string>
+    <string name="private_number">Приватный номер</string>
+
+    <string name="last_backup">Последнее резервное копирование</string>
+    <string name="restore">Восстановить</string>
+    <string name="select_backup">Выберите резервную копию</string>
+    <string name="no_backup_available">Нет доступных резервных копий</string>
+    <string name="last_backup_time">Последнее резервное копирование: %s</string>
+
+    <string name="empty_name">Пожалуйста, введите имя</string>
+    <string name="name_taken">Файл или папка с таким именем уже существует</string>
+    <string name="invalid_name">Имя содержит недопустимые символы</string>
+
+    <string name="importing">Импорт…</string>
+    <string name="invalid_file_format">Недопустимый формат файла</string>
+    <string name="no_entries_for_importing">Не найдено записей для импорта</string>
+    <string name="importing_failed">Ошибка импорта</string>
+    <string name="importing_some_entries_failed">Некоторые записи не удалось импортировать</string>
+    <string name="importing_successful">Импорт завершён успешно</string>
+    <string name="improved_color_customization">Улучшенная настройка цветов</string>
+    <string name="exporting_successful">Экспорт завершён успешно</string>
+    <string name="exporting">Экспорт…</string>
+    <string name="no_entries_for_exporting">Не найдено записей для экспорта</string>
+
+    <string name="backup_files">Резервные файлы</string>
+    <string name="please_select_backup_file">Выберите файл резервной копии ниже для восстановления сообщений.</string>
+    <string name="folder_does_not_exist">Папка не существует или не является директорией.</string>
+    <string name="you_have_not_any_backup_file">У вас нет резервных копий, пожалуйста, создайте резервную копию.</string>
+    <string name="not_found_any_backup_file">Резервные копии не найдены.</string>
+
+    <plurals name="and_other_contacts">
+        <item quantity="one">и ещё %d контакт</item>
+        <item quantity="few">и ещё %d контакта</item>
+        <item quantity="many">и ещё %d контактов</item>
+        <item quantity="other">и ещё %d контактов</item>
+    </plurals>
+
+    <string name="action_add_to_fav">Добавить в избранное</string>
+    <string name="duration_sec">Длительность %1$s сек</string>
+    <string name="picked_contact">Имя: %1$s\nНомер: %2$s</string>
+
+
+    <string name="default_category">По умолчанию</string>
+    <string name="default_sentence_1">На встрече, перезвоню позже.</string>
+    <string name="default_sentence_2">Пожалуйста, позвони мне позже. Спасибо!</string>
+    <string name="default_sentence_3">Хорошего дня!</string>
+    <string name="default_sentence_4">Ок, понял.</string>
+    <string name="default_sentence_5">В пути, скоро буду.</string>
+    <string name="default_sentence_6">Я в порядке, не беспокойся.</string>
+    <string name="default_sentence_7">Спасибо.</string>
+    <string name="default_sentence_8">Пожалуйста.</string>
+    <string name="default_sentence_9">Желаю всего наилучшего.</string>
+    <string name="default_sentence_10">Приходи сюда, сейчас.</string>
+
+    <string name="funny_category">Смешные</string>
+    <string name="funny_sentence_1">Я люблю свою работу только во время отпуска.</string>
+    <string name="funny_sentence_2">Я не ленивый, я просто в режиме энергосбережения.</string>
+    <string name="funny_sentence_3">Нет такого восхода солнца, ради которого стоило бы меня будить.</string>
+    <string name="funny_sentence_4">Я не совсем бесполезен, я могу служить плохим примером.</string>
+    <string name="funny_sentence_5">Если бы люди могли читать мои мысли, меня бы часто били по лицу.</string>
+    <string name="funny_sentence_6">Когда-нибудь ты уйдешь далеко, и я надеюсь, что останешься там.</string>
+    <string name="funny_sentence_7">Больше не ношу очки, я уже видел достаточно.</string>
+    <string name="funny_sentence_8">Если с первого раза не получилось, парашютный спорт не для тебя.</string>
+    <string name="funny_sentence_9">Я не понимаю твою конкретную степень безумия, но восхищаюсь твоей полной преданностью ей.</string>
+    <string name="funny_sentence_10">День без солнца – это, знаешь ли, ночь.</string>
+
+    <string name="love_category">Любовь</string>
+    <string name="love_sentence_1">Думая о тебе, я улыбаюсь.</string>
+    <string name="love_sentence_2">Мой день кажется неполным без тебя.</string>
+    <string name="love_sentence_3">Самое важное в этом мире – это семья и любовь.</string>
+    <string name="love_sentence_4">Нельзя винить гравитацию в том, что влюбляешься.</string>
+    <string name="love_sentence_5">Ты самый прекрасный человек, и внутри, и снаружи. Мне так повезло с тобой.</string>
+    <string name="love_sentence_6">Миллион благодарностей самому удивительному человеку, которого я знаю.</string>
+    <string name="love_sentence_7">Нет слов, чтобы описать любовь, которую мы разделяем. Я невероятно благодарен за тебя.</string>
+    <string name="love_sentence_8">Любовь – это когда у тебя есть возможность уйти, но ты остаешься.</string>
+    <string name="love_sentence_9">Мне нравится, когда ты улыбаешься. Но я люблю, когда это моя заслуга…</string>
+    <string name="love_sentence_10">Любовь понимает любовь; слова не нужны.</string>
+
+    <string name="wishes_category">Пожелания</string>
+    <string name="wishes_sentence_1">Всего наилучшего! Желаю тебе успехов и процветания.</string>
+    <string name="wishes_sentence_2">С днем рождения! Пусть сбудутся все твои мечты!</string>
+    <string name="wishes_sentence_3">Счастливого Рождества! Распространяй любовь везде, куда идешь.</string>
+    <string name="wishes_sentence_4">Самое главное – наслаждаться жизнью и быть счастливым. Это все, что имеет значение.</string>
+    <string name="wishes_sentence_5">Если у тебя есть мечта, хватайся за нее и никогда не отпускай.</string>
+    <string name="wishes_sentence_6">Иногда, когда все рушится, оно на самом деле складывается в лучшую картину.</string>
+    <string name="wishes_sentence_7">Ты храбрее, чем кажешься, сильнее, чем думаешь, и умнее, чем предполагаешь.</string>
+    <string name="wishes_sentence_8">Желаю тебе удачного путешествия в будущее!</string>
+    <string name="wishes_sentence_9">Поздравляю! За твой успех и светлое будущее!</string>
+    <string name="wishes_sentence_10">Тупик – это просто хорошее место для разворота.</string>
+
+    <string name="sad_category">Грустные</string>
+    <string name="sad_sentence_1">Те, кто отдают, должны устанавливать границы, потому что те, кто берут, редко это делают.</string>
+    <string name="sad_sentence_2">Не держись за ошибку только потому, что потратил на нее много времени.</string>
+    <string name="sad_sentence_3">Теперь я понимаю, что человек, которым я был, уже не тот, кем я являюсь.</string>
+    <string name="sad_sentence_4">Грусть – это не противоположность счастья. Это его часть.</string>
+    <string name="sad_sentence_5">Худшая боль – это когда сердце плачет, а глаза сухие.</string>
+    <string name="sad_sentence_6">Время не исцелит твою душевную боль, если ты не научишься отпускать.</string>
+    <string name="sad_sentence_7">Говорят: «Следуй за своим сердцем», но если оно разбито на миллион частей, за какой из них следовать?</string>
+    <string name="sad_sentence_8">Единственное, что действительно существует, – это настоящий момент. Грусть – часть этого момента.</string>
+    <string name="sad_sentence_9">Одна глава должна закончиться, прежде чем начнется новая.</string>
+    <string name="sad_sentence_10">За каждой сладкой улыбкой скрывается горечь, которую никто не видит и не чувствует.</string>
+
+    <string name="friend_category">Друг</string>
+    <string name="friends_sentence_1">Лучший друг — как четырёхлистный клевер: трудно найти, но повезло иметь.</string>
+    <string name="friends_sentence_2">Глаз друга — это хорошее зеркало.</string>
+    <string name="friends_sentence_3">Друзья — это способ Бога заботиться о нас.</string>
+    <string name="friends_sentence_4">Ты улыбаешься — я улыбаюсь, ты страдаешь — я страдаю, ты плачешь — я плачу, ты прыгаешь с моста — мне будет тебя не хватать, дружище.</string>
+    <string name="friends_sentence_5">Настоящие друзья — как бриллианты, чистые и редкие. Фальшивые друзья — как листья, которых везде полно.</string>
+    <string name="friends_sentence_6">Настоящий друг откроет твои глаза, разум и сердце к более лучшей и полноценной жизни.</string>
+    <string name="friends_sentence_7">Друг — это тот, кто понимает твое прошлое, верит в твое будущее и принимает тебя таким, какой ты есть.</string>
+    <string name="friends_sentence_8">Чтобы иметь настоящих друзей, нужно самому быть настоящим другом.</string>
+    <string name="friends_sentence_9">Дружба — это как скрипка. Музыка может замолкнуть на время, но струны останутся вместе навсегда.</string>
+    <string name="friends_sentence_10">Враг моего врага — мой друг.</string>
+
+    <string name="birthday_category">День рождения</string>
+    <string name="birthday_sentence_1">Пусть твой день рождения будет полон радости, любви и веселья. Ты заслуживаешь только лучшего!</string>
+    <string name="birthday_sentence_2">Пусть все твои желания в этот день сбудутся!</string>
+    <string name="birthday_sentence_3">Я не могу придумать лучшего подарка, чем твоя дружба. С днем рождения!</string>
+    <string name="birthday_sentence_4">Еще один круг вокруг солнца! Поздравляю!</string>
+    <string name="birthday_sentence_5">Забудь прошлое, смотри в будущее – лучшее впереди!</string>
+    <string name="birthday_sentence_6">Сегодня ты старше, чем вчера, но моложе, чем завтра. С днем рождения!</string>
+    <string name="birthday_sentence_7">С днем рождения того, кто навсегда молод душой!</string>
+    <string name="birthday_sentence_8">Простое празднование, собрание друзей – желаю тебе счастья и радости без конца.</string>
+    <string name="birthday_sentence_9">Лучшие пожелания в твой день рождения! Пусть веселья будет максимум, а похмелья минимум!</string>
+    <string name="birthday_sentence_10">Сегодня твой день! Не могу дождаться, чтобы отпраздновать его с тобой!</string>
+
+    <string name="life_category">Жизнь</string>
+    <string name="life_sentence_1">Путешествие в тысячу миль начинается с одного шага.</string>
+    <string name="life_sentence_2">Величайшее удовольствие в жизни — делать то, что люди считают невозможным.</string>
+    <string name="life_sentence_3">Ты не сможешь построить лучшее завтра, если будешь постоянно думать о вчерашнем дне.</string>
+    <string name="life_sentence_4">Счастье — это не цель, а образ жизни.</string>
+    <string name="life_sentence_5">Будь осторожен со своими словами. Сказанное можно простить, но нельзя забыть.</string>
+    <string name="life_sentence_6">Если ты не живешь ради чего-то, то умрешь ни за что.</string>
+    <string name="life_sentence_7">Замечай мелочи — они обычно значат больше всего.</string>
+    <string name="life_sentence_8">Прощение требует силы. Забывание — глупости.</string>
+    <string name="life_sentence_9">Жизнь — это мечты. Мечтай о большом и добивайся великих вещей.</string>
+    <string name="life_sentence_10">Всё будет хорошо в конце. Если не хорошо — значит, это ещё не конец…</string>
+
+    <string name="motivation_category">Мотивация</string>
+    <string name="motivation_sentence_1">Ничего невозможного нет.</string>
+    <string name="motivation_sentence_2">Верь в себя. Твой предел — это только твое воображение.</string>
+    <string name="motivation_sentence_3">Никогда не поздно стать тем, кем ты мог бы быть.</string>
+    <string name="motivation_sentence_4">Ты должен верить в себя, даже когда никто другой не верит.</string>
+    <string name="motivation_sentence_5">Работай усердно. Толкай себя вперед, потому что никто не сделает это за тебя.</string>
+    <string name="motivation_sentence_6">Жизнь полна неожиданных поворотов. Нужно крепко держаться и двигаться вперед.</string>
+    <string name="motivation_sentence_7">Держи свое лицо к солнцу, и тени останутся позади.</string>
+    <string name="motivation_sentence_8">Успех — не окончателен, неудача — не фатальна: важна смелость продолжать.</string>
+    <string name="motivation_sentence_9">Не позволяй людям затмевать твой свет, потому что он их ослепляет. Скажи им надеть солнцезащитные очки.</string>
+    <string name="motivation_sentence_10">Не имея лучшей ситуации, но видя лучшее в своей ситуации — вот ключ.</string>
+
+    <string name="savage_category">Дерзкие</string>
+    <string name="savage_sentence_1">Лучшее во мне — я в единственном экземпляре, других копий нет!</string>
+    <string name="savage_sentence_2">Единственная разница между мной и сумасшедшим — я не сумасшедший.</string>
+    <string name="savage_sentence_3">Если ты думаешь, что я плох, подойди, и я дам тебе еще больше причин ненавидеть меня.</string>
+    <string name="savage_sentence_4">Жизнь — это подиум, а я — чертов супермодель!</string>
+    <string name="savage_sentence_5">Я слишком занят тем, чтобы быть боссом.</string>
+    <string name="savage_sentence_6">Говорят, хорошие вещи требуют времени. Вот почему я всегда опаздываю.</string>
+    <string name="savage_sentence_7">Жизнь коротка, улыбайся, пока у тебя еще есть зубы.</string>
+    <string name="savage_sentence_8">Не изучай меня, ты не сможешь окончить этот курс.</string>
+    <string name="savage_sentence_9">Без макияжа? Без проблем. Без фильтров и без извинений.</string>
+    <string name="savage_sentence_10">GPS не нужен, я сам выбираю свой путь.</string>
+
+    <string name="message_not_sent_touch_retry">Не отправлено. Нажмите, чтобы повторить попытку.</string>
+
+    <string name="attachment">Вложение</string>
+    <string name="empty_blocked_conversation_title">Заблокированных разговоров не найдено.</string>
+    <string name="empty_archived_conversation_title">Архивированных разговоров не найдено.</string>
+    <string name="empty_scheduled_conversation_title">Запланированный разговор не найден.</string>
+
+    <string name="send_now">Отправить сейчас</string>
+    <string name="please_click_back_again_to_exit">Нажмите НАЗАД еще раз, чтобы выйти.</string>
+
+    <string name="leave_this_app">Покинуть это приложение…?</string>
+    <string name="are_you_sure_leave_this_app">Вы уверены, что хотите выйти из этого приложения?</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+
+    <string name="set_private_pin_toast">Сначала установите PIN-код безопасности, а затем попробуйте сделать беседу приватной.</string>
+    <string name="no_any_message_found">Не найдено ни одного сообщения для этого получателя.</string>
+    <string name="please_select_another_image">При выборе изображения обнаружена проблема. Пожалуйста, выберите другое изображение.</string>
+
+    <string name="attachment_sized_exceeds_max_limit">Размер вложения превышает максимальный лимит MMS</string>
+    <string name="compress_error">Невозможно сжать изображение до выбранного размера</string>
+
+    <string name="device_not_support_this_feature">Ваше устройство не поддерживает эту функцию.</string>
+    <string name="add_conversation_to">Добавить %1$d бесед в %2$s</string>
+
+    <string name="app_data_sync_message">Синхронизация ваших сообщений…\nПодождите, пока мы обновим ваши разговоры.</string>
+    <string name="empty_filter_conversation_title">%1$s Разговор не найден.</string>
+    <string name="app_language">Язык приложения</string>
+    <string name="sending">Отправка…</string>
+
+</resources>

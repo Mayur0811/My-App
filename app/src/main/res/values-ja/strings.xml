@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Japanese -->
+
+    <string name="choose_your_language">言語を選択</string>
+    <string name="done">完了</string>
+    <string name="skip">スキップ</string>
+    <string name="next">次へ</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">メッセージを簡単に整理</string>
+    <string name="first_onboarding_msg">メッセージは「個人」「OTP」「取引」「オファー」に自動分類され、簡単にアクセスできます。</string>
+    <string name="second_onboarding_title">チャットを安全に保つ</string>
+    <string name="second_onboarding_msg">チャットロックを使用してプライベートな会話を保護し、安全に保ちましょう。</string>
+    <string name="third_onboarding_title">チャット体験をカスタマイズ</string>
+    <string name="third_onboarding_msg">チャットの色、壁紙、フォントをカスタマイズできます。</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">メッセージをデフォルトに設定</string>
+    <string name="set_as_default_msg">テキストの送受信を行うために、メッセージをデフォルトのアプリとして設定してください。</string>
+    <string name="set_as_default_btn_text">デフォルトに設定</string>
+
+    <string name="notification_per_title">通知の許可</string>
+    <string name="notification_per_msg">最新情報を逃さないように、通知を有効にしてください。</string>
+    <string name="notification_per_btn_text">許可する</string>
+
+    <string name="phone_state_per_title">いくつかの許可が必要です！</string>
+    <string name="phone_state_per_msg">通話後すぐにメッセージを送信できるように、許可を有効にしてください。</string>
+    <string name="phone_state_per_btn_text">許可を付与</string>
+    <string name="phone_state_per_text">アプリが電話の状態を読み取れるようにします</string>
+    <string name="phone_state_per_guide">通話後すぐにメッセージへ簡単にアクセスできるようにするためです。</string>
+
+    <string name="unknown_error_occurred">不明なエラーが発生しました</string>
+    <string name="enable_quick_actions_in_3_easy_steps">3つの簡単な手順でクイックアクションを有効にしましょう。</string>
+    <string name="tap_the_enable_button_below">下の「有効にする」ボタンをタップしてください。</string>
+    <string name="locate_our_app_in_the_list">リストから当アプリを探してください。</string>
+    <string name="turn_on_the_toggle_to_activate">トグルをオンにして有効化してください。</string>
+    <string name="enable">有効にする</string>
+    <string name="overlay_permission_denied">オーバーレイ権限が拒否されました！</string>
+    <string name="find_and_allow_permission">%s を見つけて、権限を許可してください</string>
+
+    <!-- drawer menu -->
+    <string name="inbox">受信トレイ</string>
+    <string name="archived">アーカイブ</string>
+    <string name="private_chat">プライベートチャット</string>
+    <string name="spam_blocked">スパム＆ブロック済み</string>
+    <string name="scheduled">スケジュール済み</string>
+    <string name="theme">テーマ</string>
+    <string name="backup_restore">バックアップと復元</string>
+    <string name="setting">設定</string>
+    <string name="share">共有</string>
+    <string name="rate_app">アプリを評価</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+
+    <!-- main filter -->
+    <string name="all">すべて</string>
+    <string name="personal">個人</string>
+    <string name="otp_s">OTP</string>
+    <string name="transactions">取引</string>
+    <string name="offers">オファー</string>
+
+    <string name="chat">チャット</string>
+    <string name="copy_otp">OTPをコピー</string>
+    <string name="add">追加</string>
+    <string name="save">保存</string>
+
+    <string name="sender_does_not_support_replies">送信者は返信をサポートしていません</string>
+    <string name="sender_does_not_support_call">送信者は通話をサポートしていません</string>
+
+    <string name="call">通話</string>
+    <string name="conversation_details">会話の詳細</string>
+    <string name="appearance">外観</string>
+    <string name="chat_wallpaper">チャットの壁紙</string>
+    <string name="show_subject_field">件名フィールドを表示</string>
+    <string name="copy">コピー</string>
+    <string name="delete">削除</string>
+    <string name="forward">転送</string>
+    <string name="view_details">詳細を表示</string>
+
+    <string name="translate_massage">メッセージを翻訳</string>
+    <string name="choose_language">言語を選択</string>
+    <string name="text_message">テキストメッセージ</string>
+    <string name="subject">件名:</string>
+
+    <string name="contact">連絡先</string>
+    <string name="image">画像</string>
+    <string name="camera">カメラ</string>
+    <string name="files">ファイル</string>
+    <string name="voice">音声</string>
+    <string name="schedule">スケジュール</string>
+    <string name="location">位置情報</string>
+    <string name="clipboard">クリップボード</string>
+
+    <string name="view_contact_details">連絡先の詳細を表示</string>
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="share_via">経由で共有</string>
+    <string name="no_app_found">有効なアプリが見つかりません</string>
+    <string name="maximum_share_reached">一度にこれ以上のコンテンツを共有できません</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">このメッセージを削除してもよろしいですか？</string>
+    <string name="something_went_wrong_please_try_after_some_time">問題が発生しました。しばらくしてから再試行してください。</string>
+    <string name="message_details">メッセージの詳細</string>
+    <string name="ok">OK</string>
+    <string name="message_details_received">種類: %1$s\n\n送信元: %2$s\n\n受信日時: %3$s</string>
+    <string name="message_details_send">種類: %1$s\n\n送信先: %2$s\n\n送信日時: %3$s</string>
+
+    <string name="pin">ピン留め</string>
+    <string name="unpin">ピン留め解除</string>
+    <string name="archive">アーカイブ</string>
+    <string name="unarchive">アーカイブ解除</string>
+    <string name="private_text">非公開</string>
+    <string name="add_to_contacts">連絡先に追加</string>
+    <string name="mark_as_unread">未読にする</string>
+    <string name="mark_as_read">既読にする</string>
+    <string name="block">ブロック</string>
+    <string name="unblock">ブロック解除</string>
+    <string name="dial_number">電話をかける</string>
+    <string name="copy_to_clipboard">クリップボードにコピー</string>
+
+    <string name="want_to_delete_conversation">この会話を削除してもよろしいですか？</string>
+    <string name="want_to_block_conversation">この会話を %1$s してもよろしいですか?</string>
+    <string name="search_here">ここで検索</string>
+    <string name="no_items_found">アイテムが見つかりません。</string>
+    <string name="type_2_characters">検索を開始するには少なくとも2文字入力してください。</string>
+
+    <string name="apply">適用</string>
+    <string name="filter">フィルター</string>
+    <string name="default_filter">デフォルト</string>
+    <string name="today_filter">今日</string>
+    <string name="monthly_filter">今月</string>
+    <string name="year_filter">今年</string>
+    <string name="date_range_filter">日付範囲</string>
+    <string name="date_show">日付: %1$s</string>
+    <string name="select_range">範囲を選択</string>
+    <string name="range_show">範囲: %1$s</string>
+    <string name="year_show">年: %1$d</string>
+    <string name="month_show">月: %1$s</string>
+
+    <string name="language_model_error">問題が発生しました。しばらくしてから再試行してください。</string>
+    <string name="language_translate_error">現在、テキスト翻訳に問題が発生しています。後でもう一度お試しください。</string>
+
+    <string name="new_chat">新しいチャット</string>
+    <string name="import_messages">メッセージをインポート</string>
+    <string name="font_size">フォントサイズ</string>
+    <string name="preview">プレビュー</string>
+    <string name="chat_color">チャットカラー</string>
+    <string name="add_photos">写真を追加</string>
+    <string name="none">なし</string>
+
+    <string name="set_password">パスワードを設定</string>
+    <string name="confirm_your_password">パスワードを確認</string>
+    <string name="enter_password">パスワードを入力</string>
+    <string name="set_pin">PINを設定</string>
+    <string name="incorrect_password">パスワードが正しくありません</string>
+    <string name="enter_correct_password">正しいパスワードを入力してください</string>
+
+    <string name="preview_receive">こんにちは、みんな！</string>
+    <string name="preview_send">うん…これは私のお気に入りの色です！</string>
+    <string name="confirm_pin_title">親愛なるユーザーの皆様、\nプライベートチャットのPINは次のとおりです：</string>
+    <string name="confirm_pin_guide">パスワードを忘れないようにするために、\nセキュリティ質問を設定することをお勧めします。</string>
+    <string name="set_now">今すぐ設定</string>
+    <string name="submit">送信</string>
+    <string name="enter_security_answer">セキュリティ回答を入力</string>
+    <string name="write_your_answer">回答を入力してください</string>
+    <string name="select_security_question">セキュリティ質問を選択</string>
+    <string name="secret_question">秘密の質問</string>
+    <string name="forget_password">パスワードを忘れましたか？</string>
+    <string name="verify_your_identity">PINを忘れた場合、セキュリティ質問を使用して本人確認を行い、パスワードをリセットできます。</string>
+    <string name="wrong_qa_answer">選択または回答が間違っています。正しい質問を選択し、正確な回答を入力してください。</string>
+
+    <string name="select_your_security_question">セキュリティ質問を選択</string>
+    <string name="teacher_question">あなたの好きな先生は誰ですか？</string>
+    <string name="actor_question">あなたの好きな俳優は誰ですか？</string>
+    <string name="actress_question">あなたの好きな女優は誰ですか？</string>
+    <string name="cricketer_question">あなたの好きなクリケット選手は誰ですか？</string>
+    <string name="footballer_question">あなたの好きなサッカー選手は誰ですか？</string>
+    <string name="pet_name_question">あなたのペットの名前は？</string>
+
+    <string name="empty_private_chat_title">プライベートチャットなし</string>
+    <string name="empty_private_chat_sub_title">まだチャットがありません。今すぐ始めましょう！</string>
+    <string name="change_security">セキュリティを変更</string>
+    <string name="edit_password">パスワードを編集</string>
+    <string name="private_message_notification">メッセージ通知</string>
+    <string name="private_message_notification_guide">このオプションを無効にすると、プライベート連絡先からのメッセージは通知に表示されません。</string>
+    <string name="password_change_successfully">パスワードが正常に変更されました！</string>
+
+    <string name="choose_app_theme">アプリのテーマを選択</string>
+    <string name="choose_theme_to_personalize_your_app">アプリをパーソナライズするためのテーマを選択してください。</string>
+    <string name="system_default">システムのデフォルト</string>
+    <string name="light_theme">ライトテーマ</string>
+    <string name="dark_theme">ダークテーマ</string>
+
+    <string name="normal">標準</string>
+    <string name="small">小</string>
+    <string name="large">大</string>
+    <string name="larger">さらに大</string>
+    <string name="use_system_font">システムフォントを使用</string>
+    <string name="language">言語</string>
+    <string name="lock_screen_notification">ロック画面の通知</string>
+    <string name="sender_and_messages">送信者とメッセージ</string>
+    <string name="sender_only">送信者のみ</string>
+    <string name="nothing">なし</string>
+    <string name="resize_send_mms_images">送信MMS画像のサイズ変更</string>
+    <string name="customize_notification">通知をカスタマイズ</string>
+    <string name="swipe_actions">スワイプ操作</string>
+    <string name="configure_swipe_actions_for_conversations">会話のスワイプ操作を設定</string>
+    <string name="post_call_screen">通話後の画面</string>
+    <string name="show_call_screen_after_call">通話後に画面を表示</string>
+    <string name="delivery_reports">配信レポート</string>
+    <string name="use_24_hour_time_format">24時間制を使用</string>
+    <string name="show_character_counter_writing_messages">メッセージ入力時に文字カウンターを表示</string>
+    <string name="remove_accents_diacritics_sending_messages">メッセージ送信時にアクセント・ダイアクリティカルマークを削除</string>
+    <string name="share_app">アプリを共有</string>
+    <string name="rate_us">評価する</string>
+    <string name="feedback">フィードバック</string>
+    <string name="about_app">%1$s について</string>
+    <string name="app_version">バージョン %1$s</string>
+    <string name="no_limit">制限なし</string>
+    <string name="resize_sent_mms_image">送信MMS画像のサイズ変更</string>
+
+    <string name="right_swipe">右スワイプ</string>
+    <string name="left_swipe">左スワイプ</string>
+    <string name="change">変更</string>
+    <string name="right_swipe_action">右スワイプのアクション</string>
+    <string name="left_swipe_action">左スワイプのアクション</string>
+
+    <string name="action_none">なし</string>
+    <string name="action_archive">アーカイブ</string>
+    <string name="action_delete">削除</string>
+    <string name="action_call">通話</string>
+    <string name="action_mark_read">既読にする</string>
+    <string name="action_mark_unread">未読にする</string>
+    <string name="action_add_private">プライベートチャットに追加</string>
+    <string name="action_remove_private">プライベートチャットから削除</string>
+
+    <string name="carrier_send_error">メッセージを送信できませんでした（キャリアエラー）</string>
+    <string name="error_service_is_unavailable">メッセージを送信できませんでした（サービスが利用できません）</string>
+    <string name="error_radio_turned_off">メッセージを送信できませんでした（通信がオフになっています）</string>
+    <string name="sim_card_not_available">SIMカードが利用できません</string>
+    <string name="unknown_error_occurred_sending_message">メッセージを送信できませんでした（エラーコード: %d）</string>
+    <string name="an_error_occurred">エラーが発生しました: %s</string>
+    <string name="empty_destination_address">空の番号にはメッセージを送信できません</string>
+    <string name="unable_to_save_message">メッセージを電話データベースに保存できません</string>
+    <string name="must_pick_time_in_the_future">未来の時間を選択する必要があります</string>
+
+    <string name="message_not_sent_short">メッセージ未送信</string>
+    <string name="message_sending_error">「%s」へのメッセージが送信されませんでした</string>
+    <string name="channel_received_sms">SMSを受信しました</string>
+    <string name="new_message">新しいメッセージ</string>
+    <string name="reply">返信</string>
+    <string name="me">自分</string>
+    <string name="sens_to">%s に送信</string>
+
+    <string name="blocked_number">ブロックされた番号</string>
+    <string name="delete_conversation">会話を削除</string>
+    <string name="conversation_title">会話のタイトル</string>
+    <string name="schedule_send_warning">携帯電話をオンにし、\nバックグラウンドでアプリが終了しないようにしてください。</string>
+
+    <string name="option">オプション</string>
+    <string name="messages">メッセージ</string>
+    <string name="more">もっと見る</string>
+
+    <string name="send_message">メッセージを送信</string>
+    <string name="send_message_desc">誰にでも簡単にメッセージを送信できます！</string>
+    <string name="view_message">メッセージを表示</string>
+    <string name="view_message_desc">タップするだけでリストからメッセージを表示！</string>
+
+    <string name="instant_msg_1">会議中です。後で折り返します。</string>
+    <string name="instant_msg_2">後でお電話ください。ありがとう！</string>
+    <string name="instant_msg_3">良い一日を！</string>
+    <string name="instant_msg_4">了解しました。</string>
+    <string name="instant_msg_5">向かっています。すぐに到着します。</string>
+
+    <string name="edit_contact">連絡先を編集</string>
+    <string name="send_mail">メールを送信</string>
+    <string name="calendar">カレンダー</string>
+    <string name="web">ウェブ</string>
+
+    <string name="incoming_call">着信</string>
+    <string name="outgoing_call">発信</string>
+    <string name="private_number">非通知</string>
+
+    <string name="last_backup">最後のバックアップ</string>
+    <string name="restore">復元</string>
+    <string name="select_backup">バックアップを選択</string>
+    <string name="no_backup_available">バックアップがありません</string>
+    <string name="last_backup_time">最後のバックアップ: %s</string>
+
+    <string name="empty_name">名前を入力してください</string>
+    <string name="name_taken">同じ名前のファイルまたはフォルダーが既に存在します</string>
+    <string name="invalid_name">名前に無効な文字が含まれています</string>
+
+    <string name="importing">インポート中…</string>
+    <string name="invalid_file_format">無効なファイル形式</string>
+    <string name="no_entries_for_importing">インポートするエントリーが見つかりません</string>
+    <string name="importing_failed">インポートに失敗しました</string>
+    <string name="importing_some_entries_failed">一部のエントリーのインポートに失敗しました</string>
+    <string name="importing_successful">インポートに成功しました</string>
+    <string name="improved_color_customization">色のカスタマイズが向上しました</string>
+    <string name="exporting_successful">エクスポートに成功しました</string>
+    <string name="exporting">エクスポート中…</string>
+    <string name="no_entries_for_exporting">エクスポートするエントリーが見つかりません</string>
+
+    <string name="backup_files">バックアップファイル</string>
+    <string name="please_select_backup_file">以下のバックアップファイルを選択し、メッセージを復元してください。</string>
+    <string name="folder_does_not_exist">フォルダーが存在しないか、ディレクトリではありません。</string>
+    <string name="you_have_not_any_backup_file">バックアップがありません。まずバックアップを作成してください。</string>
+    <string name="not_found_any_backup_file">バックアップファイルが見つかりません。</string>
+
+    <plurals name="and_other_contacts" tools:ignore="UnusedQuantity">
+        <item quantity="one">他 %d 人</item>
+        <item quantity="other">他 %d 人</item>
+    </plurals>
+
+    <string name="action_add_to_fav">お気に入りに追加</string>
+    <string name="duration_sec">時間: %1$s 秒</string>
+    <string name="picked_contact">名前: %1$s\n番号: %2$s</string>
+
+
+    <string name="default_category">デフォルト</string>
+    <string name="default_sentence_1">会議中です。後で折り返します。</string>
+    <string name="default_sentence_2">後でお電話ください。ありがとう！</string>
+    <string name="default_sentence_3">良い一日を！</string>
+    <string name="default_sentence_4">了解しました。</string>
+    <string name="default_sentence_5">向かっています。すぐに到着します。</string>
+    <string name="default_sentence_6">大丈夫です。心配しないでください。</string>
+    <string name="default_sentence_7">ありがとう。</string>
+    <string name="default_sentence_8">どういたしまして。</string>
+    <string name="default_sentence_9">成功を祈っています。</string>
+    <string name="default_sentence_10">今すぐ来てください。</string>
+
+    <string name="funny_category">おもしろい</string>
+    <string name="funny_sentence_1">休暇中のときだけ仕事が好きです。</string>
+    <string name="funny_sentence_2">私は怠け者ではなく、省エネモードです。</string>
+    <string name="funny_sentence_3">どんなに美しい日の出でも、早起きする価値はありません。</string>
+    <string name="funny_sentence_4">私は完全に無能ではありません。悪い例として使えます。</string>
+    <string name="funny_sentence_5">もし人々が私の考えを読めたら、きっと顔をたくさん殴られるでしょう。</string>
+    <string name="funny_sentence_6">いつかあなたは遠くへ行くでしょう。そして、できればそのままでいてください。</string>
+    <string name="funny_sentence_7">もうメガネはかけません。十分に見ました…。</string>
+    <string name="funny_sentence_8">最初に成功しなければ、スカイダイビングは向いていません。</string>
+    <string name="funny_sentence_9">あなたの特別な狂気は理解できませんが、その全力の献身には敬意を表します。</string>
+    <string name="funny_sentence_10">太陽のない一日は、つまり夜です。</string>
+
+    <string name="love_category">愛</string>
+    <string name="love_sentence_1">あなたのことを考えるだけで笑顔になります。</string>
+    <string name="love_sentence_2">あなたがいないと、私の一日は未完成に感じます。</string>
+    <string name="love_sentence_3">この世界で最も大切なのは、家族と愛です。</string>
+    <string name="love_sentence_4">恋に落ちるのは、重力のせいではありません。</string>
+    <string name="love_sentence_5">あなたは内面も外見も最も美しい人です。あなたがいて本当に幸せです。</string>
+    <string name="love_sentence_6">最も素晴らしい人に、心からの感謝を。</string>
+    <string name="love_sentence_7">私たちの愛を表す言葉はありません。あなたにとても感謝しています。</string>
+    <string name="love_sentence_8">愛とは、去る選択肢があっても、そばにいることを選ぶことです。</string>
+    <string name="love_sentence_9">あなたの笑顔が好き。でも、私がその理由のときはもっと好き…。</string>
+    <string name="love_sentence_10">愛は愛を理解する。言葉はいらない。</string>
+
+    <string name="wishes_category">願い</string>
+    <string name="wishes_sentence_1">すべてうまくいきますように！明るい未来を祈っています。</string>
+    <string name="wishes_sentence_2">お誕生日おめでとう！すべての夢が叶いますように！</string>
+    <string name="wishes_sentence_3">メリークリスマス！どこへ行っても愛を広げてください。</string>
+    <string name="wishes_sentence_4">最も大切なのは人生を楽しむこと、それがすべてです。</string>
+    <string name="wishes_sentence_5">夢があるなら、それをつかんで決して離さないでください。</string>
+    <string name="wishes_sentence_6">物事が崩れ落ちるとき、それは実はうまくいっているのかもしれません。</string>
+    <string name="wishes_sentence_7">あなたは思っているより勇敢で、強く、賢いです。</string>
+    <string name="wishes_sentence_8">素晴らしい未来への旅路が素敵なものになりますように！</string>
+    <string name="wishes_sentence_9">おめでとうございます！あなたの成功と明るい未来に乾杯！</string>
+    <string name="wishes_sentence_10">行き止まりは、方向転換するのにちょうどいい場所です。</string>
+
+    <string name="sad_category">悲しい</string>
+    <string name="sad_sentence_1">与える側は限界を設定する必要があります。なぜなら、奪う側は決してそうしないからです。</string>
+    <string name="sad_sentence_2">時間をかけたからといって、間違いを手放さないのはやめましょう。</string>
+    <string name="sad_sentence_3">今気づいたのは、昔の私はもう今の私ではないということです。</string>
+    <string name="sad_sentence_4">悲しみは幸福の反対ではありません。それは幸福の一部です。</string>
+    <string name="sad_sentence_5">最も辛い痛みは、心が泣いているのに、目が涙を流さないことです。</string>
+    <string name="sad_sentence_6">過去を手放す方法を学ばなければ、時間はあなたの心の傷を癒せません。</string>
+    <string name="sad_sentence_7">「心に従え」と言うけれど、心がバラバラになったら、どの部分に従えばいいの？</string>
+    <string name="sad_sentence_8">あなたの人生で確実に存在するのは、今この瞬間。それには悲しみも含まれます。</string>
+    <string name="sad_sentence_9">新しい章を始める前に、前の章を終えなければなりません。</string>
+    <string name="sad_sentence_10">甘い笑顔の裏には、誰にも見えない苦しい悲しみが隠れていることがあります。</string>
+
+    <string name="friend_category">友達</string>
+    <string name="friends_sentence_1">親友は四つ葉のクローバーのようなもの。見つけるのは難しいけれど、持っていると幸運。</string>
+    <string name="friends_sentence_2">友の目は良い鏡である。</string>
+    <string name="friends_sentence_3">友達は神が私たちを守る方法である。</string>
+    <string name="friends_sentence_4">君が笑えば僕も笑う、君が傷つけば僕も傷つく、君が泣けば僕も泣く。君が橋から飛び降りたら…君が恋しくなるよ、親友。</string>
+    <string name="friends_sentence_5">本当の友達はダイヤモンドのように純粋で貴重。偽りの友達はどこにでもいる葉っぱのようなもの。</string>
+    <string name="friends_sentence_6">真の友は、あなたの目、心、魂を開き、より充実した人生へと導く。</string>
+    <string name="friends_sentence_7">友達とは、あなたの過去を理解し、未来を信じ、今のあなたを受け入れてくれる人。</string>
+    <string name="friends_sentence_8">本当の友達を持つには、あなた自身が本当の友達でなければならない。</string>
+    <string name="friends_sentence_9">友情はバイオリンのようなもの。音楽は時々止まるかもしれないが、弦は永遠に繋がっている。</string>
+    <string name="friends_sentence_10">敵の敵は味方である。</string>
+
+    <string name="birthday_category">誕生日</string>
+    <string name="birthday_sentence_1">あなたの誕生日が喜び、愛、祝福に満ちたものになりますように。最高の日を過ごしてください！</string>
+    <string name="birthday_sentence_2">あなたの誕生日の願いがすべて叶いますように！</string>
+    <string name="birthday_sentence_3">あなたの友情以上の贈り物は思いつきません。誕生日おめでとう！</string>
+    <string name="birthday_sentence_4">また一年、人生の旅が続くね！</string>
+    <string name="birthday_sentence_5">過去を忘れ、未来を楽しみに。最高の瞬間はこれからやってくる！</string>
+    <string name="birthday_sentence_6">昨日より年を取り、明日より若い。誕生日おめでとう！</string>
+    <string name="birthday_sentence_7">永遠に若いあなたへ、誕生日おめでとう！</string>
+    <string name="birthday_sentence_8">シンプルな祝福、友人との集まり。あなたの幸せが永遠に続きますように！</string>
+    <string name="birthday_sentence_9">誕生日おめでとう！今日は思いっきり楽しんで、明日は二日酔いになりませんように！</string>
+    <string name="birthday_sentence_10">今日はあなたの日。思いっきりお祝いしよう！</string>
+
+    <string name="life_category">人生</string>
+    <string name="life_sentence_1">千里の道も一歩から。</string>
+    <string name="life_sentence_2">人生の最大の喜びは、人々ができないと言うことをやることだ。</string>
+    <string name="life_sentence_3">昨日ばかり考えていては、より良い明日は来ない。</string>
+    <string name="life_sentence_4">幸せは目的ではなく、生き方である。</string>
+    <string name="life_sentence_5">言葉には気をつけよう。一度口にすると、許すことはできても忘れることはできない。</string>
+    <string name="life_sentence_6">何かのために生きないなら、何のためにも生きていないのと同じだ。</string>
+    <string name="life_sentence_7">小さなことに気づこう。それこそが最も大切なものだったりする。</string>
+    <string name="life_sentence_8">許すには強さがいる。忘れるには愚かさがいる。</string>
+    <string name="life_sentence_9">人生は夢そのもの。大きく夢を見て、大きく達成しよう。</string>
+    <string name="life_sentence_10">最後にすべてうまくいく。もしまだうまくいっていないなら、それはまだ終わりではない…。</string>
+
+    <string name="motivation_category">モチベーション</string>
+    <string name="motivation_sentence_1">不可能なことなどない。</string>
+    <string name="motivation_sentence_2">自分を信じよう。あなたの限界は、あなたの想像力次第。</string>
+    <string name="motivation_sentence_3">なりたかった自分になるのに、遅すぎることはない。</string>
+    <string name="motivation_sentence_4">誰も信じてくれなくても、自分だけは自分を信じよう。</string>
+    <string name="motivation_sentence_5">努力しよう。自分を奮い立たせるのは自分しかいない。</string>
+    <string name="motivation_sentence_6">人生には様々な浮き沈みがある。しっかり掴まって進もう！</string>
+    <string name="motivation_sentence_7">常に太陽に顔を向けて。影は自然と後ろに落ちる。</string>
+    <string name="motivation_sentence_8">成功は永遠ではない。失敗は致命的ではない。大切なのは挑戦し続けること。</string>
+    <string name="motivation_sentence_9">他人があなたの輝きを妨げようとしても、あなたは輝き続けよう。彼らにはサングラスをかけてもらえばいい。</string>
+    <string name="motivation_sentence_10">最高の状況じゃなくても、その中で最高のものを見つけることが大切だ。</string>
+
+    <string name="savage_category">サベージ</string>
+    <string name="savage_sentence_1">私の最高のところ？それは限定版であること。コピーは存在しない！</string>
+    <string name="savage_sentence_2">私と狂人の違い？私は狂っていないことだ。</string>
+    <string name="savage_sentence_3">私を嫌いなら、一層嫌う理由を教えてあげるよ。</string>
+    <string name="savage_sentence_4">人生はランウェイ。私は最高のスーパーモデルさ。</string>
+    <string name="savage_sentence_5">私はボスでいることに忙しいの。</string>
+    <string name="savage_sentence_6">良いことには時間がかかる。だから私はいつも遅れるのさ。</string>
+    <string name="savage_sentence_7">人生は短い。まだ歯があるうちに笑おう！</string>
+    <string name="savage_sentence_8">私を研究しても無駄よ。卒業できないからね。</string>
+    <string name="savage_sentence_9">ノーメイク？問題なし。フィルターなし、でも堂々としてるわ。</string>
+    <string name="savage_sentence_10">GPSなんていらない。私は自分の道を進むのだから。</string>
+
+    <string name="message_not_sent_touch_retry">送信されませんでした。タッチして再試行してください。</string>
+
+    <string name="attachment">アタッチメント</string>
+    <string name="empty_blocked_conversation_title">ブロックされた会話は見つかりませんでした。</string>
+    <string name="empty_archived_conversation_title">アーカイブされた会話が見つかりません。</string>
+    <string name="empty_scheduled_conversation_title">スケジュールされた会話が見つかりません。</string>
+
+    <string name="send_now">今すぐ送信</string>
+    <string name="please_click_back_again_to_exit">終了するにはもう一度[戻る]をクリックしてください</string>
+
+    <string name="leave_this_app">このアプリを終了しますか…？</string>
+    <string name="are_you_sure_leave_this_app">本当にこのアプリを終了してもよろしいですか?</string>
+    <string name="no">いいえ</string>
+    <string name="yes">はい</string>
+
+    <string name="set_private_pin_toast">まずセキュリティ ピンを設定し、会話をプライベートに追加してみてください。</string>
+    <string name="no_any_message_found">この受信者へのメッセージは見つかりませんでした。</string>
+    <string name="please_select_another_image">画像の選択中に問題が発生しました。別の画像を選択してください。</string>
+
+    <string name="attachment_sized_exceeds_max_limit">添付ファイルのサイズが最大 MMS 制限を超えています</string>
+    <string name="compress_error">選択したサイズに画像を圧縮できません</string>
+
+    <string name="device_not_support_this_feature">お使いのデバイスはこの機能をサポートしていません。</string>
+    <string name="add_conversation_to">%1$d 件の会話を %2$s に追加</string>
+
+    <string name="app_data_sync_message">メッセージを同期しています…\n会話を更新していますので、しばらくお待ちください。</string>
+    <string name="empty_filter_conversation_title">%1$s 会話が見つかりません。</string>
+    <string name="app_language">アプリの言語</string>
+    <string name="sending">送信中…</string>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="datepicker_view_animator_height">50dp</dimen>
+
+    <dimen name="datepicker_year_label_height">50dp</dimen>
+
+    <dimen name="default_handle_size">18dp</dimen>
+    <dimen name="default_popup_padding">16dp</dimen>
+    <dimen name="default_handle_padding">4dp</dimen>
+    <dimen name="contacts_popup_size">94dp</dimen>
+    <dimen name="_48">48dp</dimen>
+    <dimen name="_72">72dp</dimen>
+
+    <attr name="textSize" format="enum">
+        <enum name="primary" value="0" />
+        <enum name="secondary" value="1" />
+        <enum name="tertiary" value="2" />
+        <enum name="toolbar" value="3" />
+        <enum name="dialog" value="4" />
+        <enum name="emoji" value="5" />
+        <enum name="dial" value="6" />
+    </attr>
+
+    <declare-styleable name="MessageTextView">
+        <attr name="textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="MessageEditText">
+        <attr name="textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="MonthPickerView">
+
+        <!-- Header Style -->
+        <attr name="headerTitleColor" format="color" />
+        <attr name="headerBgColor" format="color" />
+        <attr name="headerFontColorSelected" format="color" />
+        <attr name="headerFontColorNormal" format="color" />
+        <!-- Month Picker style -->
+        <attr name="monthBgColor" format="color" />
+        <attr name="monthBgSelectedColor" format="color" />
+        <attr name="monthFontColorSelected" format="color" />
+        <attr name="monthFontColorNormal" format="color" />
+        <attr name="monthFontColorDisabled" format="color" />
+        <attr name="dialogActionButtonColor" format="color" />
+
+
+    </declare-styleable>
+
+
+    <declare-styleable name="IndexFastScrollRecyclerView">
+        <attr name="setIndexTextSize" format="integer" />
+        <attr name="setIndexbarWidth" format="float" />
+        <attr name="setIndexbarMargin" format="float" />
+        <attr name="setPreviewPadding" format="integer" />
+        <attr name="setPreviewTextSize" format="integer" />
+        <attr name="setPreviewColor" format="color|string" />
+        <attr name="setPreviewTextColor" format="color|string" />
+        <attr name="setPreviewTransparentValue" format="float" />
+        <attr name="setIndexBarCornerRadius" format="integer" />
+        <attr name="setIndexBarTransparentValue" format="float" />
+        <attr name="setIndexBarShown" format="boolean" />
+        <attr name="setTransientIndexBar" format="boolean" />
+        <attr name="setIndexBarColor" format="color|string" />
+        <attr name="setIndexBarTextColor" format="color|string" />
+        <attr name="setIndexBarHighlightTextColor" format="color|string" />
+        <attr name="setIndexBarStrokeWidth" format="integer" />
+        <attr name="setIndexBarStrokeColor" format="color|string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSettingsItemView">
+        <attr name="titleText" format="string"/>
+        <attr name="subtitleText" format="string"/>
+        <attr name="iconSrc" format="reference"/>
+        <attr name="showSwitch" format="boolean"/>
+        <attr name="showArrowNext" format="boolean"/>
+        <attr name="titleStyle" format="reference"/>
+        <attr name="subtitleStyle" format="reference"/>
+        <attr name="titleColor" format="reference"/>
+        <attr name="subtitleColor" format="reference"/>
+    </declare-styleable>
+
+
+</resources>

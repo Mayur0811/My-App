@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/_10sdp"
+    android:background="@drawable/bottom_sheet_bg"
+    android:backgroundTint="@color/app_bg"
+    android:paddingHorizontal="@dimen/_14sdp"
+    tools:context=".ui.app_theme.ui.AppThemeBottomSheet">
+
+    <View
+        android:id="@+id/viewTop"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="5dp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvAppThemeTitle"
+        style="@style/AppTextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_app_theme"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/app_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewTop"
+        app:textSize="toolbar" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvAppThemeSubtitle"
+        style="@style/AppTextRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="@string/choose_theme_to_personalize_your_app"
+        android:textColor="@color/app_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAppThemeTitle"
+        app:textSize="secondary" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clThemeDialogClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:padding="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvAppThemeTitle">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcvSystemTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:cardCornerRadius="@dimen/_12sdp"
+        android:elevation="@dimen/_5sdp"
+        app:strokeColor="@color/app_color"
+        app:cardBackgroundColor="@color/app_white"
+        app:layout_constraintTop_toBottomOf="@id/tvAppThemeSubtitle"
+        app:strokeWidth="@dimen/_1sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivThemeSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_theme_system"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/tvThemeSystem"
+                style="@style/AppTextBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:text="@string/system_default"
+                android:textColor="@color/app_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivThemeSystem"
+                app:layout_constraintTop_toTopOf="parent"
+                app:textSize="primary" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivRadioSystemTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radio_button_checked"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcvLightTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        app:cardBackgroundColor="@color/app_white"
+        app:cardCornerRadius="@dimen/_12sdp"
+        android:elevation="@dimen/_5sdp"
+        app:strokeColor="@color/app_white"
+        app:layout_constraintTop_toBottomOf="@id/mcvSystemTheme"
+        app:strokeWidth="@dimen/_1sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivThemeLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_theme_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/tvThemeLight"
+                style="@style/AppTextBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:text="@string/light_theme"
+                android:textColor="@color/app_blue"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivThemeLight"
+                app:layout_constraintTop_toTopOf="parent"
+                app:textSize="primary" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivRadioLightTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radio_button_unchecked"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcvDarkTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        app:cardCornerRadius="@dimen/_12sdp"
+        android:elevation="@dimen/_5sdp"
+        app:strokeColor="@color/app_white"
+        app:cardBackgroundColor="@color/app_white"
+        app:layout_constraintTop_toBottomOf="@id/mcvLightTheme"
+        app:strokeWidth="@dimen/_1sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivThemeDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_theme_dark"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.messages.common.custom_views.MessageTextView
+                android:id="@+id/tvThemeDark"
+                style="@style/AppTextBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:text="@string/dark_theme"
+                android:textColor="@color/app_blue"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivThemeDark"
+                app:layout_constraintTop_toTopOf="parent"
+                app:textSize="primary" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivRadioDarkTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radio_button_unchecked"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnThemeDone"
+        style="@style/AppTextExtraBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/app_bg_with_ripple"
+        android:backgroundTint="@color/app_color"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_12sdp"
+        android:text="@string/done"
+        android:textColor="@color/only_white"
+        app:layout_constraintTop_toBottomOf="@id/mcvDarkTheme"
+        app:textSize="dialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

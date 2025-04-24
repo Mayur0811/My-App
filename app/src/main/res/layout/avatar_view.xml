@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/avatar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="com.messages.common.custom_views.AvatarView">
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/initial"
+        style="@style/AppTextExtraBold"
+        tools:text="A"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textAllCaps="true"
+        android:textSize="@dimen/_17sdp"
+        app:autoSizeMaxTextSize="30sp"
+        android:textColor="@color/app_color"
+        app:autoSizeTextType="uniform" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_person"
+        tools:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:background="@color/app_bg"
+        tools:src="@tools:sample/avatars" />
+
+</merge>

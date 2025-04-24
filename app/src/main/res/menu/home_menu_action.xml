@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/manuPin"
+        android:icon="@drawable/ic_pin"
+        android:title="@string/pin"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuUnpin"
+        android:icon="@drawable/ic_unpin"
+        android:title="@string/unpin"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuArchive"
+        android:icon="@drawable/ic_archive"
+        android:title="@string/archive"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuUnarchive"
+        android:icon="@drawable/ic_archive"
+        android:title="@string/unarchive"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuPrivate"
+        android:icon="@drawable/ic_lock"
+        android:title="@string/private_text"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuUnPrivate"
+        android:icon="@drawable/ic_unlock"
+        android:title="@string/private_text"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menuHomeDelete"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuAddContact"
+        android:title="@string/add_to_contacts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuMarkAsRead"
+        android:title="@string/mark_as_read"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuMarkAsUnread"
+        android:title="@string/mark_as_unread"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuBlock"
+        android:title="@string/block"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuDial"
+        android:title="@string/dial_number"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuCopyTo"
+        android:title="@string/copy_to_clipboard"
+        app:showAsAction="never" />
+
+</menu>

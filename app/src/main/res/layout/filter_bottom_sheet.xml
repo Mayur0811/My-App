@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+    android:backgroundTint="@color/app_bg"
+    android:paddingHorizontal="@dimen/_14sdp">
+
+    <View
+        android:id="@+id/viewTop"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="5dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvFilter"
+        style="@style/AppTextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:text="@string/filter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewTop"
+        app:textSize="dialog" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvFilterDate"
+        style="@style/AppTextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/app_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFilter"
+        app:textSize="primary"
+        tools:text="@string/filter" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:listitem="@layout/item_filter"
+        tools:itemCount="5"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/tvFilterDate" />
+
+    <View
+        android:id="@+id/viewButtonGuide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/rcvFilter" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnCancel"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/app_light_gray"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/cancel"
+        android:textColor="@color/app_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnApply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnApply"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/apply"
+        android:textColor="@color/only_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnCancel"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

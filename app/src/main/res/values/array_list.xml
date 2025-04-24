@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="language_code">
+        <item>en</item>
+        <item>hi</item>
+        <item>es</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>pt</item>
+        <item>in</item>
+        <item>ja</item>
+        <item>ru</item>
+        <item>ko</item>
+        <item>pl</item>
+        <item>ms</item>
+        <item>zh</item>
+        <item>vi</item>
+    </string-array>
+
+    <string-array name="language_name">
+        <item>English</item>
+        <item>हिन्दी</item>
+        <item>Español</item>
+        <item>Deutsch</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>Português</item>
+        <item>Indonesian</item>
+        <item>日本語</item>
+        <item>Русский</item>
+        <item>한국인</item>
+        <item>Polski</item>
+        <item>Melayu</item>
+        <item>中国人</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+
+    <string-array name="language_country">
+        <item>(United State)</item>
+        <item>(India)</item>
+        <item>(Spain)</item>
+        <item>(Germany)</item>
+        <item>(France)</item>
+        <item>(Italy)</item>
+        <item>(Portugal)</item>
+        <item>(Indonesia)</item>
+        <item>(Japan)</item>
+        <item>(Russia)</item>
+        <item>(Korea)</item>
+        <item>(Poland)</item>
+        <item>(Malaysia)</item>
+        <item>(China)</item>
+        <item>(Vietnam)</item>
+    </string-array>
+
+    <string-array name="chat_popup_menu">
+        <item>@string/conversation_details</item>
+        <item>@string/appearance</item>
+        <item>@string/chat_wallpaper</item>
+        <item>@string/show_subject_field</item>
+    </string-array>
+
+    <string-array name="filterName">
+        <item>@string/default_filter</item>
+        <item>@string/today_filter</item>
+        <item>@string/monthly_filter</item>
+        <item>@string/year_filter</item>
+        <item>@string/date_range_filter</item>
+    </string-array>
+
+    <array name="chat_border_color">
+        <item>#C5C5C5</item>
+        <item>#5E80FF</item>
+        <item>#BA71FF</item>
+        <item>#0064E5</item>
+        <item>#64BDFF</item>
+        <item>#FFC039</item>
+        <item>#FF5858</item>
+        <item>#FF9970</item>
+        <item>#FF65CB</item>
+        <item>#40FFAE</item>
+        <item>#7470FF</item>
+        <item>#889AC8</item>
+        <item>#6BF9FF</item>
+        <item>#FFF441</item>
+        <item>#4F9DC2</item>
+        <item>#DC4977</item>
+        <item>#E65870</item>
+        <item>#CB50FF</item>
+        <item>#67FF39</item>
+        <item>#5AC9B1</item>
+        <item>#F5B86A</item>
+        <item>#A4E37D</item>
+        <item>#FFD350</item>
+        <item>#95DFE2</item>
+        <item>#69D2F9</item>
+    </array>
+
+    <array name="chat_bg_color">
+        <item>@color/app_white</item>
+        <item>#B8C7FF</item>
+        <item>#D9B1FF</item>
+        <item>#C4D7F1</item>
+        <item>#ABDBFF</item>
+        <item>#FFDC91</item>
+        <item>#FFA8A8</item>
+        <item>#FFC6AF</item>
+        <item>#FFA7E1</item>
+        <item>#A7FFD9</item>
+        <item>#A8A5FF</item>
+        <item>#C0CDEE</item>
+        <item>#ABFBFF</item>
+        <item>#FFFAAA</item>
+        <item>#90C9E4</item>
+        <item>#F596B4</item>
+        <item>#F3A0B7</item>
+        <item>#E5A8FF</item>
+        <item>#AFFF97</item>
+        <item>#9DF0DE</item>
+        <item>#FAD4A3</item>
+        <item>#D1F4BC</item>
+        <item>#FEE69E</item>
+        <item>#DEF8F9</item>
+        <item>#B5E8FB</item>
+    </array>
+
+    <array name="chat_wallpaper_border">
+        <item>#C5C5C5</item>
+        <item>#C5C5C5</item>
+        <item>#64BDFF</item>
+        <item>#5E80FF</item>
+        <item>#BA71FF</item>
+        <item>#FFC039</item>
+        <item>#FF5858</item>
+        <item>#FF9970</item>
+        <item>#CB50FF</item>
+        <item>#67FF39</item>
+        <item>#D9C7B2</item>
+        <item>#5AC9B1</item>
+        <item>#F5B86A</item>
+        <item>#A4E37D</item>
+        <item>#FFD350</item>
+        <item>#95DFE2</item>
+        <item>#69D2F9</item>
+        <item>#FF65CB</item>
+        <item>#40FFAE</item>
+        <item>#7470FF</item>
+        <item>#889AC8</item>
+        <item>#4F9DC2</item>
+        <item>#DC4977</item>
+        <item>#6BF9FF</item>
+        <item>#FFF441</item>
+        <item>#E65870</item>
+        <item>#B34F4F</item>
+    </array>
+
+    <array name="chat_wallpaper_bg">
+        <item>#E6F5F5F5</item>
+        <item>#E6F5F5F5</item>
+        <item>#ABDBFF</item>
+        <item>#B8C7FF</item>
+        <item>#D9B1FF</item>
+        <item>#FFDC91</item>
+        <item>#FFA8A8</item>
+        <item>#FFC6AF</item>
+        <item>#E5A8FF</item>
+        <item>#AFFF97</item>
+        <item>#F5F0EA</item>
+        <item>#9DF0DE</item>
+        <item>#FAD4A3</item>
+        <item>#D1F4BC</item>
+        <item>#FEE69E</item>
+        <item>#DEF8F9</item>
+        <item>#B5E8FB</item>
+        <item>#FFA7E1</item>
+        <item>#A7FFD9</item>
+        <item>#A8A5FF</item>
+        <item>#C0CDEE</item>
+        <item>#90C9E4</item>
+        <item>#F596B4</item>
+        <item>#ABFBFF</item>
+        <item>#FFFAAA</item>
+        <item>#F3A0B7</item>
+        <item>#CA9292</item>
+    </array>
+
+    <string-array name="security_question">
+        <item>@string/select_your_security_question</item>
+        <item>@string/teacher_question</item>
+        <item>@string/actor_question</item>
+        <item>@string/actress_question</item>
+        <item>@string/cricketer_question</item>
+        <item>@string/footballer_question</item>
+        <item>@string/pet_name_question</item>
+    </string-array>
+
+    <string-array name="font_size">
+        <item>@string/small</item>
+        <item>@string/normal</item>
+        <item>@string/large</item>
+        <item>@string/larger</item>
+    </string-array>
+
+    <string-array name="lock_screen_notify">
+        <item>@string/sender_and_messages</item>
+        <item>@string/sender_only</item>
+        <item>@string/nothing</item>
+    </string-array>
+
+    <string-array name="mms_size">
+        <item>@string/kb_100</item>
+        <item>@string/kb_200</item>
+        <item>@string/kb_300</item>
+        <item>@string/kb_600</item>
+        <item>@string/mb_1</item>
+        <item>@string/mb_2</item>
+        <item>@string/no_limit</item>
+    </string-array>
+
+    <string-array name="swipe_actions">
+        <item>@string/action_none</item>
+        <item>@string/action_archive</item>
+        <item>@string/action_delete</item>
+        <item>@string/action_call</item>
+        <item>@string/action_mark_read</item>
+        <item>@string/action_mark_unread</item>
+        <item>@string/action_add_private</item>
+        <item>@string/action_remove_private</item>
+    </string-array>
+
+
+</resources>

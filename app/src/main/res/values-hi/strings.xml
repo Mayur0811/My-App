@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hindi -->
+
+    <string name="choose_your_language">अपनी भाषा चुनें</string>
+    <string name="done">समाप्त</string>
+    <string name="skip">छोड़ें</string>
+    <string name="next">अगला</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">अपने संदेशों को आसानी से व्यवस्थित करें</string>
+    <string name="first_onboarding_msg">संदेश स्वचालित रूप से व्यक्तिगत, OTP,\nलेनदेन और ऑफ़र में वर्गीकृत होते हैं जिससे उन्हें आसानी से एक्सेस किया जा सके।</string>
+    <string name="second_onboarding_title">अपनी चैट को सुरक्षित रखें</string>
+    <string name="second_onboarding_msg">निजी बातचीत की सुरक्षा के लिए चैट लॉक का उपयोग करें।</string>
+    <string name="third_onboarding_title">अपनी चैट अनुभव को अनुकूलित करें</string>
+    <string name="third_onboarding_msg">रंग, वॉलपेपर और समायोज्य फ़ॉन्ट के साथ चैट को वैयक्तिकृत करें।</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">संदेश को डिफ़ॉल्ट के रूप में सेट करें</string>
+    <string name="set_as_default_msg">टेक्स्ट भेजने और प्राप्त करने के लिए संदेश को अपना डिफ़ॉल्ट ऐप बनाएं।</string>
+    <string name="set_as_default_btn_text">डिफ़ॉल्ट के रूप में सेट करें</string>
+
+    <string name="notification_per_title">सूचना अनुमति</string>
+    <string name="notification_per_msg">अद्यतन रहें! संदेश प्राप्त करने के लिए सूचनाएँ सक्षम करें ताकि कुछ भी न छूटे।</string>
+    <string name="notification_per_btn_text">अनुमति दें</string>
+
+    <string name="phone_state_per_title">हमें कुछ अनुमतियों की आवश्यकता है!</string>
+    <string name="phone_state_per_msg">तेजी से संदेश भेजने के अनुभव के लिए कॉल के तुरंत बाद त्वरित उत्तर भेजने की अनुमति दें।</string>
+    <string name="phone_state_per_btn_text">अनुमति प्रदान करें</string>
+    <string name="phone_state_per_text">ऐप को आपके फ़ोन की स्थिति पढ़ने की अनुमति दें</string>
+    <string name="phone_state_per_guide">कॉल के तुरंत बाद संदेशों तक शीघ्र और आसान पहुंच के लिए।</string>
+
+    <string name="unknown_error_occurred">एक अज्ञात त्रुटि हुई</string>
+    <string name="enable_quick_actions_in_3_easy_steps">तीन आसान चरणों में त्वरित क्रियाएँ सक्षम करें।</string>
+    <string name="tap_the_enable_button_below">नीचे दिए गए "सक्षम करें" बटन पर टैप करें।</string>
+    <string name="locate_our_app_in_the_list">सूची में हमारा ऐप खोजें।</string>
+    <string name="turn_on_the_toggle_to_activate">सक्रिय करने के लिए टॉगल चालू करें।</string>
+    <string name="enable">सक्षम करें</string>
+    <string name="overlay_permission_denied">ओवरले अनुमति अस्वीकृत!</string>
+    <string name="find_and_allow_permission">%s खोजें और अनुमति दें</string>
+
+    <!-- drawer menu -->
+    <string name="inbox">इनबॉक्स</string>
+    <string name="archived">संग्रहीत</string>
+    <string name="private_chat">निजी चैट</string>
+    <string name="spam_blocked">स्पैम और अवरुद्ध</string>
+    <string name="scheduled">अनुसूचित</string>
+    <string name="theme">थीम</string>
+    <string name="backup_restore">बैकअप और पुनर्स्थापना</string>
+    <string name="setting">सेटिंग</string>
+    <string name="share">साझा करें</string>
+    <string name="rate_app">ऐप को रेट करें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+
+    <!-- main filter -->
+    <string name="all">सभी</string>
+    <string name="personal">व्यक्तिगत</string>
+    <string name="otp_s">OTP</string>
+    <string name="transactions">लेनदेन</string>
+    <string name="offers">ऑफ़र</string>
+
+    <string name="chat">चैट</string>
+    <string name="copy_otp">OTP कॉपी करें</string>
+    <string name="add">जोड़ें</string>
+    <string name="save">सहेजें</string>
+
+    <string name="sender_does_not_support_replies">प्रेषक उत्तरों का समर्थन नहीं करता</string>
+    <string name="sender_does_not_support_call">प्रेषक कॉल का समर्थन नहीं करता</string>
+
+    <string name="call">कॉल</string>
+    <string name="conversation_details">वार्तालाप विवरण</string>
+    <string name="appearance">रूप</string>
+    <string name="chat_wallpaper">चैट वॉलपेपर</string>
+    <string name="show_subject_field">विषय फ़ील्ड दिखाएं</string>
+    <string name="copy">कॉपी करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="forward">आगे बढ़ाएं</string>
+    <string name="view_details">विवरण देखें</string>
+
+    <string name="translate_massage">संदेश अनुवाद करें</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="text_message">पाठ संदेश</string>
+    <string name="subject">विषय:</string>
+
+    <string name="contact">संपर्क</string>
+    <string name="image">छवि</string>
+    <string name="camera">कैमरा</string>
+    <string name="files">फ़ाइलें</string>
+    <string name="voice">आवाज़</string>
+    <string name="schedule">अनुसूची</string>
+    <string name="location">स्थान</string>
+    <string name="clipboard">क्लिपबोर्ड</string>
+
+    <string name="view_contact_details">संपर्क विवरण देखें</string>
+    <string name="copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="share_via">इसके माध्यम से साझा करें</string>
+    <string name="no_app_found">कोई वैध ऐप नहीं मिला</string>
+    <string name="maximum_share_reached">आप एक साथ इतने अधिक सामग्री साझा नहीं कर सकते</string>
+
+    <string name="cancel">रद्द करें</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">क्या आप वाकई इस संदेश को हटाना चाहते हैं?</string>
+    <string name="something_went_wrong_please_try_after_some_time">कुछ गलत हो गया, कृपया कुछ समय बाद पुनः प्रयास करें।</string>
+    <string name="message_details">संदेश विवरण</string>
+    <string name="ok">ठीक है</string>
+    <string name="message_details_received">प्रकार : %1$s\n\nसे : %2$s\n\nप्राप्त : %3$s</string>
+    <string name="message_details_send">प्रकार : %1$s\n\nको : %2$s\n\nभेजा गया : %3$s</string>
+
+    <string name="pin">पिन</string>
+    <string name="unpin">अनपिन</string>
+    <string name="archive">संग्रहित करें</string>
+    <string name="unarchive">संग्रह हटाएं</string>
+    <string name="private_text">निजी</string>
+    <string name="add_to_contacts">संपर्क में जोड़ें</string>
+    <string name="mark_as_unread">अपठित चिह्नित करें</string>
+    <string name="mark_as_read">पढ़ा हुआ चिह्नित करें</string>
+    <string name="block">ब्लॉक करें</string>
+    <string name="unblock">अनब्लॉक करें</string>
+    <string name="dial_number">नंबर डायल करें</string>
+    <string name="copy_to_clipboard">क्लिपबोर्ड पर कॉपी करें</string>
+
+    <string name="want_to_delete_conversation">क्या आप वाकई इस वार्तालाप को हटाना चाहते हैं?</string>
+    <string name="want_to_block_conversation">क्या आप वाकई इस बातचीत को %1$s\nकरना चाहते हैं?</string>
+    <string name="search_here">यहाँ खोजें</string>
+    <string name="no_items_found">कोई आइटम नहीं मिला।</string>
+    <string name="type_2_characters">खोज शुरू करने के लिए कम से कम 2 अक्षर टाइप करें।</string>
+
+    <string name="apply">लागू करें</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="default_filter">डिफ़ॉल्ट</string>
+    <string name="today_filter">आज</string>
+    <string name="monthly_filter">मासिक</string>
+    <string name="year_filter">वर्ष</string>
+    <string name="date_range_filter">तिथि सीमा</string>
+    <string name="date_show">तारीख: %1$s</string>
+    <string name="select_range">सीमा चुनें</string>
+    <string name="range_show">सीमा: %1$s</string>
+    <string name="year_show">वर्ष: %1$d</string>
+    <string name="month_show">महीना: %1$s</string>
+
+    <string name="language_model_error">कुछ गलत हो गया, कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="language_translate_error">हम वर्तमान में पाठ अनुवाद में समस्या का सामना कर रहे हैं। कृपया बाद में पुनः प्रयास करें।</string>
+
+    <string name="new_chat">नई चैट</string>
+    <string name="import_messages">संदेश आयात करें</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="preview">पूर्वावलोकन</string>
+    <string name="chat_color">चैट रंग</string>
+    <string name="add_photos">फोटो जोड़ें</string>
+    <string name="none">कोई नहीं</string>
+
+    <string name="set_password">पासवर्ड सेट करें</string>
+    <string name="confirm_your_password">अपना पासवर्ड पुष्टि करें</string>
+    <string name="enter_password">पासवर्ड दर्ज करें</string>
+    <string name="set_pin">पिन सेट करें</string>
+    <string name="incorrect_password">गलत पासवर्ड</string>
+    <string name="enter_correct_password">सही पासवर्ड दर्ज करें</string>
+
+    <string name="preview_receive">नमस्ते दोस्तों!</string>
+    <string name="preview_send">हाँ… यह मेरा पसंदीदा रंग है!</string>
+    <string name="confirm_pin_title">प्रिय उपयोगकर्ता,\nआपकी प्राइवेट चैट का PIN है:</string>
+    <string name="confirm_pin_guide">यह सिफारिश की जाती है कि आप सुरक्षा प्रश्न सेट करें\nताकि पासवर्ड भूलने से बचा जा सके।</string>
+    <string name="set_now">अभी सेट करें</string>
+    <string name="submit">जमा करें</string>
+    <string name="enter_security_answer">सुरक्षा उत्तर दर्ज करें</string>
+    <string name="write_your_answer">अपना उत्तर लिखें</string>
+    <string name="select_security_question">सुरक्षा प्रश्न चुनें</string>
+    <string name="secret_question">गुप्त प्रश्न</string>
+    <string name="forget_password">पासवर्ड भूल गए?</string>
+    <string name="verify_your_identity">यदि आप PIN भूल गए हैं, तो पासवर्ड रीसेट करने के लिए आपकी पहचान सत्यापित करने हेतु सुरक्षा प्रश्न का उपयोग किया जाएगा।</string>
+    <string name="wrong_qa_answer">आप गलत प्रश्न चुन रहे हैं या गलत उत्तर दे रहे हैं, कृपया सही प्रश्न चुनें और सटीक उत्तर प्रदान करें।</string>
+
+    <string name="select_your_security_question">अपना सुरक्षा प्रश्न चुनें</string>
+    <string name="teacher_question">आपका पसंदीदा शिक्षक कौन है?</string>
+    <string name="actor_question">आपका पसंदीदा अभिनेता कौन है?</string>
+    <string name="actress_question">आपकी पसंदीदा अभिनेत्री कौन है?</string>
+    <string name="cricketer_question">आपका पसंदीदा क्रिकेटर कौन है?</string>
+    <string name="footballer_question">आपका पसंदीदा फुटबॉलर कौन है?</string>
+    <string name="pet_name_question">आपका पालतू नाम क्या है?</string>
+
+    <string name="empty_private_chat_title">खाली प्राइवेट चैट</string>
+    <string name="empty_private_chat_sub_title">अभी तक कोई चैट नहीं। अभी एक नई चैट शुरू करें!</string>
+    <string name="change_security">सुरक्षा बदलें</string>
+    <string name="edit_password">पासवर्ड संपादित करें</string>
+    <string name="private_message_notification">संदेश सूचना</string>
+    <string name="private_message_notification_guide">इस विकल्प को अक्षम करने पर, निजी संपर्कों से संदेश अधिसूचना में नहीं दिखेंगे।</string>
+    <string name="password_change_successfully">पासवर्ड सफलतापूर्वक बदला गया !!</string>
+
+    <string name="choose_app_theme">ऐप थीम चुनें</string>
+    <string name="choose_theme_to_personalize_your_app">अपने ऐप को वैयक्तिकृत करने के लिए थीम चुनें।</string>
+    <string name="system_default">सिस्टम डिफ़ॉल्ट</string>
+    <string name="light_theme">लाइट थीम</string>
+    <string name="dark_theme">डार्क थीम</string>
+
+    <string name="normal">सामान्य</string>
+    <string name="small">छोटा</string>
+    <string name="large">बड़ा</string>
+    <string name="larger">और बड़ा</string>
+    <string name="use_system_font">सिस्टम फ़ॉन्ट का उपयोग करें</string>
+    <string name="language">भाषा</string>
+    <string name="lock_screen_notification">लॉक स्क्रीन अधिसूचना</string>
+    <string name="sender_and_messages">प्रेषक और संदेश</string>
+    <string name="sender_only">केवल प्रेषक</string>
+    <string name="nothing">कुछ नहीं</string>
+    <string name="resize_send_mms_images">भेजी गई MMS छवियों का आकार बदलें</string>
+    <string name="customize_notification">अधिसूचना अनुकूलित करें</string>
+    <string name="swipe_actions">स्वाइप क्रियाएं</string>
+    <string name="configure_swipe_actions_for_conversations">वार्तालापों के लिए स्वाइप क्रियाओं को कॉन्फ़िगर करें</string>
+    <string name="post_call_screen">पोस्ट कॉल स्क्रीन</string>
+    <string name="show_call_screen_after_call">कॉल के बाद कॉल स्क्रीन दिखाएं</string>
+    <string name="delivery_reports">डिलीवरी रिपोर्ट</string>
+    <string name="use_24_hour_time_format">24 घंटे का समय प्रारूप उपयोग करें</string>
+    <string name="show_character_counter_writing_messages">संदेश लिखते समय अक्षर काउंटर दिखाएं</string>
+    <string name="remove_accents_diacritics_sending_messages">संदेश भेजते समय उच्चारण और डायक्रिटिक्स हटाएं</string>
+    <string name="share_app">ऐप साझा करें</string>
+    <string name="rate_us">हमें रेट करें</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="about_app">%1$s के बारे में</string>
+    <string name="app_version">संस्करण %1$s</string>
+    <string name="no_limit">कोई सीमा नहीं</string>
+    <string name="resize_sent_mms_image">भेजी गई MMS छवि का आकार बदलें</string>
+
+    <string name="right_swipe">दाईं ओर स्वाइप</string>
+    <string name="left_swipe">बाईं ओर स्वाइप</string>
+    <string name="change">बदलें</string>
+    <string name="right_swipe_action">दाईं ओर स्वाइप क्रिया</string>
+    <string name="left_swipe_action">बाईं ओर स्वाइप क्रिया</string>
+
+    <string name="action_none">कोई नहीं</string>
+    <string name="action_archive">संग्रह</string>
+    <string name="action_delete">हटाएँ</string>
+    <string name="action_call">कॉल</string>
+    <string name="action_mark_read">पढ़ा हुआ चिह्नित करें</string>
+    <string name="action_mark_unread">अपठित चिह्नित करें</string>
+    <string name="action_add_private">निजी चैट में जोड़ें</string>
+    <string name="action_remove_private">निजी चैट से हटाएँ</string>
+
+    <string name="carrier_send_error">संदेश नहीं भेजा जा सका, नेटवर्क त्रुटि</string>
+    <string name="error_service_is_unavailable">संदेश नहीं भेजा जा सका, सेवा उपलब्ध नहीं</string>
+    <string name="error_radio_turned_off">संदेश नहीं भेजा जा सका, रेडियो बंद है</string>
+    <string name="sim_card_not_available">सिम कार्ड उपलब्ध नहीं</string>
+    <string name="unknown_error_occurred_sending_message">संदेश नहीं भेजा जा सका, त्रुटि कोड: %d</string>
+    <string name="an_error_occurred">एक त्रुटि हुई: %s</string>
+    <string name="empty_destination_address">रिक्त नंबर पर संदेश नहीं भेजा जा सकता</string>
+    <string name="unable_to_save_message">संदेश को दूरसंचार डेटाबेस में सहेजने में असमर्थ</string>
+    <string name="must_pick_time_in_the_future">आपको भविष्य का समय चुनना होगा</string>
+
+    <string name="message_not_sent_short">संदेश नहीं भेजा गया</string>
+    <string name="message_sending_error">आपका संदेश \'%s\' को नहीं भेजा गया</string>
+    <string name="channel_received_sms">प्राप्त एसएमएस</string>
+    <string name="new_message">नया संदेश</string>
+    <string name="reply">जवाब दें</string>
+    <string name="me">मैं</string>
+    <string name="sens_to">%s को भेजें</string>
+
+    <string name="blocked_number">अवरोधित नंबर</string>
+    <string name="delete_conversation">वार्तालाप हटाएँ</string>
+    <string name="conversation_title">वार्तालाप शीर्षक</string>
+    <string name="schedule_send_warning">फोन चालू रखें और सुनिश्चित करें कि\nबैकग्राउंड में ऐप बंद नहीं हो रहा है।</string>
+
+    <string name="option">विकल्प</string>
+    <string name="messages">संदेश</string>
+    <string name="more">अधिक</string>
+
+    <string name="send_message">संदेश भेजें</string>
+    <string name="send_message_desc">किसी को भी आसानी से संदेश भेजें!</string>
+    <string name="view_message">संदेश देखें</string>
+    <string name="view_message_desc">केवल टैप करके सूची में संदेश देखें!</string>
+
+    <string name="instant_msg_1">मीटिंग में हूँ, बाद में कॉल करूंगा।</string>
+    <string name="instant_msg_2">कृपया बाद में कॉल करें। धन्यवाद!</string>
+    <string name="instant_msg_3">आपका दिन शुभ हो!</string>
+    <string name="instant_msg_4">ठीक है, समझ गया।</string>
+    <string name="instant_msg_5">रास्ते में हूँ, जल्द ही पहुँचूंगा।</string>
+
+    <string name="edit_contact">संपर्क संपादित करें</string>
+    <string name="send_mail">मेल भेजें</string>
+    <string name="calendar">कैलेंडर</string>
+    <string name="web">वेब</string>
+
+    <string name="incoming_call">आने वाली कॉल</string>
+    <string name="outgoing_call">जाने वाली कॉल</string>
+    <string name="private_number">निजी नंबर</string>
+
+    <string name="last_backup">अंतिम बैकअप</string>
+    <string name="restore">पुनर्स्थापित करें</string>
+    <string name="select_backup">एक बैकअप चुनें</string>
+    <string name="no_backup_available">कोई बैकअप उपलब्ध नहीं</string>
+    <string name="last_backup_time">अंतिम बैकअप: %s</string>
+
+    <string name="empty_name">कृपया एक नाम दर्ज करें</string>
+    <string name="name_taken">इस नाम की फाइल या फ़ोल्डर पहले से मौजूद है</string>
+    <string name="invalid_name">नाम में अवैध वर्ण हैं</string>
+
+    <string name="importing">आयात किया जा रहा है…</string>
+    <string name="invalid_file_format">अवैध फ़ाइल प्रारूप</string>
+    <string name="no_entries_for_importing">आयात करने के लिए कोई प्रविष्टियाँ नहीं मिलीं</string>
+    <string name="importing_failed">आयात विफल</string>
+    <string name="importing_some_entries_failed">कुछ प्रविष्टियों का आयात विफल</string>
+    <string name="importing_successful">आयात सफल</string>
+    <string name="improved_color_customization">बेहतर रंग अनुकूलन</string>
+    <string name="exporting_successful">निर्यात सफल</string>
+    <string name="exporting">निर्यात किया जा रहा है…</string>
+    <string name="no_entries_for_exporting">निर्यात करने के लिए कोई प्रविष्टियाँ नहीं मिलीं</string>
+
+    <string name="backup_files">बैकअप फ़ाइलें</string>
+    <string name="please_select_backup_file">कृपया नीचे से बैकअप फ़ाइल चुनें और संदेश पुनर्स्थापित करें।</string>
+    <string name="folder_does_not_exist">फ़ोल्डर मौजूद नहीं है या यह कोई निर्देशिका नहीं है।</string>
+    <string name="you_have_not_any_backup_file">आपके पास कोई बैकअप नहीं है, कृपया पहले बैकअप लें।</string>
+    <string name="not_found_any_backup_file">कोई बैकअप फ़ाइल नहीं मिली।</string>
+
+    <plurals name="and_other_contacts">
+        <item quantity="one">और %d अन्य</item>
+        <item quantity="other">और %d अन्य</item>
+    </plurals>
+
+    <string name="action_add_to_fav">पसंदीदा में जोड़ें</string>
+    <string name="duration_sec">अवधि %1$s सेकंड</string>
+    <string name="picked_contact">नाम: %1$s\nनंबर: %2$s</string>
+
+    <string name="default_category">डिफ़ॉल्ट</string>
+    <string name="default_sentence_1">एक मीटिंग में हूँ, बाद में कॉल करूंगा।</string>
+    <string name="default_sentence_2">कृपया बाद में कॉल करें। धन्यवाद!</string>
+    <string name="default_sentence_3">आपका दिन शुभ हो!</string>
+    <string name="default_sentence_4">ठीक है, समझ गया।</string>
+    <string name="default_sentence_5">रास्ते में हूँ, जल्द ही पहुँचूंगा।</string>
+    <string name="default_sentence_6">मैं ठीक हूँ, चिंता मत करो।</string>
+    <string name="default_sentence_7">धन्यवाद।</string>
+    <string name="default_sentence_8">आपका स्वागत है।</string>
+    <string name="default_sentence_9">आपको शुभकामनाएँ।</string>
+    <string name="default_sentence_10">यहाँ आओ, अभी।</string>
+
+    <string name="funny_category">मजेदार</string>
+    <string name="funny_sentence_1">मुझे मेरी नौकरी तभी पसंद है जब मैं छुट्टी पर होता हूँ।</string>
+    <string name="funny_sentence_2">मैं आलसी नहीं हूँ, बस ऊर्जा बचाने के मोड में हूँ।</string>
+    <string name="funny_sentence_3">कोई भी सूर्योदय इतना सुंदर नहीं कि मुझे उसे देखने के लिए जगाया जाए।</string>
+    <string name="funny_sentence_4">मैं पूरी तरह बेकार नहीं हूँ, मुझे एक बुरे उदाहरण के रूप में इस्तेमाल किया जा सकता है।</string>
+    <string name="funny_sentence_5">अगर लोग मेरे दिमाग को पढ़ सकते, तो मुझे बहुत मार पड़ती।</string>
+    <string name="funny_sentence_6">एक दिन तुम बहुत दूर जाओगे, और मुझे उम्मीद है कि वहीं रहोगे।</string>
+    <string name="funny_sentence_7">अब चश्मा नहीं पहन रहा, मैंने काफी देख लिया है।</string>
+    <string name="funny_sentence_8">अगर पहली बार में सफलता नहीं मिली, तो स्काइडाइविंग तुम्हारे लिए नहीं है।</string>
+    <string name="funny_sentence_9">मुझे तुम्हारी अजीब मानसिकता समझ नहीं आती, लेकिन मैं तुम्हारी प्रतिबद्धता की सराहना करता हूँ।</string>
+    <string name="funny_sentence_10">एक दिन बिना धूप के ऐसा होता है, जैसे… रात।</string>
+
+    <string name="love_category">प्रेम</string>
+    <string name="love_sentence_1">तुम्हारे बारे में सोचने से ही मेरे चेहरे पर मुस्कान आ जाती है।</string>
+    <string name="love_sentence_2">मेरा दिन तुम्हारे बिना अधूरा लगता है।</string>
+    <string name="love_sentence_3">इस दुनिया में सबसे महत्वपूर्ण चीज परिवार और प्यार है।</string>
+    <string name="love_sentence_4">प्यार में पड़ने के लिए गुरुत्वाकर्षण को दोष नहीं दे सकते।</string>
+    <string name="love_sentence_5">तुम सबसे खूबसूरत इंसान हो, अंदर और बाहर दोनों से। मैं बहुत भाग्यशाली हूँ।</string>
+    <string name="love_sentence_6">सबसे अद्भुत व्यक्ति को लाखों धन्यवाद।</string>
+    <string name="love_sentence_7">हमारे प्यार को बयान करने के लिए मेरे पास शब्द नहीं हैं। मैं तुम्हारा बहुत आभारी हूँ।</string>
+    <string name="love_sentence_8">सच्चा प्यार वही है, जब जाने के कई मौके होते हैं, लेकिन फिर भी रुकने का फैसला करते हैं।</string>
+    <string name="love_sentence_9">मुझे तुम्हारी मुस्कान पसंद है, लेकिन जब मैं उसकी वजह होता हूँ, तब सबसे ज्यादा।</string>
+    <string name="love_sentence_10">प्यार को समझने के लिए शब्दों की जरूरत नहीं होती।</string>
+
+    <string name="wishes_category">शुभकामनाएँ</string>
+    <string name="wishes_sentence_1">आपको भविष्य के लिए ढेरों शुभकामनाएँ!</string>
+    <string name="wishes_sentence_2">जन्मदिन मुबारक हो! आपके सारे सपने पूरे हों!</string>
+    <string name="wishes_sentence_3">क्रिसमस की बधाई! हर जगह प्यार फैलाओ।</string>
+    <string name="wishes_sentence_4">सबसे महत्वपूर्ण चीज अपने जीवन का आनंद लेना है—खुश रहना—यही मायने रखता है।</string>
+    <string name="wishes_sentence_5">जब आपके पास कोई सपना हो, तो उसे कभी मत छोड़ो।</string>
+    <string name="wishes_sentence_6">कभी-कभी जब चीजें बिगड़ती हैं, तो वे वास्तव में सही दिशा में जा रही होती हैं।</string>
+    <string name="wishes_sentence_7">आप जितना सोचते हैं उससे ज्यादा बहादुर, शक्तिशाली और बुद्धिमान हैं।</string>
+    <string name="wishes_sentence_8">आपकी यात्रा शानदार हो, मेरी शुभकामनाएँ आपके साथ हैं!</string>
+    <string name="wishes_sentence_9">बधाई हो! आपकी सफलता और उज्जवल भविष्य के लिए शुभकामनाएँ!</string>
+    <string name="wishes_sentence_10">कोई भी रास्ता खत्म होने का मतलब यह नहीं कि आगे बढ़ना बंद कर दो।</string>
+
+    <string name="sad_category">उदासी</string>
+    <string name="sad_sentence_1">देने वालों को सीमाएँ तय करनी चाहिए, क्योंकि लेने वालों की कोई सीमा नहीं होती।</string>
+    <string name="sad_sentence_2">किसी गलती से सिर्फ इसलिए मत चिपको कि तुमने इसे करने में बहुत समय लगाया।</string>
+    <string name="sad_sentence_3">अब मुझे एहसास हुआ कि मैं पहले जो था, वह अब नहीं हूँ।</string>
+    <string name="sad_sentence_4">उदासी खुशी का विपरीत नहीं, बल्कि उसका ही एक हिस्सा है।</string>
+    <string name="sad_sentence_5">सबसे बुरा दर्द तब होता है जब दिल रोता है, लेकिन आँखों से आँसू नहीं आते।</string>
+    <string name="sad_sentence_6">समय तुम्हारे घाव नहीं भर सकता, जब तक तुम खुद उन्हें जाने न दो।</string>
+    <string name="sad_sentence_7">लोग कहते हैं "अपने दिल की सुनो", लेकिन अगर दिल टुकड़ों में बंटा हो, तो किस टुकड़े की सुनूँ?</string>
+    <string name="sad_sentence_8">यदि जीवन में कुछ सच है, तो वह है यह बीतता हुआ वर्तमान क्षण। उदासी इसका हिस्सा है।</string>
+    <string name="sad_sentence_9">नया अध्याय शुरू होने से पहले, पुराने का अंत जरूरी है।</string>
+    <string name="sad_sentence_10">हर मुस्कान के पीछे एक गहरी उदासी छुपी होती है, जिसे कोई देख नहीं सकता।</string>
+
+    <string name="friend_category">मित्र</string>
+    <string name="friends_sentence_1">एक सच्चा मित्र चार पत्तों वाले तिपतिया घास की तरह होता है, जिसे पाना कठिन होता है लेकिन वह भाग्यशाली होता है।</string>
+    <string name="friends_sentence_2">एक मित्र की नजर एक अच्छा दर्पण होती है।</string>
+    <string name="friends_sentence_3">मित्र भगवान का हमें संभालने का तरीका होते हैं।</string>
+    <string name="friends_sentence_4">तुम हंसो मैं हंसू, तुम दुखी हो मैं दुखी, तुम रोओ मैं रोऊं, लेकिन अगर तुम पुल से कूदो, तो दोस्त, मैं तुम्हें बहुत याद करूंगा।</string>
+    <string name="friends_sentence_5">सच्चे मित्र हीरे की तरह होते हैं, शुद्ध और दुर्लभ। नकली मित्र पतों की तरह होते हैं, जो हर जगह मिलते हैं।</string>
+    <string name="friends_sentence_6">सच्चा मित्र आपकी आंखें, दिमाग और दिल को एक बेहतर और संतोषजनक जीवन के लिए खोलता है।</string>
+    <string name="friends_sentence_7">मित्र वह होता है जो आपके अतीत को समझता है, आपके भविष्य में विश्वास करता है और आपको आज उसी रूप में स्वीकार करता है जैसे आप हैं।</string>
+    <string name="friends_sentence_8">सच्चे मित्र पाने के लिए, आपको खुद भी सच्चा मित्र बनना होगा।</string>
+    <string name="friends_sentence_9">मित्रता वायलिन की तरह होती है। संगीत कभी-कभी रुक सकता है, लेकिन तार हमेशा जुड़े रहते हैं।</string>
+    <string name="friends_sentence_10">मेरे शत्रु का शत्रु मेरा मित्र होता है।</string>
+
+    <string name="birthday_category">जन्मदिन</string>
+    <string name="birthday_sentence_1">आपका जन्मदिन खुशियों, प्रेम और उत्सव से भरा हो। आप सबसे अच्छे के हकदार हैं!</string>
+    <string name="birthday_sentence_2">आपकी सभी जन्मदिन की इच्छाएं पूरी हों!</string>
+    <string name="birthday_sentence_3">आपकी मित्रता से बढ़कर कोई उपहार नहीं, जन्मदिन मुबारक हो!</string>
+    <string name="birthday_sentence_4">सूरज के चारों ओर एक और यात्रा का जश्न मनाएं!</string>
+    <string name="birthday_sentence_5">अतीत को भूलो, भविष्य की ओर देखो, क्योंकि सबसे अच्छी चीजें अभी आनी बाकी हैं।</string>
+    <string name="birthday_sentence_6">आज आप कल से बड़े हैं लेकिन कल से छोटे, जन्मदिन मुबारक!</string>
+    <string name="birthday_sentence_7">जन्मदिन मुबारक हो उस व्यक्ति को जो हमेशा युवा रहता है!</string>
+    <string name="birthday_sentence_8">एक सरल उत्सव, मित्रों का एकत्रण; आपके लिए अपार खुशियों और अनंत आनंद की शुभकामनाएं।</string>
+    <string name="birthday_sentence_9">जन्मदिन की शुभकामनाएं! आज ज्यादा मस्ती करें और कल कम हैंगओवर हो!</string>
+    <string name="birthday_sentence_10">आज आपका दिन है। मैं पूरे दिन आपका जश्न मनाने के लिए उत्सुक हूं!</string>
+
+    <string name="life_category">जीवन</string>
+    <string name="life_sentence_1">हजार मील की यात्रा एक कदम से शुरू होती है।</string>
+    <string name="life_sentence_2">जीवन का सबसे बड़ा आनंद वह करना है जो लोग कहते हैं कि आप नहीं कर सकते।</string>
+    <string name="life_sentence_3">यदि आप हमेशा बीते कल के बारे में सोचते रहेंगे, तो बेहतर कल नहीं आएगा।</string>
+    <string name="life_sentence_4">खुशी कोई लक्ष्य नहीं, बल्कि जीने का एक तरीका है।</string>
+    <string name="life_sentence_5">अपने शब्दों के साथ सतर्क रहें। एक बार कहे जाने के बाद, उन्हें केवल माफ किया जा सकता है, भुलाया नहीं जा सकता।</string>
+    <string name="life_sentence_6">यदि आप किसी उद्देश्य के लिए नहीं जीते, तो आपका जीवन व्यर्थ होगा।</string>
+    <string name="life_sentence_7">छोटी चीजों को पहचानें - अक्सर वही सबसे महत्वपूर्ण होती हैं।</string>
+    <string name="life_sentence_8">माफ करना ताकत है, लेकिन भूल जाना मूर्खता।</string>
+    <string name="life_sentence_9">जीवन सपनों के बारे में है। बड़े सपने देखें और जीवन में बड़ी उपलब्धियां हासिल करें।</string>
+    <string name="life_sentence_10">अंत में सब कुछ ठीक हो जाता है। अगर यह ठीक नहीं है, तो यह अंत नहीं है…</string>
+
+    <string name="motivation_category">प्रेरणा</string>
+    <string name="motivation_sentence_1">कुछ भी असंभव नहीं है।</string>
+    <string name="motivation_sentence_2">खुद पर विश्वास करो। आपकी सीमाएं केवल आपकी कल्पनाओं तक ही सीमित हैं।</string>
+    <string name="motivation_sentence_3">आप वह बनने के लिए कभी देर नहीं कर सकते, जो आप बन सकते थे।</string>
+    <string name="motivation_sentence_4">जब कोई आप पर विश्वास न करे, तब भी खुद पर विश्वास करें।</string>
+    <string name="motivation_sentence_5">कड़ी मेहनत करें। खुद को प्रेरित करें, क्योंकि कोई और आपके लिए यह नहीं करेगा।</string>
+    <string name="motivation_sentence_6">जीवन में कई मोड़ हैं। आपको बस कसकर पकड़ना है और आगे बढ़ना है।</string>
+    <string name="motivation_sentence_7">हमेशा सूरज की ओर देखें, छायाएं आपके पीछे गिरेंगी।</string>
+    <string name="motivation_sentence_8">सफलता अंतिम नहीं होती, असफलता घातक नहीं होती: मायने रखता है तो केवल आगे बढ़ने का साहस।</string>
+    <string name="motivation_sentence_9">लोगों को आपकी चमक को धुंधला करने की अनुमति न दें, क्योंकि वे अंधे हो सकते हैं। उन्हें धूप का चश्मा पहनने के लिए कहें।</string>
+    <string name="motivation_sentence_10">सबसे अच्छी स्थिति न होने पर भी, अपनी स्थिति में सबसे अच्छा देखना ही कुंजी है।</string>
+
+    <string name="savage_category">बेबाक</string>
+    <string name="savage_sentence_1">मेरी सबसे खास बात यह है कि मैं सीमित संस्करण में हूँ, मेरी कोई और कॉपी नहीं है!</string>
+    <string name="savage_sentence_2">मेरे और एक पागल व्यक्ति के बीच बस इतना ही अंतर है कि मैं पागल नहीं हूँ।</string>
+    <string name="savage_sentence_3">अगर आपको लगता है कि मैं बुरा हूँ, तो मुझसे मिलो, मैं आपको और भी अच्छे कारण दूंगा मुझसे नफरत करने का।</string>
+    <string name="savage_sentence_4">जीवन एक रैंप है, और मैं इसकी सुपरमॉडल हूँ।</string>
+    <string name="savage_sentence_5">मैं बहुत व्यस्त हूँ, क्योंकि मैं एक बॉस हूँ।</string>
+    <string name="savage_sentence_6">वे कहते हैं कि अच्छी चीजों में समय लगता है, इसलिए मैं हमेशा देर से आता हूँ।</string>
+    <string name="savage_sentence_7">जीवन छोटा है, जब तक दांत हैं, तब तक मुस्कुराओ।</string>
+    <string name="savage_sentence_8">मुझे मत पढ़ो, तुम पास नहीं हो पाओगे।</string>
+    <string name="savage_sentence_9">बिना मेकअप, कोई समस्या नहीं। निसंकोच और बिना फिल्टर।</string>
+    <string name="savage_sentence_10">कोई जीपीएस की जरूरत नहीं, मैं अपनी ही राह पर हूँ।</string>
+
+    <string name="message_not_sent_touch_retry">नहीं भेजा गया. पुनः प्रयास करने के लिए स्पर्श करें.</string>
+
+
+    <string name="attachment">संलग्न फाइल</string>
+    <string name="empty_blocked_conversation_title">कोई अवरुद्ध वार्तालाप नहीं मिला.</string>
+    <string name="empty_archived_conversation_title">कोई संग्रहीत वार्तालाप नहीं मिला.</string>
+    <string name="empty_scheduled_conversation_title">कोई अनुसूचित वार्तालाप नहीं मिला.</string>
+
+    <string name="send_now">अब भेजें</string>
+    <string name="please_click_back_again_to_exit">कृपया बाहर निकलने के लिए पुनः वापस क्लिक करें</string>
+
+    <string name="leave_this_app">इस ऐप को छोड़ दें…?</string>
+    <string name="are_you_sure_leave_this_app">क्या आप इस ऐप को छोड़ना चाहते हैं?</string>
+    <string name="no">नहीं</string>
+    <string name="yes">हाँ</string>
+
+    <string name="set_private_pin_toast">कृपया पहले सुरक्षा पिन सेट करें और वार्तालाप को निजी में जोड़ने का प्रयास करें।</string>
+    <string name="no_any_message_found">इस प्राप्तकर्ता के लिए कोई संदेश नहीं मिला.</string>
+    <string name="please_select_another_image">हमें छवि का चयन करते समय कुछ समस्या मिली, कृपया कोई अन्य छवि चुनें।</string>
+
+    <string name="attachment_sized_exceeds_max_limit">अनुलग्नक का आकार अधिकतम MMS सीमा से अधिक है</string>
+    <string name="compress_error">छवि को चयनित आकार में संपीड़ित करने में असमर्थ</string>
+
+    <string name="device_not_support_this_feature">आपका डिवाइस इस सुविधा का समर्थन नहीं करता है.</string>
+    <string name="add_conversation_to">%1$d वार्तालापों को %2$s में जोड़ें</string>
+
+    <string name="app_data_sync_message">आपके संदेश सिंक किए जा रहे हैं…\nकृपया प्रतीक्षा करें जब तक हम आपकी बातचीत अपडेट नहीं कर देते।</string>
+    <string name="empty_filter_conversation_title">कोई %1$s वार्तालाप नहीं मिला.</string>
+    <string name="app_language">ऐप भाषा</string>
+    <string name="sending">भेजा जा रहा है…</string>
+
+</resources>

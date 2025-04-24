@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/_14sdp"
+    android:paddingBottom="@dimen/_9sdp">
+
+    <View
+        android:id="@+id/viewDividerTop"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/app_gray"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvContactAlphabet"
+        style="@style/AppTextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/app_black"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textSize="dialog"
+        tools:text="A"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/viewDivider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/app_gray"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@id/rcvNumbers"
+        app:layout_constraintTop_toBottomOf="@id/tvContactAlphabet" />
+
+    <com.messages.common.custom_views.AvatarView
+        android:id="@+id/contactAvatar"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_9sdp"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewDivider" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvContactName"
+        style="@style/AppTextMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_9sdp"
+        app:layout_constraintStart_toEndOf="@id/contactAvatar"
+        app:layout_constraintTop_toTopOf="@id/contactAvatar"
+        app:textSize="primary"
+        tools:text="@string/app_name" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvNumbers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tvContactName"
+        app:layout_constraintTop_toBottomOf="@id/tvContactName"
+        tools:itemCount="3"
+        tools:listitem="@layout/item_phone_no" />
+
+    <View
+        android:id="@+id/viewClick"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

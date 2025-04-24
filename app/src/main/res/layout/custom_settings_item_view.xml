@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingHorizontal="@dimen/_14sdp"
+        android:paddingVertical="@dimen/_6sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/customViewIcon"
+            android:layout_width="@dimen/_39sdp"
+            android:layout_height="@dimen/_39sdp"
+            android:background="@drawable/filter_bg"
+            android:backgroundTint="@color/app_bg"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/customViewTitle"
+            style="@style/AppTextBold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_17sdp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/app_blue"
+            app:layout_constraintBottom_toTopOf="@id/customViewSubtitle"
+            app:layout_constraintEnd_toStartOf="@id/switchToggle"
+            app:layout_constraintStart_toEndOf="@id/customViewIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textSize="primary"
+            tools:text="@string/app_name" />
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/customViewSubtitle"
+            style="@style/AppTextRegular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_17sdp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/app_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/switchToggle"
+            app:layout_constraintStart_toStartOf="@id/customViewTitle"
+            app:layout_constraintTop_toBottomOf="@id/customViewTitle"
+            app:textSize="tertiary"
+            tools:text="@string/app_name" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_minus11sdp"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleX="0.55"
+            android:scaleY="0.55"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:thumbTint="@color/only_white"
+            app:trackDecoration="@null"
+            app:trackTint="@color/switch_track_color"
+            tools:visibility="gone" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/arrowNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next"
+            android:tint="@color/app_color"
+            android:visibility="gone"
+            tools:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

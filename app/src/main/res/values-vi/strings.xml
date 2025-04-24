@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Vietnamese -->
+
+    <string name="choose_your_language">Chọn ngôn ngữ của bạn</string>
+    <string name="done">Xong</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="next">Tiếp theo</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">Sắp xếp tin nhắn dễ dàng</string>
+    <string name="first_onboarding_msg">Tin nhắn được tự động phân loại vào Cá nhân, OTP,\nGiao dịch và Khuyến mãi để dễ truy cập.</string>
+    <string name="second_onboarding_title">Giữ cuộc trò chuyện của bạn an toàn</string>
+    <string name="second_onboarding_msg">Sử dụng Khóa trò chuyện để bảo vệ cuộc trò chuyện riêng tư\nvà giữ chúng an toàn.</string>
+    <string name="third_onboarding_title">Tùy chỉnh trải nghiệm trò chuyện</string>
+    <string name="third_onboarding_msg">Cá nhân hóa cuộc trò chuyện với màu sắc, hình nền,\nvà phông chữ có thể điều chỉnh.</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">Đặt Tin nhắn làm mặc định</string>
+    <string name="set_as_default_msg">Bật Tin nhắn làm ứng dụng mặc định để gửi\nvà nhận tin nhắn.</string>
+    <string name="set_as_default_btn_text">Đặt làm mặc định</string>
+
+    <string name="notification_per_title">Quyền thông báo</string>
+    <string name="notification_per_msg">Luôn cập nhật! Bật thông báo để nhận tin nhắn\nmà không bị bỏ lỡ.</string>
+    <string name="notification_per_btn_text">Cho phép quyền</string>
+
+    <string name="phone_state_per_title">Chúng tôi cần một số quyền!</string>
+    <string name="phone_state_per_msg">Cho phép quyền để gửi tin nhắn nhanh ngay sau cuộc gọi\nđể có trải nghiệm nhắn tin nhanh hơn.</string>
+    <string name="phone_state_per_btn_text">Cấp quyền</string>
+    <string name="phone_state_per_text">Cho phép ứng dụng đọc trạng thái điện thoại của bạn</string>
+    <string name="phone_state_per_guide">Để truy cập nhanh và dễ dàng vào tin nhắn sau cuộc gọi.</string>
+
+    <string name="unknown_error_occurred">Đã xảy ra lỗi không xác định</string>
+    <string name="enable_quick_actions_in_3_easy_steps">Bật hành động nhanh trong 3 bước đơn giản.</string>
+    <string name="tap_the_enable_button_below">Nhấn nút \"Bật\" bên dưới.</string>
+    <string name="locate_our_app_in_the_list">Tìm ứng dụng của chúng tôi trong danh sách.</string>
+    <string name="turn_on_the_toggle_to_activate">Bật công tắc để kích hoạt.</string>
+    <string name="enable">Bật</string>
+    <string name="overlay_permission_denied">Quyền phủ màn hình bị từ chối!</string>
+    <string name="find_and_allow_permission">Tìm %s và cho phép quyền</string>
+
+    <!-- drawer menu -->
+    <string name="inbox">Hộp thư đến</string>
+    <string name="archived">Đã lưu trữ</string>
+    <string name="private_chat">Trò chuyện riêng tư</string>
+    <string name="spam_blocked">Spam &amp; Đã chặn</string>
+    <string name="scheduled">Đã lên lịch</string>
+    <string name="theme">Chủ đề</string>
+    <string name="backup_restore">Sao lưu &amp; Khôi phục</string>
+    <string name="setting">Cài đặt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="rate_app">Đánh giá ứng dụng</string>
+    <string name="privacy_policy">Chính sách quyền riêng tư</string>
+
+    <!-- main filter -->
+    <string name="all">Tất cả</string>
+    <string name="personal">Cá nhân</string>
+    <string name="otp_s">OTP</string>
+    <string name="transactions">Giao dịch</string>
+    <string name="offers">Khuyến mãi</string>
+
+    <string name="chat">Trò chuyện</string>
+    <string name="copy_otp">Sao chép OTP</string>
+    <string name="add">Thêm</string>
+    <string name="save">Lưu</string>
+
+    <string name="sender_does_not_support_replies">Người gửi không hỗ trợ trả lời</string>
+    <string name="sender_does_not_support_call">Người gửi không hỗ trợ cuộc gọi</string>
+
+    <string name="call">Gọi</string>
+    <string name="conversation_details">Chi tiết cuộc trò chuyện</string>
+    <string name="appearance">Giao diện</string>
+    <string name="chat_wallpaper">Hình nền trò chuyện</string>
+    <string name="show_subject_field">Hiển thị trường chủ đề</string>
+    <string name="copy">Sao chép</string>
+    <string name="delete">Xóa</string>
+    <string name="forward">Chuyển tiếp</string>
+    <string name="view_details">Xem chi tiết</string>
+
+    <string name="translate_massage">Dịch tin nhắn</string>
+    <string name="choose_language">Chọn ngôn ngữ</string>
+    <string name="text_message">Tin nhắn văn bản</string>
+    <string name="subject">Chủ đề:</string>
+
+    <string name="contact">Danh bạ</string>
+    <string name="image">Hình ảnh</string>
+    <string name="camera">Máy ảnh</string>
+    <string name="files">Tệp</string>
+    <string name="voice">Giọng nói</string>
+    <string name="schedule">Lịch trình</string>
+    <string name="location">Vị trí</string>
+    <string name="clipboard">Bảng tạm</string>
+
+    <string name="view_contact_details">Xem chi tiết liên hệ</string>
+    <string name="copied_to_clipboard">Đã sao chép vào bảng tạm</string>
+    <string name="share_via">Chia sẻ qua</string>
+    <string name="no_app_found">Không tìm thấy ứng dụng hợp lệ</string>
+    <string name="maximum_share_reached">Bạn không thể chia sẻ nhiều nội dung cùng lúc</string>
+
+    <string name="cancel">Hủy</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">Bạn có chắc chắn muốn xóa tin nhắn này không?</string>
+    <string name="something_went_wrong_please_try_after_some_time">Đã xảy ra lỗi, vui lòng thử lại sau.</string>
+    <string name="message_details">Chi tiết tin nhắn</string>
+    <string name="ok">OK</string>
+    <string name="message_details_received">Loại: %1$s\n\nTừ: %2$s\n\nNhận: %3$s</string>
+    <string name="message_details_send">Loại: %1$s\n\nĐến: %2$s\n\nGửi: %3$s</string>
+
+    <string name="pin">Ghim</string>
+    <string name="unpin">Bỏ ghim</string>
+    <string name="archive">Lưu trữ</string>
+    <string name="unarchive">Bỏ lưu trữ</string>
+    <string name="private_text">Riêng tư</string>
+    <string name="add_to_contacts">Thêm vào danh bạ</string>
+    <string name="mark_as_unread">Đánh dấu chưa đọc</string>
+    <string name="mark_as_read">Đánh dấu đã đọc</string>
+    <string name="block">Chặn</string>
+    <string name="unblock">Bỏ chặn</string>
+    <string name="dial_number">Gọi số</string>
+    <string name="copy_to_clipboard">Sao chép vào clipboard</string>
+
+    <string name="want_to_delete_conversation">Bạn có chắc chắn muốn xóa cuộc trò\nchuyện này không?</string>
+    <string name="want_to_block_conversation">Bạn có chắc chắn muốn %1$s cuộc hội\nthoại này không?</string>
+    <string name="search_here">Tìm kiếm tại đây</string>
+    <string name="no_items_found">Không tìm thấy mục nào.</string>
+    <string name="type_2_characters">Nhập ít nhất 2 ký tự để bắt đầu tìm kiếm.</string>
+
+    <string name="apply">Áp dụng</string>
+    <string name="filter">Lọc</string>
+    <string name="default_filter">Mặc định</string>
+    <string name="today_filter">Hôm nay</string>
+    <string name="monthly_filter">Hàng tháng</string>
+    <string name="year_filter">Hàng năm</string>
+    <string name="date_range_filter">Khoảng ngày</string>
+    <string name="date_show">Ngày: %1$s</string>
+    <string name="select_range">CHỌN KHOẢNG</string>
+    <string name="range_show">Khoảng: %1$s</string>
+    <string name="year_show">Năm: %1$d</string>
+    <string name="month_show">Tháng: %1$s</string>
+
+    <string name="language_model_error">Đã xảy ra lỗi, vui lòng thử lại sau.</string>
+    <string name="language_translate_error">Chúng tôi đang gặp sự cố với dịch văn bản. Vui lòng thử lại sau.</string>
+
+    <string name="new_chat">Cuộc trò chuyện mới</string>
+    <string name="import_messages">Nhập tin nhắn</string>
+    <string name="font_size">Cỡ chữ</string>
+    <string name="preview">Xem trước</string>
+    <string name="chat_color">Màu trò chuyện</string>
+    <string name="add_photos">Thêm ảnh</string>
+    <string name="none">Không</string>
+
+    <string name="set_password">Đặt mật khẩu</string>
+    <string name="confirm_your_password">Xác nhận mật khẩu</string>
+    <string name="enter_password">Nhập mật khẩu</string>
+    <string name="set_pin">Đặt mã PIN</string>
+    <string name="incorrect_password">Mật khẩu không đúng</string>
+    <string name="enter_correct_password">Nhập mật khẩu chính xác</string>
+
+    <string name="preview_receive">Chào các bạn!</string>
+    <string name="preview_send">Yeah… đây là màu yêu thích của tôi!</string>
+    <string name="confirm_pin_title">Quý người dùng,\nMã PIN của Trò chuyện riêng tư của bạn là:</string>
+    <string name="confirm_pin_guide">Bạn nên thiết lập câu hỏi bảo mật để tránh quên mật khẩu.</string>
+    <string name="set_now">Thiết lập ngay</string>
+    <string name="submit">Gửi</string>
+    <string name="enter_security_answer">Nhập câu trả lời bảo mật</string>
+    <string name="write_your_answer">Nhập câu trả lời của bạn</string>
+    <string name="select_security_question">Chọn câu hỏi bảo mật</string>
+    <string name="secret_question">Câu hỏi bảo mật</string>
+    <string name="forget_password">Quên mật khẩu?</string>
+    <string name="verify_your_identity">Nếu bạn quên mã PIN, câu hỏi bảo mật sẽ được sử dụng để xác minh danh tính của bạn nhằm đặt lại mật khẩu.</string>
+    <string name="wrong_qa_answer">Bạn đã chọn hoặc trả lời sai câu hỏi. Vui lòng chọn đúng câu hỏi và cung cấp câu trả lời chính xác.</string>
+
+    <string name="select_your_security_question">Chọn câu hỏi bảo mật của bạn</string>
+    <string name="teacher_question">Ai là giáo viên yêu thích của bạn?</string>
+    <string name="actor_question">Ai là diễn viên nam yêu thích của bạn?</string>
+    <string name="actress_question">Ai là diễn viên nữ yêu thích của bạn?</string>
+    <string name="cricketer_question">Ai là tuyển thủ cricket yêu thích của bạn?</string>
+    <string name="footballer_question">Ai là cầu thủ bóng đá yêu thích của bạn?</string>
+    <string name="pet_name_question">Tên thú cưng của bạn là gì?</string>
+
+    <string name="empty_private_chat_title">Trò chuyện riêng tư trống</string>
+    <string name="empty_private_chat_sub_title">Chưa có cuộc trò chuyện nào. Bắt đầu ngay!</string>
+    <string name="change_security">Thay đổi bảo mật</string>
+    <string name="edit_password">Chỉnh sửa mật khẩu</string>
+    <string name="private_message_notification">Thông báo tin nhắn</string>
+    <string name="private_message_notification_guide">Khi tắt tùy chọn này, tin nhắn từ liên hệ riêng tư sẽ không hiển thị trong thông báo.</string>
+    <string name="password_change_successfully">Đã thay đổi mật khẩu thành công!!</string>
+
+    <string name="choose_app_theme">Chọn chủ đề ứng dụng</string>
+    <string name="choose_theme_to_personalize_your_app">Chọn chủ đề để cá nhân hóa ứng dụng của bạn.</string>
+    <string name="system_default">Mặc định hệ thống</string>
+    <string name="light_theme">Chủ đề sáng</string>
+    <string name="dark_theme">Chủ đề tối</string>
+
+    <string name="normal">Bình thường</string>
+    <string name="small">Nhỏ</string>
+    <string name="large">Lớn</string>
+    <string name="larger">Lớn hơn</string>
+    <string name="use_system_font">Sử dụng phông chữ hệ thống</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="lock_screen_notification">Thông báo màn hình khóa</string>
+    <string name="sender_and_messages">Người gửi và tin nhắn</string>
+    <string name="sender_only">Chỉ người gửi</string>
+    <string name="nothing">Không có gì</string>
+    <string name="resize_send_mms_images">Thay đổi kích thước hình ảnh MMS gửi đi</string>
+    <string name="customize_notification">Tùy chỉnh thông báo</string>
+    <string name="swipe_actions">Hành động vuốt</string>
+    <string name="configure_swipe_actions_for_conversations">Cấu hình hành động vuốt cho cuộc trò chuyện</string>
+    <string name="post_call_screen">Màn hình sau cuộc gọi</string>
+    <string name="show_call_screen_after_call">Hiển thị màn hình cuộc gọi sau khi kết thúc</string>
+    <string name="delivery_reports">Báo cáo giao hàng</string>
+    <string name="use_24_hour_time_format">Sử dụng định dạng 24 giờ</string>
+    <string name="show_character_counter_writing_messages">Hiển thị bộ đếm ký tự khi nhập tin nhắn</string>
+    <string name="remove_accents_diacritics_sending_messages">Loại bỏ dấu &amp; ký tự đặc biệt khi gửi tin nhắn</string>
+    <string name="share_app">Chia sẻ ứng dụng</string>
+    <string name="rate_us">Đánh giá chúng tôi</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="about_app">Giới thiệu về %1$s</string>
+    <string name="app_version">Phiên bản %1$s</string>
+    <string name="no_limit">Không giới hạn</string>
+    <string name="resize_sent_mms_image">Thay đổi kích thước hình ảnh MMS đã gửi</string>
+
+    <string name="right_swipe">Vuốt phải</string>
+    <string name="left_swipe">Vuốt trái</string>
+    <string name="change">Thay đổi</string>
+    <string name="right_swipe_action">Hành động vuốt phải</string>
+    <string name="left_swipe_action">Hành động vuốt trái</string>
+
+    <string name="action_none">Không</string>
+    <string name="action_archive">Lưu trữ</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_call">Gọi</string>
+    <string name="action_mark_read">Đánh dấu đã đọc</string>
+    <string name="action_mark_unread">Đánh dấu chưa đọc</string>
+    <string name="action_add_private">Thêm vào trò chuyện riêng</string>
+    <string name="action_remove_private">Xóa khỏi trò chuyện riêng</string>
+
+    <string name="carrier_send_error">Không thể gửi tin nhắn, lỗi nhà mạng</string>
+    <string name="error_service_is_unavailable">Không thể gửi tin nhắn, dịch vụ không khả dụng</string>
+    <string name="error_radio_turned_off">Không thể gửi tin nhắn, sóng radio đã tắt</string>
+    <string name="sim_card_not_available">Không có thẻ SIM</string>
+    <string name="unknown_error_occurred_sending_message">Không thể gửi tin nhắn, mã lỗi: %d</string>
+    <string name="an_error_occurred">Đã xảy ra lỗi: %s</string>
+    <string name="empty_destination_address">Không thể gửi tin nhắn đến số trống</string>
+    <string name="unable_to_save_message">Không thể lưu tin nhắn vào cơ sở dữ liệu viễn thông</string>
+    <string name="must_pick_time_in_the_future">Bạn phải chọn một thời gian trong tương lai</string>
+
+    <string name="message_not_sent_short">Tin nhắn chưa được gửi</string>
+    <string name="message_sending_error">Tin nhắn của bạn đến \'%s\' chưa được gửi</string>
+    <string name="channel_received_sms">Tin nhắn đã nhận</string>
+    <string name="new_message">Tin nhắn mới</string>
+    <string name="reply">Trả lời</string>
+    <string name="me">Tôi</string>
+    <string name="sens_to">Gửi đến %s</string>
+
+    <string name="blocked_number">Số bị chặn</string>
+    <string name="delete_conversation">Xóa cuộc trò chuyện</string>
+    <string name="conversation_title">Tiêu đề cuộc trò chuyện</string>
+    <string name="schedule_send_warning">Hãy giữ điện thoại bật và đảm bảo\nkhông có ứng dụng nào bị dừng khi chạy nền.</string>
+
+    <string name="option">Tùy chọn</string>
+    <string name="messages">Tin nhắn</string>
+    <string name="more">Thêm</string>
+
+    <string name="send_message">Gửi tin nhắn</string>
+    <string name="send_message_desc">Gửi tin nhắn đến bất kỳ ai một cách dễ dàng!</string>
+    <string name="view_message">Xem tin nhắn</string>
+    <string name="view_message_desc">Xem tin nhắn theo danh sách chỉ với một lần chạm!</string>
+
+    <string name="instant_msg_1">Đang họp, tôi sẽ gọi lại sau.</string>
+    <string name="instant_msg_2">Vui lòng gọi lại sau. Cảm ơn!</string>
+    <string name="instant_msg_3">Chúc bạn một ngày tốt lành!</string>
+    <string name="instant_msg_4">OK, đã nhận.</string>
+    <string name="instant_msg_5">Đang đến, sẽ có mặt sớm.</string>
+
+    <string name="edit_contact">Chỉnh sửa liên hệ</string>
+    <string name="send_mail">Gửi email</string>
+    <string name="calendar">Lịch</string>
+    <string name="web">Web</string>
+
+    <string name="incoming_call">Cuộc gọi đến</string>
+    <string name="outgoing_call">Cuộc gọi đi</string>
+    <string name="private_number">Số riêng tư</string>
+
+    <string name="last_backup">Sao lưu gần nhất</string>
+    <string name="restore">Khôi phục</string>
+    <string name="select_backup">Chọn một bản sao lưu</string>
+    <string name="no_backup_available">Không có bản sao lưu nào</string>
+    <string name="last_backup_time">Sao lưu gần nhất: %s</string>
+
+    <string name="empty_name">Vui lòng nhập tên</string>
+    <string name="name_taken">Đã có tệp hoặc thư mục có tên này</string>
+    <string name="invalid_name">Tên chứa ký tự không hợp lệ</string>
+
+    <string name="importing">Đang nhập…</string>
+    <string name="invalid_file_format">Định dạng tệp không hợp lệ</string>
+    <string name="no_entries_for_importing">Không tìm thấy mục nào để nhập</string>
+    <string name="importing_failed">Nhập thất bại</string>
+    <string name="importing_some_entries_failed">Một số mục nhập thất bại</string>
+    <string name="importing_successful">Nhập thành công</string>
+    <string name="improved_color_customization">Tùy chỉnh màu sắc được cải thiện</string>
+    <string name="exporting_successful">Xuất thành công</string>
+    <string name="exporting">Đang xuất…</string>
+    <string name="no_entries_for_exporting">Không tìm thấy mục nào để xuất</string>
+
+    <string name="backup_files">Sao lưu tệp</string>
+    <string name="please_select_backup_file">Vui lòng chọn tệp sao lưu bên dưới để khôi phục tin nhắn.</string>
+    <string name="folder_does_not_exist">Thư mục không tồn tại hoặc không phải là thư mục hợp lệ.</string>
+    <string name="you_have_not_any_backup_file">Bạn chưa có bản sao lưu nào, vui lòng sao lưu trước.</string>
+    <string name="not_found_any_backup_file">Không tìm thấy bản sao lưu nào.</string>
+
+    <plurals name="and_other_contacts" tools:ignore="UnusedQuantity">
+        <item quantity="one">và %d người khác</item>
+        <item quantity="other">và %d người khác</item>
+    </plurals>
+
+    <string name="action_add_to_fav">Thêm vào mục yêu thích</string>
+    <string name="duration_sec">Thời lượng %1$s giây</string>
+    <string name="picked_contact">Tên: %1$s\nSố: %2$s</string>
+
+
+    <string name="default_category">Mặc định</string>
+    <string name="default_sentence_1">Đang họp, sẽ gọi lại sau.</string>
+    <string name="default_sentence_2">Làm ơn gọi lại sau. Cảm ơn!</string>
+    <string name="default_sentence_3">Chúc bạn một ngày tốt lành!</string>
+    <string name="default_sentence_4">Ok, hiểu rồi.</string>
+    <string name="default_sentence_5">Đang trên đường, sẽ đến sớm.</string>
+    <string name="default_sentence_6">Tôi ổn, đừng lo.</string>
+    <string name="default_sentence_7">Cảm ơn bạn.</string>
+    <string name="default_sentence_8">Không có gì.</string>
+    <string name="default_sentence_9">Chúc bạn những điều tốt đẹp nhất.</string>
+    <string name="default_sentence_10">Đến đây ngay bây giờ.</string>
+
+    <string name="funny_category">Hài hước</string>
+    <string name="funny_sentence_1">Tôi chỉ yêu công việc khi tôi đang đi nghỉ.</string>
+    <string name="funny_sentence_2">Tôi không lười, tôi chỉ đang ở chế độ tiết kiệm năng lượng.</string>
+    <string name="funny_sentence_3">Không có bình minh nào đẹp đến mức đáng để tôi thức dậy để ngắm nhìn.</string>
+    <string name="funny_sentence_4">Tôi không hoàn toàn vô dụng, tôi có thể làm ví dụ xấu.</string>
+    <string name="funny_sentence_5">Nếu người ta có thể đọc được suy nghĩ của tôi, tôi đã bị đấm vào mặt rất nhiều lần.</string>
+    <string name="funny_sentence_6">Một ngày nào đó bạn sẽ đi xa, và tôi hy vọng bạn ở lại đó.</string>
+    <string name="funny_sentence_7">Không đeo kính nữa, tôi đã nhìn đủ rồi…</string>
+    <string name="funny_sentence_8">Nếu lần đầu tiên bạn không thành công, nhảy dù không dành cho bạn.</string>
+    <string name="funny_sentence_9">Tôi không hiểu kiểu điên cụ thể của bạn, nhưng tôi thực sự ngưỡng mộ sự tận tâm tuyệt đối của bạn với nó.</string>
+    <string name="funny_sentence_10">Một ngày không có ánh nắng giống như… bạn biết đấy, ban đêm.</string>
+
+    <string name="love_category">Tình yêu</string>
+    <string name="love_sentence_1">Chỉ cần nghĩ về bạn cũng khiến tôi mỉm cười.</string>
+    <string name="love_sentence_2">Ngày của tôi dường như không trọn vẹn nếu thiếu bạn.</string>
+    <string name="love_sentence_3">Điều quan trọng nhất trên thế giới này là gia đình và tình yêu.</string>
+    <string name="love_sentence_4">Bạn không thể đổ lỗi cho trọng lực vì đã yêu.</string>
+    <string name="love_sentence_5">Bạn là người đẹp nhất cả bên trong lẫn bên ngoài. Tôi thật may mắn khi có bạn.</string>
+    <string name="love_sentence_6">Triệu lời cảm ơn đến người tuyệt vời nhất mà tôi biết.</string>
+    <string name="love_sentence_7">Không có từ nào có thể diễn tả tình yêu chúng ta chia sẻ. Tôi thực sự biết ơn vì có bạn.</string>
+    <string name="love_sentence_8">Tình yêu là khi bạn có thể rời đi nhưng bạn vẫn chọn ở lại.</string>
+    <string name="love_sentence_9">Tôi thích khi bạn cười. Nhưng tôi yêu khi tôi là lý do…</string>
+    <string name="love_sentence_10">Tình yêu hiểu tình yêu; nó không cần lời nói.</string>
+
+    <string name="wishes_category">Lời chúc</string>
+    <string name="wishes_sentence_1">Chúc bạn mọi điều tốt lành! Chúc bạn có một tương lai tươi sáng phía trước.</string>
+    <string name="wishes_sentence_2">Chúc mừng sinh nhật! Mong mọi ước mơ của bạn thành hiện thực!</string>
+    <string name="wishes_sentence_3">Giáng sinh vui vẻ! Hãy lan tỏa yêu thương mọi nơi bạn đến.</string>
+    <string name="wishes_sentence_4">Điều quan trọng nhất là tận hưởng cuộc sống của bạn - hãy hạnh phúc - đó là tất cả những gì quan trọng.</string>
+    <string name="wishes_sentence_5">Khi bạn có một ước mơ, hãy nắm lấy nó và đừng bao giờ buông tay.</string>
+    <string name="wishes_sentence_6">Đôi khi, khi mọi thứ đang sụp đổ, thực ra chúng đang xếp lại đúng vị trí.</string>
+    <string name="wishes_sentence_7">Bạn dũng cảm hơn bạn nghĩ, mạnh mẽ hơn bạn tưởng, và thông minh hơn bạn nhận ra.</string>
+    <string name="wishes_sentence_8">Gửi đến bạn những lời chúc tốt đẹp nhất cho hành trình tuyệt vời phía trước!</string>
+    <string name="wishes_sentence_9">Chúc mừng! Chúc mừng thành công của bạn và một tương lai rực rỡ!</string>
+    <string name="wishes_sentence_10">Ngõ cụt chỉ là một nơi tốt để quay đầu lại.</string>
+
+    <string name="sad_category">Buồn</string>
+    <string name="sad_sentence_1">Người cho đi cần đặt giới hạn vì người nhận hiếm khi làm vậy.</string>
+    <string name="sad_sentence_2">Đừng bám lấy một sai lầm chỉ vì bạn đã dành nhiều thời gian để tạo ra nó.</string>
+    <string name="sad_sentence_3">Tôi nhận ra rằng con người tôi từng là không phải là con người tôi bây giờ.</string>
+    <string name="sad_sentence_4">Nỗi buồn không phải là đối lập của hạnh phúc. Nó là một phần của nó.</string>
+    <string name="sad_sentence_5">Nỗi đau tệ nhất là khi trái tim bạn khóc nhưng mắt bạn lại khô.</string>
+    <string name="sad_sentence_6">Thời gian không thể chữa lành nỗi đau cảm xúc nếu bạn không học cách buông bỏ.</string>
+    <string name="sad_sentence_7">Người ta nói, "Hãy nghe theo trái tim mình", nhưng nếu trái tim bạn vỡ thành triệu mảnh, bạn sẽ nghe theo mảnh nào?</string>
+    <string name="sad_sentence_8">Nếu có điều gì đúng trong cuộc sống của bạn, đó chính là khoảnh khắc hiện tại. Nỗi buồn là một phần của nó.</string>
+    <string name="sad_sentence_9">Một chương phải kết thúc trước khi chương mới bắt đầu.</string>
+    <string name="sad_sentence_10">Đằng sau mỗi nụ cười ngọt ngào là một nỗi buồn cay đắng mà không ai có thể thấy và cảm nhận.</string>
+
+    <string name="friend_category">Bạn bè</string>
+    <string name="friends_sentence_1">Một người bạn tốt giống như cỏ bốn lá, khó tìm nhưng may mắn khi có được.</string>
+    <string name="friends_sentence_2">Mắt của một người bạn là tấm gương phản chiếu tốt nhất.</string>
+    <string name="friends_sentence_3">Bạn bè là cách Chúa chăm sóc chúng ta.</string>
+    <string name="friends_sentence_4">Bạn cười, tôi cười. Bạn đau, tôi đau. Bạn khóc, tôi khóc. Bạn nhảy cầu, tôi sẽ nhớ bạn.</string>
+    <string name="friends_sentence_5">Bạn thật như kim cương, quý giá và hiếm có. Bạn giả như lá cây, có ở khắp mọi nơi.</string>
+    <string name="friends_sentence_6">Một người bạn thật sự sẽ mở mắt, tâm trí và trái tim bạn để sống một cuộc sống tốt đẹp hơn.</string>
+    <string name="friends_sentence_7">Bạn bè là người hiểu quá khứ của bạn, tin tưởng vào tương lai của bạn và chấp nhận bạn ngay lúc này, như chính bạn.</string>
+    <string name="friends_sentence_8">Muốn có những người bạn chân thành, trước tiên bạn phải là một người bạn chân thành.</string>
+    <string name="friends_sentence_9">Tình bạn giống như cây đàn violin. Âm nhạc có thể dừng lại lúc này hay lúc khác nhưng dây đàn vẫn mãi bên nhau.</string>
+    <string name="friends_sentence_10">Kẻ thù của kẻ thù tôi chính là bạn tôi.</string>
+
+    <string name="birthday_category">Sinh nhật</string>
+    <string name="birthday_sentence_1">Chúc bạn một sinh nhật tràn đầy niềm vui, tình yêu và sự hân hoan. Bạn xứng đáng với những điều tuyệt vời nhất!</string>
+    <string name="birthday_sentence_2">Hy vọng tất cả ước mơ sinh nhật của bạn sẽ trở thành hiện thực!</string>
+    <string name="birthday_sentence_3">Tôi không thể nghĩ ra món quà nào tốt hơn tình bạn của bạn – chúc mừng sinh nhật!</string>
+    <string name="birthday_sentence_4">Hãy cùng chúc mừng một chuyến đi nữa quanh mặt trời!</string>
+    <string name="birthday_sentence_5">Quên đi quá khứ, hướng đến tương lai, vì những điều tuyệt vời nhất vẫn đang chờ đón bạn.</string>
+    <string name="birthday_sentence_6">Hôm nay bạn già hơn hôm qua nhưng trẻ hơn ngày mai, chúc mừng sinh nhật!</string>
+    <string name="birthday_sentence_7">Chúc mừng sinh nhật người luôn trẻ mãi không già!</string>
+    <string name="birthday_sentence_8">Một buổi tiệc đơn giản, một cuộc gặp gỡ bạn bè; chúc bạn luôn hạnh phúc và niềm vui không bao giờ kết thúc.</string>
+    <string name="birthday_sentence_9">Chúc bạn có một sinh nhật tuyệt vời! Hãy tận hưởng ngày hôm nay hết mức có thể, và mong rằng ngày mai không bị đau đầu nhé!</string>
+    <string name="birthday_sentence_10">Hôm nay là ngày của bạn. Tôi rất mong được ăn mừng cùng bạn suốt cả ngày!</string>
+
+    <string name="life_category">Cuộc sống</string>
+    <string name="life_sentence_1">Hành trình ngàn dặm bắt đầu từ một bước chân.</string>
+    <string name="life_sentence_2">Niềm vui lớn nhất trong cuộc sống là làm điều mà người khác cho rằng bạn không thể.</string>
+    <string name="life_sentence_3">Bạn không thể có một ngày mai tốt hơn nếu cứ mãi nghĩ về ngày hôm qua.</string>
+    <string name="life_sentence_4">Hạnh phúc không phải là đích đến, mà là cách bạn sống.</string>
+    <string name="life_sentence_5">Hãy cẩn thận với lời nói của bạn. Khi đã nói ra, chúng chỉ có thể được tha thứ, chứ không thể bị lãng quên.</string>
+    <string name="life_sentence_6">Nếu bạn không sống vì một điều gì đó, bạn sẽ chết vì vô nghĩa.</string>
+    <string name="life_sentence_7">Hãy trân trọng những điều nhỏ bé – vì chúng thường là những thứ ý nghĩa nhất.</string>
+    <string name="life_sentence_8">Tha thứ cần sức mạnh, quên đi đôi khi là điều dại dột.</string>
+    <string name="life_sentence_9">Cuộc sống là tất cả về ước mơ. Hãy ước mơ lớn và đạt được những điều vĩ đại.</string>
+    <string name="life_sentence_10">Mọi thứ rồi sẽ ổn. Nếu chưa ổn, thì đó chưa phải là kết thúc…</string>
+
+    <string name="motivation_category">Động lực</string>
+    <string name="motivation_sentence_1">Không gì là không thể.</string>
+    <string name="motivation_sentence_2">Hãy tin vào chính mình. Giới hạn duy nhất của bạn chính là trí tưởng tượng của bạn.</string>
+    <string name="motivation_sentence_3">Không bao giờ là quá muộn để trở thành người bạn muốn trở thành.</string>
+    <string name="motivation_sentence_4">Bạn phải tin vào chính mình ngay cả khi không ai khác làm điều đó.</string>
+    <string name="motivation_sentence_5">Làm việc chăm chỉ. Hãy thúc đẩy bản thân, vì không ai làm điều đó thay bạn.</string>
+    <string name="motivation_sentence_6">Cuộc sống có rất nhiều ngã rẽ. Hãy nắm chặt và tiến về phía trước.</string>
+    <string name="motivation_sentence_7">Hãy luôn hướng mặt về phía mặt trời, và bóng tối sẽ nằm sau lưng bạn.</string>
+    <string name="motivation_sentence_8">Thành công không phải là điểm cuối, thất bại không phải là dấu chấm hết: điều quan trọng là lòng can đảm để tiếp tục.</string>
+    <string name="motivation_sentence_9">Đừng để người khác làm lu mờ ánh sáng của bạn vì họ cảm thấy chói mắt. Hãy bảo họ đeo kính râm vào.</string>
+    <string name="motivation_sentence_10">Không có hoàn cảnh tốt nhất, nhưng nhìn thấy điều tốt nhất trong hoàn cảnh của mình là chìa khóa.</string>
+
+    <string name="savage_category">Chất ngầu</string>
+    <string name="savage_sentence_1">Điều tuyệt nhất khi là tôi chính là tôi là phiên bản giới hạn, không có bản sao!</string>
+    <string name="savage_sentence_2">Điểm khác biệt duy nhất giữa tôi và một kẻ điên là tôi không điên.</string>
+    <string name="savage_sentence_3">Nếu bạn nghĩ tôi tệ, thì hãy đến đây, tôi sẽ cho bạn thêm lý do để ghét tôi hơn.</string>
+    <string name="savage_sentence_4">Cuộc sống là sàn diễn, và tôi là siêu mẫu đỉnh nhất.</string>
+    <string name="savage_sentence_5">Tôi quá bận để trở thành một ông chủ.</string>
+    <string name="savage_sentence_6">Người ta nói những điều tốt đẹp cần thời gian, đó là lý do tại sao tôi luôn đến muộn.</string>
+    <string name="savage_sentence_7">Cuộc sống ngắn ngủi, hãy cười khi bạn vẫn còn răng.</string>
+    <string name="savage_sentence_8">Đừng nghiên cứu tôi, bạn sẽ không tốt nghiệp đâu.</string>
+    <string name="savage_sentence_9">Không trang điểm? Không vấn đề. Mộc mạc và không hối tiếc.</string>
+    <string name="savage_sentence_10">Không cần GPS, tôi tự đi trên con đường của chính mình.</string>
+
+    <string name="message_not_sent_touch_retry">Chưa gửi. Chạm để thử lại.</string>
+
+    <string name="attachment">Tệp đính kèm</string>
+    <string name="empty_blocked_conversation_title">Không tìm thấy cuộc trò chuyện bị chặn.</string>
+    <string name="empty_archived_conversation_title">Không tìm thấy cuộc hội thoại đã lưu trữ.</string>
+    <string name="empty_scheduled_conversation_title">Không tìm thấy cuộc trò chuyện đã lên lịch.</string>
+
+    <string name="send_now">Gửi ngay</string>
+    <string name="please_click_back_again_to_exit">Vui lòng nhấp vào QUAY LẠI lần nữa để thoát</string>
+
+    <string name="leave_this_app">Rời khỏi ứng dụng này…?</string>
+    <string name="are_you_sure_leave_this_app">Bạn có chắc chắn thoát khỏi ứng dụng này không?</string>
+    <string name="no">KHÔNG</string>
+    <string name="yes">Đúng</string>
+
+    <string name="set_private_pin_toast">Trước tiên, vui lòng đặt mã PIN bảo mật và thử thêm Cuộc trò chuyện vào chế độ riêng tư.</string>
+    <string name="no_any_message_found">Không tìm thấy tin nhắn nào cho người nhận này.</string>
+    <string name="please_select_another_image">Chúng tôi phát hiện một số vấn đề khi chọn hình ảnh, vui lòng chọn hình ảnh khác.</string>
+
+    <string name="attachment_sized_exceeds_max_limit">Kích thước tệp đính kèm vượt quá giới hạn MMS tối đa</string>
+    <string name="compress_error">Không thể nén hình ảnh theo kích thước đã chọn</string>
+
+    <string name="device_not_support_this_feature">Thiết bị của bạn không hỗ trợ tính năng này.</string>
+    <string name="add_conversation_to">Thêm %1$d Cuộc hội thoại vào %2$s</string>
+
+    <string name="app_data_sync_message">Đang đồng bộ hóa tin nhắn của bạn…\nVui lòng đợi trong khi chúng tôi cập nhật cuộc trò chuyện của bạn.</string>
+    <string name="empty_filter_conversation_title">Không tìm thấy cuộc hội thoại nào %1$s.</string>
+    <string name="app_language">Ngôn ngữ ứng dụng</string>
+    <string name="sending">Đang gửi…</string>
+
+</resources>

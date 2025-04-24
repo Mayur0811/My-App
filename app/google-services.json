@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "576556473963",
+    "firebase_url": "https://testing---mayur-default-rtdb.firebaseio.com",
+    "project_id": "testing---mayur",
+    "storage_bucket": "testing---mayur.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576556473963:android:6258625170929a646adb2e",
+        "android_client_info": {
+          "package_name": "com.example.messages"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFr-dauvZdHcQW118JpTSrT_JY1Coh73Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576556473963:android:1f737f81a7ece3856adb2e",
+        "android_client_info": {
+          "package_name": "com.working.app.mayur"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFr-dauvZdHcQW118JpTSrT_JY1Coh73Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

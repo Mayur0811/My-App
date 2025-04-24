@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Malay -->
+
+    <string name="choose_your_language">Pilih Bahasa Anda</string>
+    <string name="done">Selesai</string>
+    <string name="skip">Langkau</string>
+    <string name="next">Seterusnya</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">Urus Mesej Anda dengan Mudah</string>
+    <string name="first_onboarding_msg">Mesej akan disusun secara automatik ke dalam Peribadi, OTP, Transaksi, dan Tawaran untuk akses yang lebih mudah.</string>
+    <string name="second_onboarding_title">Lindungi Perbualan Anda</string>
+    <string name="second_onboarding_msg">Gunakan Kunci Sembang untuk melindungi perbualan peribadi dan menjadikannya selamat.</string>
+    <string name="third_onboarding_title">Sesuaikan Pengalaman Sembang Anda</string>
+    <string name="third_onboarding_msg">Peribadikan sembang dengan warna, kertas dinding, dan fon boleh laras.</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">Tetapkan Mesej sebagai Lalai</string>
+    <string name="set_as_default_msg">Benarkan Mesej sebagai aplikasi lalai anda untuk menghantar dan menerima mesej.</string>
+    <string name="set_as_default_btn_text">Tetapkan sebagai Lalai</string>
+
+    <string name="notification_per_title">Kebenaran Pemberitahuan</string>
+    <string name="notification_per_msg">Terus Dikemas Kini! Benarkan pemberitahuan untuk menerima mesej tanpa terlepas apa-apa.</string>
+    <string name="notification_per_btn_text">Benarkan Kebenaran</string>
+
+    <string name="phone_state_per_title">Kami memerlukan beberapa kebenaran!</string>
+    <string name="phone_state_per_msg">Benarkan kebenaran untuk menghantar balasan pantas selepas panggilan bagi pengalaman pemesejan yang lebih pantas.</string>
+    <string name="phone_state_per_btn_text">Beri Kebenaran</string>
+    <string name="phone_state_per_text">Benarkan aplikasi membaca status telefon anda</string>
+    <string name="phone_state_per_guide">Untuk akses cepat dan mudah ke mesej selepas panggilan.</string>
+
+    <string name="unknown_error_occurred">Ralat tidak diketahui berlaku</string>
+    <string name="enable_quick_actions_in_3_easy_steps">Dayakan tindakan pantas dalam 3 langkah mudah.</string>
+    <string name="tap_the_enable_button_below">Ketuk butang "Dayakan" di bawah.</string>
+    <string name="locate_our_app_in_the_list">Cari aplikasi kami dalam senarai.</string>
+    <string name="turn_on_the_toggle_to_activate">Hidupkan togol untuk mengaktifkan.</string>
+    <string name="enable">Dayakan</string>
+    <string name="overlay_permission_denied">Kebenaran Overlay Ditolak!</string>
+    <string name="find_and_allow_permission">Cari %s dan benarkan kebenaran</string>
+
+    <!-- drawer menu -->
+    <string name="inbox">Peti Masuk</string>
+    <string name="archived">Diarkibkan</string>
+    <string name="private_chat">Sembang Peribadi</string>
+    <string name="spam_blocked">Spam &amp; Disekat</string>
+    <string name="scheduled">Dijadualkan</string>
+    <string name="theme">Tema</string>
+    <string name="backup_restore">Sandaran &amp; Pulihkan</string>
+    <string name="setting">Tetapan</string>
+    <string name="share">Kongsi</string>
+    <string name="rate_app">Beri Penilaian</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+
+    <!-- main filter -->
+    <string name="all">Semua</string>
+    <string name="personal">Peribadi</string>
+    <string name="otp_s">OTP</string>
+    <string name="transactions">Transaksi</string>
+    <string name="offers">Tawaran</string>
+
+    <string name="chat">Sembang</string>
+    <string name="copy_otp">Salin OTP</string>
+    <string name="add">Tambah</string>
+    <string name="save">Simpan</string>
+
+    <string name="sender_does_not_support_replies">Penghantar tidak menyokong balasan</string>
+    <string name="sender_does_not_support_call">Penghantar tidak menyokong panggilan</string>
+
+    <string name="call">Panggilan</string>
+    <string name="conversation_details">Butiran Perbualan</string>
+    <string name="appearance">Penampilan</string>
+    <string name="chat_wallpaper">Kertas Dinding Sembang</string>
+    <string name="show_subject_field">Tunjukkan Medan Subjek</string>
+    <string name="copy">Salin</string>
+    <string name="delete">Padam</string>
+    <string name="forward">Teruskan</string>
+    <string name="view_details">Lihat Butiran</string>
+
+    <string name="translate_massage">Terjemah Mesej</string>
+    <string name="choose_language">Pilih Bahasa</string>
+    <string name="text_message">Mesej Teks</string>
+    <string name="subject">Subjek:</string>
+
+    <string name="contact">Kenalan</string>
+    <string name="image">Imej</string>
+    <string name="camera">Kamera</string>
+    <string name="files">Fail</string>
+    <string name="voice">Suara</string>
+    <string name="schedule">Jadual</string>
+    <string name="location">Lokasi</string>
+    <string name="clipboard">Papan Klip</string>
+
+    <string name="view_contact_details">Lihat butiran kenalan</string>
+    <string name="copied_to_clipboard">Disalin ke papan klip</string>
+    <string name="share_via">Kongsi melalui</string>
+    <string name="no_app_found">Tiada aplikasi yang sah ditemui</string>
+    <string name="maximum_share_reached">Anda tidak boleh berkongsi kandungan sebanyak ini sekaligus</string>
+
+    <string name="cancel">Batal</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">Adakah anda pasti mahu memadam\nmesej ini?</string>
+    <string name="something_went_wrong_please_try_after_some_time">Sesuatu telah berlaku, sila cuba lagi kemudian.</string>
+    <string name="message_details">Butiran Mesej</string>
+    <string name="ok">OK</string>
+    <string name="message_details_received">Jenis: %1$s\n\nDaripada: %2$s\n\nDiterima: %3$s</string>
+    <string name="message_details_send">Jenis: %1$s\n\nKepada: %2$s\n\nDihantar: %3$s</string>
+
+    <string name="pin">Pin</string>
+    <string name="unpin">Nyahpin</string>
+    <string name="archive">Arkib</string>
+    <string name="unarchive">Nyaharkib</string>
+    <string name="private_text">Peribadi</string>
+    <string name="add_to_contacts">Tambah ke kenalan</string>
+    <string name="mark_as_unread">Tanda sebagai belum dibaca</string>
+    <string name="mark_as_read">Tanda sebagai dibaca</string>
+    <string name="block">Sekat</string>
+    <string name="unblock">Nyahsekat</string>
+    <string name="dial_number">Dail Nombor</string>
+    <string name="copy_to_clipboard">Salin ke papan klip</string>
+
+    <string name="want_to_delete_conversation">Adakah anda pasti mahu memadam\nperbualan ini?</string>
+    <string name="want_to_block_conversation">Adakah anda pasti mahu %1$s ini\nperbualan?</string>
+    <string name="search_here">Cari di sini</string>
+    <string name="no_items_found">Tiada item ditemui.</string>
+    <string name="type_2_characters">Taip sekurang-kurangnya 2 aksara untuk memulakan carian.</string>
+
+    <string name="apply">Guna</string>
+    <string name="filter">Tapis</string>
+    <string name="default_filter">Lalai</string>
+    <string name="today_filter">Hari Ini</string>
+    <string name="monthly_filter">Bulanan</string>
+    <string name="year_filter">Tahunan</string>
+    <string name="date_range_filter">Julat Tarikh</string>
+    <string name="date_show">Tarikh: %1$s</string>
+    <string name="select_range">PILIH JULAT</string>
+    <string name="range_show">Julat: %1$s</string>
+    <string name="year_show">Tahun: %1$d</string>
+    <string name="month_show">Bulan: %1$s</string>
+
+    <string name="language_model_error">Sesuatu telah berlaku, sila cuba lagi kemudian.</string>
+    <string name="language_translate_error">Kami sedang mengalami masalah dengan terjemahan teks. Sila cuba lagi nanti.</string>
+
+    <string name="new_chat">Sembang Baru</string>
+    <string name="import_messages">Import Mesej</string>
+    <string name="font_size">Saiz Fon</string>
+    <string name="preview">Pratonton</string>
+    <string name="chat_color">Warna Sembang</string>
+    <string name="add_photos">Tambah Foto</string>
+    <string name="none">Tiada</string>
+
+    <string name="set_password">Tetapkan Kata Laluan</string>
+    <string name="confirm_your_password">Sahkan Kata Laluan Anda</string>
+    <string name="enter_password">Masukkan Kata Laluan</string>
+    <string name="set_pin">Tetapkan PIN</string>
+    <string name="incorrect_password">Kata Laluan Salah</string>
+    <string name="enter_correct_password">Masukkan Kata Laluan yang Betul</string>
+
+    <string name="preview_receive">Hai semua!</string>
+    <string name="preview_send">Yeah… ini warna kegemaran saya!</string>
+    <string name="confirm_pin_title">Pengguna yang dihormati,\nPIN untuk Sembang Peribadi anda ialah:</string>
+    <string name="confirm_pin_guide">Disarankan agar anda menetapkan soalan keselamatan untuk\nmengelakkan lupa kata laluan anda.</string>
+    <string name="set_now">Tetapkan Sekarang</string>
+    <string name="submit">Hantar</string>
+    <string name="enter_security_answer">Masukkan Jawapan Keselamatan</string>
+    <string name="write_your_answer">Tulis jawapan anda</string>
+    <string name="select_security_question">Pilih Soalan Keselamatan</string>
+    <string name="secret_question">Soalan Rahsia</string>
+    <string name="forget_password">Lupa Kata Laluan?</string>
+    <string name="verify_your_identity">Jika anda terlupa PIN, soalan keselamatan akan digunakan untuk mengesahkan identiti anda supaya anda boleh menetapkan semula kata laluan.</string>
+    <string name="wrong_qa_answer">Anda telah memilih atau menjawab soalan yang salah. Sila pilih soalan yang betul dan berikan jawapan yang tepat.</string>
+
+    <string name="select_your_security_question">Pilih soalan keselamatan anda</string>
+    <string name="teacher_question">Siapakah guru kegemaran anda?</string>
+    <string name="actor_question">Siapakah pelakon lelaki kegemaran anda?</string>
+    <string name="actress_question">Siapakah pelakon wanita kegemaran anda?</string>
+    <string name="cricketer_question">Siapakah pemain kriket kegemaran anda?</string>
+    <string name="footballer_question">Siapakah pemain bola sepak kegemaran anda?</string>
+    <string name="pet_name_question">Apakah nama panggilan haiwan peliharaan anda?</string>
+
+    <string name="empty_private_chat_title">Sembang Peribadi Kosong</string>
+    <string name="empty_private_chat_sub_title">Tiada sembang lagi. Mulakan yang baru sekarang!</string>
+    <string name="change_security">Tukar Keselamatan</string>
+    <string name="edit_password">Edit Kata Laluan</string>
+    <string name="private_message_notification">Pemberitahuan Mesej</string>
+    <string name="private_message_notification_guide">Apabila pilihan ini dinyahdayakan, mesej dari kenalan peribadi tidak akan muncul dalam pemberitahuan</string>
+    <string name="password_change_successfully">Kata laluan berjaya ditukar!!</string>
+
+    <string name="choose_app_theme">Pilih Tema Aplikasi</string>
+    <string name="choose_theme_to_personalize_your_app">Pilih tema untuk memperibadikan aplikasi anda.</string>
+    <string name="system_default">Lalai Sistem</string>
+    <string name="light_theme">Tema Cerah</string>
+    <string name="dark_theme">Tema Gelap</string>
+
+    <string name="normal">Biasa</string>
+    <string name="small">Kecil</string>
+    <string name="large">Besar</string>
+    <string name="larger">Lebih Besar</string>
+    <string name="use_system_font">Gunakan Fon Sistem</string>
+    <string name="language">Bahasa</string>
+    <string name="lock_screen_notification">Pemberitahuan Skrin Kunci</string>
+    <string name="sender_and_messages">Penghantar dan mesej</string>
+    <string name="sender_only">Penghantar sahaja</string>
+    <string name="nothing">Tiada</string>
+    <string name="resize_send_mms_images">Ubah Saiz Imej MMS Dihantar</string>
+    <string name="customize_notification">Sesuaikan Pemberitahuan</string>
+    <string name="swipe_actions">Tindakan Leret</string>
+    <string name="configure_swipe_actions_for_conversations">Konfigurasikan tindakan leret untuk perbualan</string>
+    <string name="post_call_screen">Skrin Selepas Panggilan</string>
+    <string name="show_call_screen_after_call">Paparkan skrin panggilan selepas panggilan</string>
+    <string name="delivery_reports">Laporan Penghantaran</string>
+    <string name="use_24_hour_time_format">Gunakan Format Waktu 24 Jam</string>
+    <string name="show_character_counter_writing_messages">Paparkan pengira aksara semasa menulis mesej</string>
+    <string name="remove_accents_diacritics_sending_messages">Buang Aksen &amp; Diakritik semasa menghantar mesej</string>
+    <string name="share_app">Kongsi Aplikasi</string>
+    <string name="rate_us">Beri Penilaian</string>
+    <string name="feedback">Maklum Balas</string>
+    <string name="about_app">Mengenai %1$s</string>
+    <string name="app_version">Versi %1$s</string>
+    <string name="no_limit">Tiada had</string>
+    <string name="resize_sent_mms_image">Ubah Saiz Imej MMS Dihantar</string>
+
+    <string name="right_swipe">Leret Kanan</string>
+    <string name="left_swipe">Leret Kiri</string>
+    <string name="change">Tukar</string>
+    <string name="right_swipe_action">Tindakan Leret Kanan</string>
+    <string name="left_swipe_action">Tindakan Leret Kiri</string>
+
+    <string name="action_none">Tiada</string>
+    <string name="action_archive">Arkib</string>
+    <string name="action_delete">Padam</string>
+    <string name="action_call">Panggil</string>
+    <string name="action_mark_read">Tandakan Sebagai Dibaca</string>
+    <string name="action_mark_unread">Tandakan Sebagai Belum Dibaca</string>
+    <string name="action_add_private">Tambahkan ke Sembang Peribadi</string>
+    <string name="action_remove_private">Alih keluar dari Sembang Peribadi</string>
+
+    <string name="carrier_send_error">Tidak dapat menghantar mesej, ralat pembawa</string>
+    <string name="error_service_is_unavailable">Tidak dapat menghantar mesej, perkhidmatan tidak tersedia</string>
+    <string name="error_radio_turned_off">Tidak dapat menghantar mesej, radio dimatikan</string>
+    <string name="sim_card_not_available">Kad SIM tidak tersedia</string>
+    <string name="unknown_error_occurred_sending_message">Tidak dapat menghantar mesej, kod ralat: %d</string>
+    <string name="an_error_occurred">Ralat berlaku: %s</string>
+    <string name="empty_destination_address">Tidak boleh menghantar mesej ke nombor kosong</string>
+    <string name="unable_to_save_message">Tidak dapat menyimpan mesej ke pangkalan data telekomunikasi</string>
+    <string name="must_pick_time_in_the_future">Anda mesti memilih masa di masa hadapan</string>
+
+    <string name="message_not_sent_short">Mesej tidak dihantar</string>
+    <string name="message_sending_error">Mesej anda kepada \'%s\' tidak dihantar</string>
+    <string name="channel_received_sms">SMS Diterima</string>
+    <string name="new_message">Mesej Baru</string>
+    <string name="reply">Balas</string>
+    <string name="me">Saya</string>
+    <string name="sens_to">Hantar kepada %s</string>
+
+    <string name="blocked_number">Nombor Disekat</string>
+    <string name="delete_conversation">Padam Perbualan</string>
+    <string name="conversation_title">Tajuk Perbualan</string>
+    <string name="schedule_send_warning">Pastikan telefon dihidupkan dan tiada aplikasi yang menghentikan proses di latar belakang.</string>
+
+    <string name="option">Pilihan</string>
+    <string name="messages">Mesej</string>
+    <string name="more">Lagi</string>
+
+    <string name="send_message">Hantar Mesej</string>
+    <string name="send_message_desc">Hantar mesej kepada sesiapa dengan mudah!</string>
+    <string name="view_message">Lihat Mesej</string>
+    <string name="view_message_desc">Lihat mesej dalam senarai hanya dengan satu ketukan!</string>
+
+    <string name="instant_msg_1">Dalam mesyuarat, akan hubungi semula nanti.</string>
+    <string name="instant_msg_2">Sila hubungi saya nanti. Terima kasih!</string>
+    <string name="instant_msg_3">Semoga hari anda baik!</string>
+    <string name="instant_msg_4">OK, faham.</string>
+    <string name="instant_msg_5">Dalam perjalanan, akan tiba sekejap lagi.</string>
+
+    <string name="edit_contact">Edit Kenalan</string>
+    <string name="send_mail">Hantar E-mel</string>
+    <string name="calendar">Kalendar</string>
+    <string name="web">Web</string>
+
+    <string name="incoming_call">Panggilan Masuk</string>
+    <string name="outgoing_call">Panggilan Keluar</string>
+    <string name="private_number">Nombor Peribadi</string>
+
+    <string name="last_backup">Sandaran Terakhir</string>
+    <string name="restore">Pulihkan</string>
+    <string name="select_backup">Pilih sandaran</string>
+    <string name="no_backup_available">Tiada sandaran tersedia</string>
+    <string name="last_backup_time">Sandaran terakhir: %s</string>
+
+    <string name="empty_name">Sila masukkan nama</string>
+    <string name="name_taken">Fail atau folder dengan nama tersebut sudah wujud</string>
+    <string name="invalid_name">Nama mengandungi aksara tidak sah</string>
+
+    <string name="importing">Mengimport…</string>
+    <string name="invalid_file_format">Format fail tidak sah</string>
+    <string name="no_entries_for_importing">Tiada entri untuk diimport ditemui</string>
+    <string name="importing_failed">Gagal mengimport</string>
+    <string name="importing_some_entries_failed">Beberapa entri gagal diimport</string>
+    <string name="importing_successful">Import berjaya</string>
+    <string name="improved_color_customization">Penyesuaian warna yang lebih baik</string>
+    <string name="exporting_successful">Eksport berjaya</string>
+    <string name="exporting">Mengeksport…</string>
+    <string name="no_entries_for_exporting">Tiada entri untuk dieksport ditemui</string>
+
+    <string name="backup_files">Fail Sandaran</string>
+    <string name="please_select_backup_file">Sila pilih fail sandaran di bawah untuk memulihkan mesej.</string>
+    <string name="folder_does_not_exist">Folder tidak wujud atau bukan direktori.</string>
+    <string name="you_have_not_any_backup_file">Anda tiada sebarang sandaran, sila buat sandaran terlebih dahulu.</string>
+    <string name="not_found_any_backup_file">Tiada fail sandaran ditemui.</string>
+
+    <plurals name="and_other_contacts" tools:ignore="UnusedQuantity">
+        <item quantity="one">dan %d yang lain</item>
+        <item quantity="other">dan %d yang lain-lain</item>
+    </plurals>
+
+    <string name="action_add_to_fav">Tambahkan ke kegemaran</string>
+    <string name="duration_sec">Tempoh %1$s Saat</string>
+    <string name="picked_contact">Nama: %1$s\nNombor: %2$s</string>
+
+
+    <string name="default_category">Default</string>
+    <string name="default_sentence_1">Sedang bermesyuarat, akan hubungi anda kemudian.</string>
+    <string name="default_sentence_2">Tolong hubungi saya nanti. Terima kasih!</string>
+    <string name="default_sentence_3">Semoga hari anda menyenangkan!</string>
+    <string name="default_sentence_4">Ok, faham.</string>
+    <string name="default_sentence_5">Dalam perjalanan, akan sampai sekejap lagi.</string>
+    <string name="default_sentence_6">Saya baik-baik saja, jangan risau.</string>
+    <string name="default_sentence_7">Terima kasih.</string>
+    <string name="default_sentence_8">Sama-sama.</string>
+    <string name="default_sentence_9">Semoga berjaya.</string>
+    <string name="default_sentence_10">Datang ke sini, sekarang.</string>
+
+    <string name="funny_category">Lucu</string>
+    <string name="funny_sentence_1">Saya hanya suka kerja saya apabila saya bercuti.</string>
+    <string name="funny_sentence_2">Saya bukan malas, saya hanya berada dalam mod penjimatan tenaga.</string>
+    <string name="funny_sentence_3">Tiada matahari terbit yang begitu indah sehingga berbaloi untuk saya bangun melihatnya.</string>
+    <string name="funny_sentence_4">Saya tidaklah langsung tidak berguna, saya boleh dijadikan contoh yang buruk.</string>
+    <string name="funny_sentence_5">Jika orang boleh membaca fikiran saya, saya pasti sudah banyak kali ditumbuk.</string>
+    <string name="funny_sentence_6">Suatu hari nanti anda akan pergi jauh, dan saya harap anda kekal di sana.</string>
+    <string name="funny_sentence_7">Tidak memakai cermin mata lagi, saya sudah cukup melihat.</string>
+    <string name="funny_sentence_8">Jika pada percubaan pertama anda gagal, terjunan udara bukan untuk anda.</string>
+    <string name="funny_sentence_9">Saya tidak memahami kegilaan anda, tetapi saya mengagumi komitmen penuh anda kepadanya.</string>
+    <string name="funny_sentence_10">Sehari tanpa cahaya matahari adalah seperti, anda tahu, malam.</string>
+
+    <string name="love_category">Cinta</string>
+    <string name="love_sentence_1">Hanya memikirkan anda membuatkan saya tersenyum.</string>
+    <string name="love_sentence_2">Hari saya terasa tidak lengkap tanpa anda.</string>
+    <string name="love_sentence_3">Perkara paling penting di dunia ini adalah keluarga dan cinta.</string>
+    <string name="love_sentence_4">Anda tidak boleh menyalahkan graviti kerana jatuh cinta.</string>
+    <string name="love_sentence_5">Anda adalah orang yang paling cantik, luar dan dalam. Saya sangat bertuah memiliki anda.</string>
+    <string name="love_sentence_6">Sejuta terima kasih kepada orang paling menakjubkan yang saya kenali.</string>
+    <string name="love_sentence_7">Tiada kata yang boleh menggambarkan cinta yang kita kongsi. Saya sangat bersyukur untuk anda.</string>
+    <string name="love_sentence_8">Cinta adalah apabila anda mempunyai pilihan untuk pergi tetapi anda memilih untuk tetap tinggal.</string>
+    <string name="love_sentence_9">Saya suka apabila anda tersenyum. Tetapi, saya lebih suka apabila saya menjadi sebabnya…</string>
+    <string name="love_sentence_10">Cinta memahami cinta; ia tidak memerlukan kata-kata.</string>
+
+    <string name="wishes_category">Ucapan</string>
+    <string name="wishes_sentence_1">Semoga berjaya! Saya doakan anda masa depan yang cerah dan berjaya.</string>
+    <string name="wishes_sentence_2">Selamat hari lahir! Semoga semua impian anda menjadi kenyataan!</string>
+    <string name="wishes_sentence_3">Selamat Hari Krismas! Sebarkan kasih sayang di mana sahaja anda pergi.</string>
+    <string name="wishes_sentence_4">Perkara paling penting adalah menikmati hidup anda—untuk berasa gembira—itu yang paling penting.</string>
+    <string name="wishes_sentence_5">Apabila anda mempunyai impian, anda mesti menggenggamnya dan jangan lepaskan.</string>
+    <string name="wishes_sentence_6">Kadangkala, apabila sesuatu kelihatan hancur, ia sebenarnya sedang terbentuk dengan lebih baik.</string>
+    <string name="wishes_sentence_7">Anda lebih berani daripada yang anda percaya, lebih kuat daripada yang anda nampak, dan lebih bijak daripada yang anda fikirkan.</string>
+    <string name="wishes_sentence_8">Menghantar ucapan terbaik untuk perjalanan yang luar biasa di hadapan!</string>
+    <string name="wishes_sentence_9">Tahniah! Bersorak untuk kejayaan anda dan masa depan yang cerah!</string>
+    <string name="wishes_sentence_10">Jalan buntu hanyalah tempat yang baik untuk berpatah balik.</string>
+
+    <string name="sad_category">Sedih</string>
+    <string name="sad_sentence_1">Pemberi perlu menetapkan had kerana penerima jarang melakukannya.</string>
+    <string name="sad_sentence_2">Jangan berpegang kepada kesilapan hanya kerana anda telah menghabiskan banyak masa membuatnya.</string>
+    <string name="sad_sentence_3">Saya sedar sekarang bahawa orang yang saya dulu adalah bukan orang yang sama.</string>
+    <string name="sad_sentence_4">Kesedihan bukanlah lawan kepada kebahagiaan. Ia adalah sebahagian daripadanya.</string>
+    <string name="sad_sentence_5">Kesakitan yang paling teruk ialah apabila hati anda menangis, tetapi mata anda tetap kering.</string>
+    <string name="sad_sentence_6">Masa tidak boleh menyembuhkan kesakitan emosi anda jika anda tidak belajar untuk melepaskannya.</string>
+    <string name="sad_sentence_7">Mereka kata, "Ikut kata hati anda," tetapi jika hati anda berkeping-keping, bahagian mana yang harus anda ikuti?</string>
+    <string name="sad_sentence_8">Jika ada sesuatu yang benar dalam hidup anda, ia adalah saat ini yang sedang berlalu. Kesedihan adalah sebahagian daripadanya.</string>
+    <string name="sad_sentence_9">Satu bab perlu berakhir sebelum yang baru boleh bermula.</string>
+    <string name="sad_sentence_10">Di sebalik setiap senyuman manis, terdapat kesedihan pahit yang tiada siapa dapat melihat dan merasakannya.</string>
+
+    <string name="friend_category">Kawan</string>
+    <string name="friends_sentence_1">Sahabat baik seperti semanggi empat daun, sukar dicari, bertuah memilikinya.</string>
+    <string name="friends_sentence_2">Mata seorang kawan adalah cermin yang baik.</string>
+    <string name="friends_sentence_3">Kawan adalah cara Tuhan menjaga kita.</string>
+    <string name="friends_sentence_4">Kamu senyum, aku senyum. Kamu sakit, aku sakit. Kamu menangis, aku menangis. Kamu terjun dari jambatan, aku akan merindui kamu kawan.</string>
+    <string name="friends_sentence_5">Sahabat sejati seperti berlian, tulen dan jarang. Kawan palsu seperti daun yang boleh dijumpai di mana-mana.</string>
+    <string name="friends_sentence_6">Sahabat sejati akan membuka mata, minda, dan hati anda ke arah kehidupan yang lebih baik dan bermakna.</string>
+    <string name="friends_sentence_7">Kawan adalah seseorang yang memahami masa lalu anda, percaya pada masa depan anda, dan menerima anda hari ini, sebagaimana anda.</string>
+    <string name="friends_sentence_8">Untuk memiliki sahabat sejati, anda perlu menjadi sahabat sejati.</string>
+    <string name="friends_sentence_9">Persahabatan seperti biola. Muzik mungkin berhenti seketika tetapi tali tetap bersatu selamanya.</string>
+    <string name="friends_sentence_10">Musuh kepada musuhku adalah kawanku.</string>
+
+    <string name="birthday_category">Hari Jadi</string>
+    <string name="birthday_sentence_1">Semoga hari jadi anda dipenuhi dengan kegembiraan, kasih sayang, dan perayaan. Anda berhak mendapatkan yang terbaik!</string>
+    <string name="birthday_sentence_2">Semoga semua impian hari jadi anda menjadi kenyataan!</string>
+    <string name="birthday_sentence_3">Saya tidak dapat memikirkan hadiah yang lebih baik daripada persahabatan anda — selamat hari jadi!</string>
+    <string name="birthday_sentence_4">Sorakan untuk satu lagi perjalanan mengelilingi matahari!</string>
+    <string name="birthday_sentence_5">Lupakan masa lalu; lihat ke hadapan untuk masa depan, kerana perkara terbaik masih menanti.</string>
+    <string name="birthday_sentence_6">Hari ini anda lebih tua dari semalam tetapi lebih muda dari esok, selamat hari jadi!</string>
+    <string name="birthday_sentence_7">Selamat hari jadi kepada seseorang yang sentiasa muda!</string>
+    <string name="birthday_sentence_8">Sambutan sederhana, perhimpunan sahabat; semoga kebahagiaan besar dan kegembiraan yang tidak berakhir mengiringi anda.</string>
+    <string name="birthday_sentence_9">Selamat hari jadi! Semoga anda berseronok sepenuhnya hari ini, dan tiada mabuk esok!</string>
+    <string name="birthday_sentence_10">Hari ini tentang anda. Saya tidak sabar untuk meraikan anda sepanjang hari!</string>
+
+    <string name="life_category">Kehidupan</string>
+    <string name="life_sentence_1">Perjalanan seribu batu bermula dengan satu langkah.</string>
+    <string name="life_sentence_2">Kesenangan terbesar dalam hidup adalah melakukan apa yang orang kata anda tidak boleh lakukan.</string>
+    <string name="life_sentence_3">Anda tidak boleh mempunyai hari esok yang lebih baik jika anda sentiasa memikirkan semalam.</string>
+    <string name="life_sentence_4">Kebahagiaan bukanlah matlamat, tetapi cara hidup.</string>
+    <string name="life_sentence_5">Berhati-hatilah dengan kata-kata anda. Sekali ia diucapkan, ia hanya boleh dimaafkan, bukan dilupakan.</string>
+    <string name="life_sentence_6">Jika anda tidak hidup untuk sesuatu, anda akan mati tanpa sebab.</string>
+    <string name="life_sentence_7">Hargai perkara kecil - ia selalunya yang paling bermakna.</string>
+    <string name="life_sentence_8">Memaafkan memerlukan kekuatan. Melupakan adalah kebodohan.</string>
+    <string name="life_sentence_9">Hidup adalah tentang impian. Berimpian besar dan capai kejayaan besar dalam hidup.</string>
+    <string name="life_sentence_10">Semuanya akan baik-baik saja pada akhirnya. Jika belum baik, maka itu bukan pengakhirannya…</string>
+
+    <string name="motivation_category">Motivasi</string>
+    <string name="motivation_sentence_1">Tiada yang mustahil.</string>
+    <string name="motivation_sentence_2">Percaya pada diri sendiri. Had anda hanya dalam imaginasi anda.</string>
+    <string name="motivation_sentence_3">Tidak pernah terlambat untuk menjadi apa yang anda impikan.</string>
+    <string name="motivation_sentence_4">Anda perlu percaya pada diri sendiri walaupun orang lain tidak.</string>
+    <string name="motivation_sentence_5">Bekerja keras. Tolak diri anda ke hadapan, kerana tiada siapa yang akan melakukannya untuk anda.</string>
+    <string name="motivation_sentence_6">Hidup penuh dengan liku-liku. Pegang erat dan teruskan perjalanan anda.</string>
+    <string name="motivation_sentence_7">Arahkan wajah anda ke matahari, dan bayang-bayang akan jatuh di belakang anda.</string>
+    <string name="motivation_sentence_8">Kejayaan bukanlah penamat, kegagalan bukanlah maut: keberanian untuk terus maju yang penting.</string>
+    <string name="motivation_sentence_9">Jangan biarkan orang lain meredupkan cahaya anda kerana mereka silau. Suruh mereka pakai cermin mata hitam.</string>
+    <string name="motivation_sentence_10">Bukan keadaan terbaik yang menentukan hidup anda, tetapi bagaimana anda melihat yang terbaik dalam keadaan itu.</string>
+
+    <string name="savage_category">Berani</string>
+    <string name="savage_sentence_1">Perkara terbaik tentang menjadi diri saya, saya adalah edisi terhad, tiada salinan lain!</string>
+    <string name="savage_sentence_2">Satu-satunya perbezaan antara saya dan orang gila adalah saya tidak gila.</string>
+    <string name="savage_sentence_3">Jika anda fikir saya teruk, datang kepada saya, saya akan beri anda sebab yang lebih baik untuk membenci saya.</string>
+    <string name="savage_sentence_4">Hidup ini seperti landasan fesyen, dan saya adalah supermodelnya.</string>
+    <string name="savage_sentence_5">Saya terlalu sibuk menjadi bos.</string>
+    <string name="savage_sentence_6">Mereka kata perkara baik mengambil masa, sebab itu saya selalu lewat.</string>
+    <string name="savage_sentence_7">Hidup ini singkat, senyum selagi masih ada gigi.</string>
+    <string name="savage_sentence_8">Jangan kaji saya, anda tidak akan lulus.</string>
+    <string name="savage_sentence_9">Tanpa solekan, tiada masalah. Tiada tapis, tiada maaf.</string>
+    <string name="savage_sentence_10">Tiada GPS diperlukan, saya berada di laluan saya sendiri.</string>
+
+    <string name="message_not_sent_touch_retry">Tidak dihantar. Sentuh untuk mencuba semula.</string>
+
+    <string name="attachment">Lampiran</string>
+    <string name="empty_blocked_conversation_title">Tiada Perbualan Disekat ditemui.</string>
+    <string name="empty_archived_conversation_title">Tiada Perbualan Arkib ditemui.</string>
+    <string name="empty_scheduled_conversation_title">Tiada Perbualan Berjadual ditemui.</string>
+
+    <string name="send_now">Hantar Sekarang</string>
+    <string name="please_click_back_again_to_exit">Sila klik KEMBALI sekali lagi untuk keluar</string>
+
+    <string name="leave_this_app">Tinggalkan Apl ini…?</string>
+    <string name="are_you_sure_leave_this_app">Adakah anda pasti meninggalkan apl ini?</string>
+    <string name="no">Tidak</string>
+    <string name="yes">ya</string>
+
+    <string name="set_private_pin_toast">Sila tetapkan pin keselamatan dahulu dan cuba tambahkan Perbualan kepada peribadi.</string>
+    <string name="no_any_message_found">Tidak menemui sebarang mesej untuk penerima ini.</string>
+    <string name="please_select_another_image">Kami menemui beberapa isu semasa memilih imej, Sila pilih imej lain.</string>
+
+    <string name="attachment_sized_exceeds_max_limit">Saiz lampiran melebihi had MMS maks</string>
+    <string name="compress_error">Tidak dapat memampatkan imej kepada saiz yang dipilih</string>
+
+    <string name="device_not_support_this_feature">Peranti anda tidak menyokong ciri ini.</string>
+    <string name="add_conversation_to">Tambahkan %1$d Perbualan pada %2$s</string>
+
+    <string name="app_data_sync_message">Menyegerakkan mesej anda…\nSila tunggu sementara kami mengemas kini perbualan anda.</string>
+    <string name="empty_filter_conversation_title">Tiada %1$s Perbualan ditemui.</string>
+    <string name="app_language">Bahasa Apl</string>
+    <string name="sending">Menghantar…</string>
+
+</resources>

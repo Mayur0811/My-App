@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    tools:context=".ui.onboarding.fragment.OnboardingScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/dotsIndicatorHolder"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/tvOnBoardingTitle"
+            style="@style/AppTextBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:text="@string/first_onboarding_title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textSize="toolbar" />
+
+        <com.messages.common.custom_views.MessageTextView
+            android:id="@+id/tvOnBoardingMsg"
+            style="@style/AppTextRegular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/first_onboarding_msg"
+            android:textColor="@color/app_gray"
+            app:layout_constraintTop_toBottomOf="@id/tvOnBoardingTitle"
+            app:textSize="secondary" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:id="@+id/dotsIndicatorHolder"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:background="@color/only_black" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivOnBoarding"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_240sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/onboarding_first"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dotsIndicatorHolder" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

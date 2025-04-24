@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bottom_sheet_bg"
+    android:paddingHorizontal="@dimen/_8sdp">
+
+    <View
+        android:id="@+id/viewTop"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="5dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/filter_bg"
+        android:backgroundTint="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvDialogTitle"
+        style="@style/AppTextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        tools:text="@string/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewTop"
+        app:textSize="dialog" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/tvDialogDisc"
+        style="@style/AppTextMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_27sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center"
+        tools:text="@string/are_you_sure_you_want_to_delete_this_message"
+        android:textColor="@color/app_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDialogTitle"
+        app:textSize="primary" />
+
+    <View
+        android:id="@+id/viewButtonGuide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/tvDialogDisc" />
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnNegative"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/app_light_gray"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/cancel"
+        android:textColor="@color/app_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnPositive"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+
+    <com.messages.common.custom_views.MessageTextView
+        android:id="@+id/btnPositive"
+        style="@style/AppTextExtraBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_13sdp"
+        android:text="@string/delete"
+        android:textColor="@color/only_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnNegative"
+        app:layout_constraintTop_toBottomOf="@id/viewButtonGuide"
+        app:textSize="dialog" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

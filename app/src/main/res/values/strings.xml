@@ -1,0 +1,468 @@
+<resources>
+    <!-- English -->
+    <string name="choose_your_language">Choose Your Language</string>
+    <string name="done">Done</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">Organize Your Messages Effortlessly</string>
+    <string name="first_onboarding_msg">Messages are auto-sorted into Personal, OTP,\nTransactions, and Offers for easy access.</string>
+    <string name="second_onboarding_title">Keep Your Chats Secure</string>
+    <string name="second_onboarding_msg">Use Chat Lock to protect private conversations and\nkeep them safe. </string>
+    <string name="third_onboarding_title">Customize Your Chat Experience</string>
+    <string name="third_onboarding_msg">Personalize chats with colors, wallpapers, and\nadjustable fonts.</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">Set Messages as Default</string>
+    <string name="set_as_default_msg">Enable Messages as your default app to send and\nreceive texts.</string>
+    <string name="set_as_default_btn_text">Set as Default</string>
+
+    <string name="notification_per_title">Notification Permission</string>
+    <string name="notification_per_msg">Stay Updated! Enable notifications to receive messages\nwithout missing anything.</string>
+    <string name="notification_per_btn_text">Allow Permission</string>
+
+    <string name="phone_state_per_title">We need some permission!</string>
+    <string name="phone_state_per_msg">Allow permission to send quick replies right after calls\nfor a faster messaging experience.</string>
+    <string name="phone_state_per_btn_text">Grant Permission</string>
+    <string name="phone_state_per_text">Enable the app to read your phone state</string>
+    <string name="phone_state_per_guide">For quick and easy access to messages right after calls.</string>
+
+    <string name="unknown_error_occurred">An unknown error occurred</string>
+    <string name="enable_quick_actions_in_3_easy_steps">Enable quick actions in 3 easy steps.</string>
+    <string name="tap_the_enable_button_below">Tap the \"Enable\" button below.</string>
+    <string name="locate_our_app_in_the_list">Locate our app in the list.</string>
+    <string name="turn_on_the_toggle_to_activate">Turn on the toggle to activate.</string>
+    <string name="enable">Enable</string>
+    <string name="overlay_permission_denied">Overlay Permission Denied!</string>
+    <string name="find_and_allow_permission">Find %s and allow permission</string>
+
+    <!-- drawer manu -->
+    <string name="inbox">Inbox</string>
+    <string name="archived">Archived</string>
+    <string name="private_chat">Private Chat</string>
+    <string name="spam_blocked">Spam &amp; Blocked</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="theme">Theme</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="setting">Setting</string>
+    <string name="share">Share</string>
+    <string name="rate_app">Rate App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- main filter -->
+    <string name="all">All</string>
+    <string name="personal">Personal</string>
+    <string name="otp_s">OTPs</string>
+    <string name="transactions">Transactions</string>
+    <string name="offers">Offers</string>
+
+    <string name="chat">Chat</string>
+    <string name="copy_otp">Copy OTP</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+
+    <string name="sender_does_not_support_replies">Sender does not support replies</string>
+    <string name="sender_does_not_support_call">Sender does not support call</string>
+
+    <string name="call">Call</string>
+    <string name="conversation_details">Conversation Details</string>
+    <string name="appearance">Appearance</string>
+    <string name="chat_wallpaper">Chat Wallpaper</string>
+    <string name="show_subject_field">Show Subject Field</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="forward">Forward</string>
+    <string name="view_details">View Details</string>
+
+    <string name="translate_massage">Translate Massage</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="text_message">Text Message</string>
+    <string name="subject">Subject:</string>
+
+    <string name="contact">Contact</string>
+    <string name="image">Image</string>
+    <string name="camera">Camera</string>
+    <string name="files">Files</string>
+    <string name="voice">Voice</string>
+    <string name="schedule">Schedule</string>
+    <string name="location">Location</string>
+    <string name="clipboard">Clipboard</string>
+
+    <string name="view_contact_details">View contact details</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="share_via">Share via</string>
+    <string name="no_app_found">No valid app found</string>
+    <string name="maximum_share_reached">You cannot share this much content at once</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">Are you sure you want to delete this\nmessages?</string>
+    <string name="something_went_wrong_please_try_after_some_time">Something went wrong, Please try after some time.</string>
+    <string name="message_details">Message details</string>
+    <string name="ok">OK</string>
+    <string name="message_details_received">Type : %1$s\n\nFrom : %2$s\n\nReceived : %3$s</string>
+    <string name="message_details_send">Type : %1$s\n\nTo : %2$s\n\nSent : %3$s</string>
+
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="archive">Archive</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="private_text">Private</string>
+    <string name="add_to_contacts">Add to contacts</string>
+    <string name="mark_as_unread">Mark as unread</string>
+    <string name="mark_as_read">Mark as read</string>
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="dial_number">Dial Number</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+
+    <string name="want_to_delete_conversation">Are you sure you want to delete this\nconversations?</string>
+    <string name="want_to_block_conversation">Are you sure you want to %1$s this\nconversations?</string>
+    <string name="search_here">Search here</string>
+    <string name="no_items_found">No items found.</string>
+    <string name="type_2_characters">Type in at least 2 characters to start the search.</string>
+
+    <string name="apply">Apply</string>
+    <string name="filter">Filter</string>
+    <string name="default_filter">Default</string>
+    <string name="today_filter">Today</string>
+    <string name="monthly_filter">Monthly</string>
+    <string name="year_filter">Year</string>
+    <string name="date_range_filter">Date Range</string>
+    <string name="date_show">Date: %1$s</string>
+    <string name="select_range">SELECT RANGE</string>
+    <string name="range_show">Range: %1$s</string>
+    <string name="year_show">Year: %1$d</string>
+    <string name="month_show">Month: %1$s</string>
+
+    <string name="language_model_error">Something went wrong, Please try after sometime.</string>
+    <string name="language_translate_error">We are currently experiencing issues with text translation. Please try again later.</string>
+
+    <string name="new_chat">New Chat</string>
+    <string name="import_messages">Import messages</string>
+    <string name="font_size">Font Size</string>
+    <string name="preview">Preview</string>
+    <string name="chat_color">Chat Color</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="none">None</string>
+
+    <string name="set_password">Set a Password</string>
+    <string name="confirm_your_password">Confirm your Password</string>
+    <string name="enter_password">Enter a Password</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="incorrect_password">Incorrect Password</string>
+    <string name="enter_correct_password">Enter correct Password</string>
+
+    <string name="preview_receive">Hello Guys !</string>
+    <string name="preview_send">Yeah… this is my favorite color!</string>
+    <string name="confirm_pin_title">Dear users,\nThe PIN of your Private Chat is:</string>
+    <string name="confirm_pin_guide">It is recommended that you set up a security question to\nprevent forgetting your password.</string>
+    <string name="set_now">Set Now</string>
+    <string name="submit">Submit</string>
+    <string name="enter_security_answer">Enter Security Answer</string>
+    <string name="write_your_answer">Write your answer</string>
+    <string name="select_security_question">Select Security Question</string>
+    <string name="secret_question">Secret Question</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="verify_your_identity">If you forgot the PIN, the security question will be used to verify your identity so that you can reset the password.</string>
+    <string name="wrong_qa_answer">You are  selecting or answering wrong question, Please select correct question and provide accurate answer.</string>
+
+    <string name="select_your_security_question">Select your security question</string>
+    <string name="teacher_question">Who is your favourite teacher?</string>
+    <string name="actor_question">Who is your favourite actor?</string>
+    <string name="actress_question">Who is your favourite actress?</string>
+    <string name="cricketer_question">Who is your favourite cricketer?</string>
+    <string name="footballer_question">Who is your favourite footballer?</string>
+    <string name="pet_name_question">What is your pet name?</string>
+
+    <string name="empty_private_chat_title">Empty Private Chat</string>
+    <string name="empty_private_chat_sub_title">No chats yet. Start a new one now!</string>
+    <string name="change_security">Change Security</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="private_message_notification">Message Notification</string>
+    <string name="private_message_notification_guide">When disabling this option, messages from private contacts will not pop up at notification</string>
+    <string name="password_change_successfully">Password change successfully !!</string>
+
+    <string name="choose_app_theme">Choose App Theme</string>
+    <string name="choose_theme_to_personalize_your_app">Choose a theme to personalize your app.</string>
+    <string name="system_default">System Default</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+
+    <string name="normal">Normal</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
+    <string name="larger">Larger</string>
+    <string name="use_system_font">Use System Font</string>
+    <string name="language">Language</string>
+    <string name="lock_screen_notification">Lock Screen Notification</string>
+    <string name="sender_and_messages">Sender and messages</string>
+    <string name="sender_only">Sender only</string>
+    <string name="nothing">Nothing</string>
+    <string name="resize_send_mms_images">Resize Send MMS Images</string>
+    <string name="customize_notification">Customize Notification</string>
+    <string name="swipe_actions">Swipe Actions</string>
+    <string name="configure_swipe_actions_for_conversations">Configure swipe actions for conversations</string>
+    <string name="post_call_screen">Post Call Screen</string>
+    <string name="show_call_screen_after_call">Show call screen after call</string>
+    <string name="delivery_reports">Delivery Reports</string>
+    <string name="use_24_hour_time_format">Use 24 Hour Time Format</string>
+    <string name="show_character_counter_writing_messages">Show a character counter at writing messages</string>
+    <string name="remove_accents_diacritics_sending_messages">Remove Accents &amp; Diacritics at Sending Messages</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="about_app">About %1$s</string>
+    <string name="app_version">Version %1$s</string>
+    <string name="no_limit">No limit</string>
+    <string name="resize_sent_mms_image">Resize Sent MMS Images</string>
+
+    <string name="right_swipe">Right Swipe</string>
+    <string name="left_swipe">Left Swipe</string>
+    <string name="change">Change</string>
+    <string name="right_swipe_action">Right Swipe Action</string>
+    <string name="left_swipe_action">Left Swipe Action</string>
+
+    <string name="action_none">None</string>
+    <string name="action_archive">Archive</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_call">Call</string>
+    <string name="action_mark_read">Mark As Read</string>
+    <string name="action_mark_unread">Mark As Unread</string>
+    <string name="action_add_private">Add to Private Chat</string>
+    <string name="action_remove_private">Remove to Private Chat</string>
+
+    <string name="carrier_send_error">Couldn\'t send message, carrier error</string>
+    <string name="error_service_is_unavailable">Couldn\'t send message, service unavailable</string>
+    <string name="error_radio_turned_off">Couldn\'t send message, radio turned off</string>
+    <string name="sim_card_not_available">SIM card not available</string>
+    <string name="unknown_error_occurred_sending_message">Couldn\'t send message, error code: %d</string>
+    <string name="an_error_occurred">An error occurred: %s</string>
+    <string name="empty_destination_address">Can\'t send message to an empty number</string>
+    <string name="unable_to_save_message">Unable to save message to the telephony database</string>
+    <string name="must_pick_time_in_the_future">You must pick a time in the future</string>
+
+    <string name="message_not_sent_short">Message not sent</string>
+    <string name="message_sending_error">Your message to \'%s\' has not been sent</string>
+    <string name="channel_received_sms">Received SMS</string>
+    <string name="new_message">New message</string>
+    <string name="reply">Reply</string>
+    <string name="me">Me</string>
+    <string name="sens_to">Send to %s</string>
+
+    <string name="blocked_number">Blocked Number</string>
+    <string name="delete_conversation">Delete Conversation</string>
+    <string name="conversation_title">Conversation title</string>
+    <string name="schedule_send_warning">Keep the phone on and make sure there\nis nothing killing the app while in background.</string>
+
+    <string name="option">Option</string>
+    <string name="messages">Messages</string>
+    <string name="more">More</string>
+
+    <string name="send_message">Send Message</string>
+    <string name="send_message_desc">Send message to anyone with ease!</string>
+    <string name="view_message">View Message</string>
+    <string name="view_message_desc">View message by list just on tap!</string>
+
+    <string name="instant_msg_1">In a meeting, will call you back later.</string>
+    <string name="instant_msg_2">Please call me later. Thanks!</string>
+    <string name="instant_msg_3">Have a nice day!</string>
+    <string name="instant_msg_4">OK, got it.</string>
+    <string name="instant_msg_5">On the way, will be there soon.</string>
+
+    <string name="edit_contact">Edit Contact</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="calendar">Calendar</string>
+    <string name="web">Web</string>
+
+    <string name="incoming_call">Incoming Call</string>
+    <string name="outgoing_call">Outgoing Call</string>
+    <string name="private_number">Private Number</string>
+
+    <string name="last_backup">Last Backup</string>
+    <string name="restore">Restore</string>
+    <string name="select_backup">Select a backup</string>
+    <string name="no_backup_available">No backup available</string>
+    <string name="last_backup_time">Last backup: %s</string>
+
+    <string name="empty_name">Please enter a name</string>
+    <string name="name_taken">A file or folder with that name already exists</string>
+    <string name="invalid_name">The name contains invalid characters</string>
+
+    <string name="importing">Importing…</string>
+    <string name="invalid_file_format">Invalid file format</string>
+    <string name="no_entries_for_importing">No entries for importing have been found</string>
+    <string name="importing_failed">Importing failed</string>
+    <string name="importing_some_entries_failed">Importing some entries failed</string>
+    <string name="importing_successful">Importing successful</string>
+    <string name="improved_color_customization">Improved color customization</string>
+    <string name="exporting_successful">Exporting successful</string>
+    <string name="exporting">Exporting…</string>
+    <string name="no_entries_for_exporting">No entries for exporting have been found</string>
+
+    <string name="backup_files">Backup Files</string>
+    <string name="please_select_backup_file">Please select backup file from below for restore messages.</string>
+    <string name="folder_does_not_exist">Folder does not exist or is not a directory.</string>
+    <string name="you_have_not_any_backup_file">You have not any backup, Please backup first.</string>
+    <string name="not_found_any_backup_file">Not Found any backup file.</string>
+
+    <plurals name="and_other_contacts">
+        <item quantity="one">and %d other</item>
+        <item quantity="other">and %d others</item>
+    </plurals>
+
+    <string name="action_add_to_fav">Add to favorites</string>
+    <string name="duration_sec">Duration %1$s  Sec</string>
+    <string name="picked_contact">Name: %1$s\nNumber: %2$s</string>
+
+    <string name="default_category">Default</string>
+    <string name="default_sentence_1">In a meeting, will call you back later.</string>
+    <string name="default_sentence_2">Please call me later. Thanks!</string>
+    <string name="default_sentence_3">Have a nice day!</string>
+    <string name="default_sentence_4">OK, got it.</string>
+    <string name="default_sentence_5">On the way, will be there soon.</string>
+    <string name="default_sentence_6">I am fine, do not worry.</string>
+    <string name="default_sentence_7">Thank you.</string>
+    <string name="default_sentence_8">You are welcome.</string>
+    <string name="default_sentence_9">Wish you the best.</string>
+    <string name="default_sentence_10">Come here, now.</string>
+
+    <string name="funny_category">Funny</string>
+    <string name="funny_sentence_1">I love my job only when I am on vacation.</string>
+    <string name="funny_sentence_2">I am not lazy, i am just on my energy saving mode.</string>
+    <string name="funny_sentence_3">There is no sunrise so beautiful that it is worth waking me up to see it.</string>
+    <string name="funny_sentence_4">I am not completely useless, I can be used as a bad example.</string>
+    <string name="funny_sentence_5">If people could read my mind, i had get punched in the face a lot.</string>
+    <string name="funny_sentence_6">Someday you will go far, and I hope you stay there.</string>
+    <string name="funny_sentence_7">Not wearing glasses anymore, I have seen enough..</string>
+    <string name="funny_sentence_8">If at first you do noy succeed, skydiving is not for you.</string>
+    <string name="funny_sentence_9">I do not understand your specific kind of crazy, but I do admire your total commitment to it.</string>
+    <string name="funny_sentence_10">A day without sunshine is like, you know, night.</string>
+
+    <string name="love_category">Love</string>
+    <string name="love_sentence_1">Just thinking about you puts a smile on my face.</string>
+    <string name="love_sentence_2">My day seems incomplete without you.</string>
+    <string name="love_sentence_3">The most important thing in this world is family and love.</string>
+    <string name="love_sentence_4">You can not blame gravity for falling in love.</string>
+    <string name="love_sentence_5">You are the most beautiful person, both inside and out. I am so lucky to have you.</string>
+    <string name="love_sentence_6">A million thanks to the most amazing person I know.</string>
+    <string name="love_sentence_7">There are no words I could use to describe the love we share. I am so incredibly thankful for you.</string>
+    <string name="love_sentence_8">Love is when you have options to leave but you decide to stay.</string>
+    <string name="love_sentence_9">I like when you smile. But, I love it when I am the reason…</string>
+    <string name="love_sentence_10">Love understands love; it needs no talk.</string>
+
+    <string name="wishes_category">Wishes</string>
+    <string name="wishes_sentence_1">All the best! I wish you all the best for a prosperous future ahead.</string>
+    <string name="wishes_sentence_2">Happy birthday! May all your dreams come true!</string>
+    <string name="wishes_sentence_3">Merry Christmas! Spread love everywhere you go</string>
+    <string name="wishes_sentence_4">The most important thing is to enjoy your life—to be happy—it is all that matters.</string>
+    <string name="wishes_sentence_5">When you have a dream, you have got to grab it and never let go.</string>
+    <string name="wishes_sentence_6">Sometimes, when things are falling apart, they may actually be falling into place.</string>
+    <string name="wishes_sentence_7">You are braver than you believe, and stronger than you seem, and smarter than you think</string>
+    <string name="wishes_sentence_8">Sending you best wishes for an amazing journey ahead!</string>
+    <string name="wishes_sentence_9">Congratulations! Cheers to your success and a bright future!</string>
+    <string name="wishes_sentence_10">A dead end is just a good place to turn around.</string>
+
+    <string name="sad_category">Sad</string>
+    <string name="sad_sentence_1">Givers need to set limits because takers rarely do.</string>
+    <string name="sad_sentence_2">Don’t cling to a mistake just because you spent a long time making it.</string>
+    <string name="sad_sentence_3">I realise now that the person I used to be is not the person.</string>
+    <string name="sad_sentence_4">Sadness is not the opposite of happiness. It’s a part of it.</string>
+    <string name="sad_sentence_5">The worst kind of pain is when your heart cry, and your eyes are dry.</string>
+    <string name="sad_sentence_6">Time can’t heal your emotional pain if you don’t learn how to let go.</string>
+    <string name="sad_sentence_7">They say, “Follow your heart,” but if your heart is a million pieces, which piece do you follow?</string>
+    <string name="sad_sentence_8">If there is anything that is true in your life, it is the present passing moment. Sadness is part of it.</string>
+    <string name="sad_sentence_9">Another chapter has to end before a new one can begin.</string>
+    <string name="sad_sentence_10">Behind every sweet smile, there is a bitter sadness that no one can ever see and feel.</string>
+
+    <string name="friend_category">Friend</string>
+    <string name="friends_sentence_1">A best friend is like a four leaf clover, hard to find, lucky to have.</string>
+    <string name="friends_sentence_2">A friend eye is a good mirror.</string>
+    <string name="friends_sentence_3">Friends are God\'s way of taking care of us.</string>
+    <string name="friends_sentence_4">You smile I smile, you get hurt I get hurt, you cry I cry, you jump off a bridge, I am gonna miss you buddy.</string>
+    <string name="friends_sentence_5">True friends are like diamonds, pure and rare. Fake friends are like leaves found everywhere.</string>
+    <string name="friends_sentence_6">True friend will open your eyes, mind and heart to a better more fulfilling life.</string>
+    <string name="friends_sentence_7">A friend is someone who understand your past, believes in your future and accepts you today, just the way you are.</string>
+    <string name="friends_sentence_8">To have true friends, you must be a true friends.</string>
+    <string name="friends_sentence_9">Friendship is like violin. Music may stop now or then but strings may be together forever.</string>
+    <string name="friends_sentence_10">The enemy of my enemy is my friend.</string>
+
+    <string name="birthday_category">Birthday</string>
+    <string name="birthday_sentence_1">May your birthday be full of joy, love, and celebration. You deserve the very best!</string>
+    <string name="birthday_sentence_2">Hoping all your birthday wishes come true!</string>
+    <string name="birthday_sentence_3">I can not think of a better gift than your friendship — happy birthday!</string>
+    <string name="birthday_sentence_4">Cheers to another trip around the sun!</string>
+    <string name="birthday_sentence_5">Forget the past; look forward to the future, for the best things are yet to come.</string>
+    <string name="birthday_sentence_6">You’re older today than yesterday but younger than tomorrow, happy birthday!</string>
+    <string name="birthday_sentence_7">Happy birthday to someone who is forever young!</string>
+    <string name="birthday_sentence_8">A simple celebration, a gathering of friends; here wishing you great happiness and a joy that never ends.</string>
+    <string name="birthday_sentence_9">Best wishes on your birthday! May you have maximum fun today, and minimum hangover tomorrow!</string>
+    <string name="birthday_sentence_10">Today is about you. I can’t wait to celebrate you all day long!</string>
+
+    <string name="life_category">Life</string>
+    <string name="life_sentence_1">A journey of a thousand miles begins with a single step.</string>
+    <string name="life_sentence_2">The great pleasure in life is doing what people say you cannot do.</string>
+    <string name="life_sentence_3">You can not have better tomorrow if you are thinking about yesterday all the time.</string>
+    <string name="life_sentence_4">Happiness is not a goal, but a way of life.</string>
+    <string name="life_sentence_5">Be careful with your words. Once they are said, they can only be forgiven, not forgotten.</string>
+    <string name="life_sentence_6">If you do not live for something, you will die for nothing.</string>
+    <string name="life_sentence_7">Recognize the small things - they are usually means the most.</string>
+    <string name="life_sentence_8">To forgive takes strength. to forget takes foolishness.</string>
+    <string name="life_sentence_9">Life is all about dreams. Dreams big and achieve big things in life.</string>
+    <string name="life_sentence_10">Everything is alright in the end. If it is not alright, it is not the end…</string>
+
+    <string name="motivation_category">Motivational</string>
+    <string name="motivation_sentence_1">Nothing is impossible.</string>
+    <string name="motivation_sentence_2">Believe in yourself. Your limitation is only your imagination</string>
+    <string name="motivation_sentence_3">It is never too late to be what you might have been.</string>
+    <string name="motivation_sentence_4">You have to believe in yourself when no one else does.</string>
+    <string name="motivation_sentence_5">Work hard. Push yourself, because no one else is going to do it for you</string>
+    <string name="motivation_sentence_6">Life has got all those twists and turns. You have got to hold on tight and off you go.</string>
+    <string name="motivation_sentence_7">Keep your face always toward the sunshine, and shadows will fall behind you.</string>
+    <string name="motivation_sentence_8">Success is not final, failure is not fatal: it is the courage to continue that counts.</string>
+    <string name="motivation_sentence_9">Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on.</string>
+    <string name="motivation_sentence_10">Not having the best situation, but seeing the best in your situation is the key.</string>
+
+    <string name="savage_category">Savage</string>
+    <string name="savage_sentence_1">The best thing about being me, I am limited edition, there are no other copies!</string>
+    <string name="savage_sentence_2">The only difference between me and madman is that I am not mad.</string>
+    <string name="savage_sentence_3">If you think I am bad, then come to me I will give you more better reason to hate me.</string>
+    <string name="savage_sentence_4">Life is a runway, and I am the damn supermodel.</string>
+    <string name="savage_sentence_5">I am too busy being a boss.</string>
+    <string name="savage_sentence_6">They say good things take time, that is why I am always late.</string>
+    <string name="savage_sentence_7">Life is short, smile while you still have teeth.</string>
+    <string name="savage_sentence_8">Do not study me, you won’t graduate.</string>
+    <string name="savage_sentence_9">No makeup, no problem. Unfiltered and unapologetic.</string>
+    <string name="savage_sentence_10">No GPS is needed, I am on my own path.</string>
+
+    <string name="message_not_sent_touch_retry">Not sent. Touch to retry.</string>
+
+    <string name="attachment">Attachment</string>
+    <string name="empty_blocked_conversation_title">No Blocked Conversation found.</string>
+    <string name="empty_archived_conversation_title">No Archived Conversation found.</string>
+    <string name="empty_scheduled_conversation_title">No Scheduled Conversation found.</string>
+
+    <string name="send_now">Send Now</string>
+    <string name="please_click_back_again_to_exit">Please click BACK again to exit</string>
+
+    <string name="leave_this_app">Leave this App…?</string>
+    <string name="are_you_sure_leave_this_app">Are you sure leave this app?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <string name="set_private_pin_toast">Please set security pin first and try add Conversation to private.</string>
+    <string name="no_any_message_found">Not found any messages for this recipient.</string>
+    <string name="please_select_another_image">We found some issue while select image, Please pick another image.</string>
+
+    <string name="attachment_sized_exceeds_max_limit">Attachment size exceeds max MMS limit</string>
+    <string name="compress_error">Unable to compress image to selected size</string>
+
+    <string name="device_not_support_this_feature">Your device not support this feature.</string>
+    <string name="add_conversation_to">Add %1$d Conversations to %2$s</string>
+
+    <string name="app_data_sync_message">Syncing your messages…\nPlease wait while we update your conversations.</string>
+    <string name="empty_filter_conversation_title">No %1$s Conversation found.</string>
+    <string name="app_language">App Language</string>
+    <string name="sending">Sending…</string>
+
+</resources>

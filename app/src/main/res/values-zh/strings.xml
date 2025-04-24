@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Chinese -->
+
+    <string name="choose_your_language">选择您的语言</string>
+    <string name="done">完成</string>
+    <string name="skip">跳过</string>
+    <string name="next">下一步</string>
+
+    <!-- onBoarding -->
+    <string name="first_onboarding_title">轻松整理您的消息</string>
+    <string name="first_onboarding_msg">消息会自动分类为个人、验证码、\n交易和优惠，方便访问。</string>
+    <string name="second_onboarding_title">保护您的聊天安全</string>
+    <string name="second_onboarding_msg">使用聊天锁保护私人对话，\n确保安全。</string>
+    <string name="third_onboarding_title">自定义您的聊天体验</string>
+    <string name="third_onboarding_msg">个性化聊天颜色、壁纸，\n并调整字体。</string>
+
+    <!-- permission -->
+    <string name="set_as_default_title">将消息设置为默认应用</string>
+    <string name="set_as_default_msg">将消息应用设置为默认应用，\n以便发送和接收短信。</string>
+    <string name="set_as_default_btn_text">设为默认</string>
+
+    <string name="notification_per_title">通知权限</string>
+    <string name="notification_per_msg">保持更新！启用通知，以便\n及时接收消息。</string>
+    <string name="notification_per_btn_text">允许权限</string>
+
+    <string name="phone_state_per_title">我们需要一些权限！</string>
+    <string name="phone_state_per_msg">允许权限，以便在通话结束后\n快速回复消息，提升消息体验。</string>
+    <string name="phone_state_per_btn_text">授予权限</string>
+    <string name="phone_state_per_text">允许应用读取您的手机状态</string>
+    <string name="phone_state_per_guide">在通话后快速轻松访问消息。</string>
+
+    <string name="unknown_error_occurred">发生未知错误</string>
+    <string name="enable_quick_actions_in_3_easy_steps">仅需三步启用快捷操作。</string>
+    <string name="tap_the_enable_button_below">点击下方的“启用”按钮。</string>
+    <string name="locate_our_app_in_the_list">在列表中找到我们的应用。</string>
+    <string name="turn_on_the_toggle_to_activate">打开开关以激活。</string>
+    <string name="enable">启用</string>
+    <string name="overlay_permission_denied">悬浮权限被拒绝！</string>
+    <string name="find_and_allow_permission">找到 %s 并允许权限</string>
+
+    <!-- drawer menu -->
+    <string name="inbox">收件箱</string>
+    <string name="archived">已归档</string>
+    <string name="private_chat">私人聊天</string>
+    <string name="spam_blocked">垃圾信息 &amp; 已拦截</string>
+    <string name="scheduled">已安排</string>
+    <string name="theme">主题</string>
+    <string name="backup_restore">备份 &amp; 恢复</string>
+    <string name="setting">设置</string>
+    <string name="share">分享</string>
+    <string name="rate_app">评分应用</string>
+    <string name="privacy_policy">隐私政策</string>
+
+    <!-- main filter -->
+    <string name="all">全部</string>
+    <string name="personal">个人</string>
+    <string name="otp_s">验证码</string>
+    <string name="transactions">交易</string>
+    <string name="offers">优惠</string>
+
+    <string name="chat">聊天</string>
+    <string name="copy_otp">复制验证码</string>
+    <string name="add">添加</string>
+    <string name="save">保存</string>
+
+    <string name="sender_does_not_support_replies">发送方不支持回复</string>
+    <string name="sender_does_not_support_call">发送方不支持通话</string>
+
+    <string name="call">通话</string>
+    <string name="conversation_details">对话详情</string>
+    <string name="appearance">外观</string>
+    <string name="chat_wallpaper">聊天壁纸</string>
+    <string name="show_subject_field">显示主题字段</string>
+    <string name="copy">复制</string>
+    <string name="delete">删除</string>
+    <string name="forward">转发</string>
+    <string name="view_details">查看详情</string>
+
+    <string name="translate_massage">翻译消息</string>
+    <string name="choose_language">选择语言</string>
+    <string name="text_message">文本消息</string>
+    <string name="subject">主题：</string>
+
+    <string name="contact">联系人</string>
+    <string name="image">图片</string>
+    <string name="camera">相机</string>
+    <string name="files">文件</string>
+    <string name="voice">语音</string>
+    <string name="schedule">日程</string>
+    <string name="location">位置</string>
+    <string name="clipboard">剪贴板</string>
+
+    <string name="view_contact_details">查看联系人详情</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="share_via">通过…分享</string>
+    <string name="no_app_found">未找到可用应用</string>
+    <string name="maximum_share_reached">您无法一次分享如此多的内容</string>
+
+    <string name="cancel">取消</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">您确定要删除此消息吗？</string>
+    <string name="something_went_wrong_please_try_after_some_time">出了点问题，请稍后再试。</string>
+    <string name="message_details">消息详情</string>
+    <string name="ok">确定</string>
+    <string name="message_details_received">类型：%1$s\n\n来自：%2$s\n\n接收时间：%3$s</string>
+    <string name="message_details_send">类型：%1$s\n\n发送至：%2$s\n\n发送时间：%3$s</string>
+
+    <string name="pin">固定</string>
+    <string name="unpin">取消固定</string>
+    <string name="archive">存档</string>
+    <string name="unarchive">取消存档</string>
+    <string name="private_text">私密</string>
+    <string name="add_to_contacts">添加到联系人</string>
+    <string name="mark_as_unread">标记为未读</string>
+    <string name="mark_as_read">标记为已读</string>
+    <string name="block">屏蔽</string>
+    <string name="unblock">取消屏蔽</string>
+    <string name="dial_number">拨打号码</string>
+    <string name="copy_to_clipboard">复制到剪贴板</string>
+
+    <string name="want_to_delete_conversation">您确定要删除此对话吗？</string>
+    <string name="want_to_block_conversation">您确定要 %1$s 此\n对话吗？</string>
+    <string name="search_here">在这里搜索</string>
+    <string name="no_items_found">未找到项目。</string>
+    <string name="type_2_characters">请输入至少2个字符开始搜索。</string>
+
+    <string name="apply">应用</string>
+    <string name="filter">筛选</string>
+    <string name="default_filter">默认</string>
+    <string name="today_filter">今天</string>
+    <string name="monthly_filter">本月</string>
+    <string name="year_filter">本年</string>
+    <string name="date_range_filter">日期范围</string>
+    <string name="date_show">日期：%1$s</string>
+    <string name="select_range">选择范围</string>
+    <string name="range_show">范围：%1$s</string>
+    <string name="year_show">年份：%1$d</string>
+    <string name="month_show">月份：%1$s</string>
+
+    <string name="language_model_error">出了点问题，请稍后再试。</string>
+    <string name="language_translate_error">当前文本翻译出现问题，请稍后再试。</string>
+
+    <string name="new_chat">新聊天</string>
+    <string name="import_messages">导入消息</string>
+    <string name="font_size">字体大小</string>
+    <string name="preview">预览</string>
+    <string name="chat_color">聊天颜色</string>
+    <string name="add_photos">添加照片</string>
+    <string name="none">无</string>
+
+    <string name="set_password">设置密码</string>
+    <string name="confirm_your_password">确认您的密码</string>
+    <string name="enter_password">输入密码</string>
+    <string name="set_pin">设置PIN码</string>
+    <string name="incorrect_password">密码错误</string>
+    <string name="enter_correct_password">输入正确的密码</string>
+
+    <string name="preview_receive">你好，朋友们！</string>
+    <string name="preview_send">是的……这是我最喜欢的颜色！</string>
+    <string name="confirm_pin_title">亲爱的用户，\n您的私人聊天 PIN 码是：</string>
+    <string name="confirm_pin_guide">建议您设置安全问题，以防忘记密码。</string>
+    <string name="set_now">立即设置</string>
+    <string name="submit">提交</string>
+    <string name="enter_security_answer">输入安全答案</string>
+    <string name="write_your_answer">输入您的答案</string>
+    <string name="select_security_question">选择安全问题</string>
+    <string name="secret_question">安全问题</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="verify_your_identity">如果您忘记 PIN 码，系统将使用安全问题验证您的身份，以便您可以重置密码。</string>
+    <string name="wrong_qa_answer">您选择或回答了错误的问题，请选择正确的问题并提供准确的答案。</string>
+
+    <string name="select_your_security_question">选择您的安全问题</string>
+    <string name="teacher_question">您最喜欢的老师是谁？</string>
+    <string name="actor_question">您最喜欢的演员是谁？</string>
+    <string name="actress_question">您最喜欢的女演员是谁？</string>
+    <string name="cricketer_question">您最喜欢的板球运动员是谁？</string>
+    <string name="footballer_question">您最喜欢的足球运动员是谁？</string>
+    <string name="pet_name_question">您的宠物叫什么名字？</string>
+
+    <string name="empty_private_chat_title">私人聊天为空</string>
+    <string name="empty_private_chat_sub_title">还没有聊天，现在开始吧！</string>
+    <string name="change_security">更改安全设置</string>
+    <string name="edit_password">修改密码</string>
+    <string name="private_message_notification">消息通知</string>
+    <string name="private_message_notification_guide">禁用此选项后，私人联系人发送的消息不会弹出通知。</string>
+    <string name="password_change_successfully">密码更改成功！！</string>
+
+    <string name="choose_app_theme">选择应用主题</string>
+    <string name="choose_theme_to_personalize_your_app">选择主题以个性化您的应用。</string>
+    <string name="system_default">系统默认</string>
+    <string name="light_theme">浅色主题</string>
+    <string name="dark_theme">深色主题</string>
+
+    <string name="normal">正常</string>
+    <string name="small">小</string>
+    <string name="large">大</string>
+    <string name="larger">更大</string>
+    <string name="use_system_font">使用系统字体</string>
+    <string name="language">语言</string>
+    <string name="lock_screen_notification">锁屏通知</string>
+    <string name="sender_and_messages">发送者和消息</string>
+    <string name="sender_only">仅发送者</string>
+    <string name="nothing">无</string>
+    <string name="resize_send_mms_images">调整发送的 MMS 图片大小</string>
+    <string name="customize_notification">自定义通知</string>
+    <string name="swipe_actions">滑动操作</string>
+    <string name="configure_swipe_actions_for_conversations">为对话配置滑动操作</string>
+    <string name="post_call_screen">通话后屏幕</string>
+    <string name="show_call_screen_after_call">通话后显示通话屏幕</string>
+    <string name="delivery_reports">送达报告</string>
+    <string name="use_24_hour_time_format">使用 24 小时制</string>
+    <string name="show_character_counter_writing_messages">在编写消息时显示字符计数</string>
+    <string name="remove_accents_diacritics_sending_messages">发送消息时删除重音和变音符号</string>
+    <string name="share_app">分享应用</string>
+    <string name="rate_us">给我们评分</string>
+    <string name="feedback">反馈</string>
+    <string name="about_app">关于 %1$s</string>
+    <string name="app_version">版本 %1$s</string>
+    <string name="no_limit">无限制</string>
+    <string name="resize_sent_mms_image">调整已发送 MMS 图片大小</string>
+
+    <string name="right_swipe">右滑</string>
+    <string name="left_swipe">左滑</string>
+    <string name="change">更改</string>
+    <string name="right_swipe_action">右滑操作</string>
+    <string name="left_swipe_action">左滑操作</string>
+
+    <string name="action_none">无</string>
+    <string name="action_archive">存档</string>
+    <string name="action_delete">删除</string>
+    <string name="action_call">拨打电话</string>
+    <string name="action_mark_read">标记为已读</string>
+    <string name="action_mark_unread">标记为未读</string>
+    <string name="action_add_private">添加到私密聊天</string>
+    <string name="action_remove_private">从私密聊天中移除</string>
+
+    <string name="carrier_send_error">无法发送消息，运营商错误</string>
+    <string name="error_service_is_unavailable">无法发送消息，服务不可用</string>
+    <string name="error_radio_turned_off">无法发送消息，无线电已关闭</string>
+    <string name="sim_card_not_available">SIM 卡不可用</string>
+    <string name="unknown_error_occurred_sending_message">无法发送消息，错误代码：%d</string>
+    <string name="an_error_occurred">发生错误：%s</string>
+    <string name="empty_destination_address">无法发送消息，号码不能为空</string>
+    <string name="unable_to_save_message">无法将消息保存到电话数据库</string>
+    <string name="must_pick_time_in_the_future">您必须选择未来的时间</string>
+
+    <string name="message_not_sent_short">消息未发送</string>
+    <string name="message_sending_error">您的消息‘%s’未发送</string>
+    <string name="channel_received_sms">收到短信</string>
+    <string name="new_message">新消息</string>
+    <string name="reply">回复</string>
+    <string name="me">我</string>
+    <string name="sens_to">发送到 %s</string>
+
+    <string name="blocked_number">已屏蔽号码</string>
+    <string name="delete_conversation">删除对话</string>
+    <string name="conversation_title">对话标题</string>
+    <string name="schedule_send_warning">请保持手机开机，并确保后台没有关闭该应用。</string>
+
+    <string name="option">选项</string>
+    <string name="messages">消息</string>
+    <string name="more">更多</string>
+
+    <string name="send_message">发送消息</string>
+    <string name="send_message_desc">轻松向任何人发送消息！</string>
+    <string name="view_message">查看消息</string>
+    <string name="view_message_desc">轻点即可按列表查看消息！</string>
+
+    <string name="instant_msg_1">正在开会，稍后回电。</string>
+    <string name="instant_msg_2">请稍后给我回电，谢谢！</string>
+    <string name="instant_msg_3">祝您有美好的一天！</string>
+    <string name="instant_msg_4">好的，收到。</string>
+    <string name="instant_msg_5">在路上，很快到达。</string>
+
+    <string name="edit_contact">编辑联系人</string>
+    <string name="send_mail">发送邮件</string>
+    <string name="calendar">日历</string>
+    <string name="web">网页</string>
+
+    <string name="incoming_call">来电</string>
+    <string name="outgoing_call">去电</string>
+    <string name="private_number">私密号码</string>
+
+    <string name="last_backup">上次备份</string>
+    <string name="restore">恢复</string>
+    <string name="select_backup">选择备份</string>
+    <string name="no_backup_available">没有可用的备份</string>
+    <string name="last_backup_time">上次备份：%s</string>
+
+    <string name="empty_name">请输入名称</string>
+    <string name="name_taken">已有相同名称的文件或文件夹</string>
+    <string name="invalid_name">名称包含无效字符</string>
+
+    <string name="importing">正在导入…</string>
+    <string name="invalid_file_format">无效的文件格式</string>
+    <string name="no_entries_for_importing">未找到可导入的条目</string>
+    <string name="importing_failed">导入失败</string>
+    <string name="importing_some_entries_failed">部分条目导入失败</string>
+    <string name="importing_successful">导入成功</string>
+    <string name="improved_color_customization">改进的颜色自定义</string>
+    <string name="exporting_successful">导出成功</string>
+    <string name="exporting">正在导出…</string>
+    <string name="no_entries_for_exporting">未找到可导出的条目</string>
+
+    <string name="backup_files">备份文件</string>
+    <string name="please_select_backup_file">请从以下备份文件中选择以恢复消息。</string>
+    <string name="folder_does_not_exist">文件夹不存在或不是一个目录。</string>
+    <string name="you_have_not_any_backup_file">您没有任何备份，请先进行备份。</string>
+    <string name="not_found_any_backup_file">未找到任何备份文件。</string>
+
+    <plurals name="and_other_contacts" tools:ignore="UnusedQuantity">
+        <item quantity="one">以及 %d 个其他联系人</item>
+        <item quantity="other">以及 %d 个其他联系人</item>
+    </plurals>
+
+    <string name="action_add_to_fav">添加到收藏</string>
+    <string name="duration_sec">时长 %1$s 秒</string>
+    <string name="picked_contact">姓名：%1$s\n号码：%2$s</string>
+
+
+    <string name="default_category">默认</string>
+    <string name="default_sentence_1">正在开会，稍后回电。</string>
+    <string name="default_sentence_2">请稍后给我回电，谢谢！</string>
+    <string name="default_sentence_3">祝你有美好的一天！</string>
+    <string name="default_sentence_4">好的，明白了。</string>
+    <string name="default_sentence_5">在路上，很快到。</string>
+    <string name="default_sentence_6">我很好，不用担心。</string>
+    <string name="default_sentence_7">谢谢你。</string>
+    <string name="default_sentence_8">不客气。</string>
+    <string name="default_sentence_9">祝你一切顺利。</string>
+    <string name="default_sentence_10">快过来，现在。</string>
+
+    <string name="funny_category">幽默</string>
+    <string name="funny_sentence_1">我只在度假时才爱我的工作。</string>
+    <string name="funny_sentence_2">我不是懒，只是在省电模式。</string>
+    <string name="funny_sentence_3">没有哪个日出美到值得让我早起去看。</string>
+    <string name="funny_sentence_4">我不是完全没用，我至少能作为反面教材。</string>
+    <string name="funny_sentence_5">如果人们能读懂我的想法，我早就被揍了。</string>
+    <string name="funny_sentence_6">总有一天你会走得很远，我希望你能一直待在那里。</string>
+    <string name="funny_sentence_7">不戴眼镜了，我已经看够了。</string>
+    <string name="funny_sentence_8">如果第一次尝试失败，跳伞可能不适合你。</string>
+    <string name="funny_sentence_9">我不理解你的疯狂，但我佩服你的执着。</string>
+    <string name="funny_sentence_10">没有阳光的一天就像……夜晚。</string>
+
+    <string name="love_category">爱情</string>
+    <string name="love_sentence_1">一想到你，我就会微笑。</string>
+    <string name="love_sentence_2">没有你，我的一天似乎不完整。</string>
+    <string name="love_sentence_3">这个世界上最重要的事情是家庭和爱。</string>
+    <string name="love_sentence_4">不能责怪地心引力让人坠入爱河。</string>
+    <string name="love_sentence_5">你是最美的人，内外皆然，我真幸运拥有你。</string>
+    <string name="love_sentence_6">无数次感谢我认识的最棒的人。</string>
+    <string name="love_sentence_7">没有言语能形容我们之间的爱，我无比感激你。</string>
+    <string name="love_sentence_8">爱是你有离开的选择，却决定留下。</string>
+    <string name="love_sentence_9">我喜欢看你微笑，但我更喜欢我是你微笑的原因……</string>
+    <string name="love_sentence_10">爱懂得爱，它无需言语。</string>
+
+    <string name="wishes_category">祝福</string>
+    <string name="wishes_sentence_1">祝你一切顺利！愿你未来一片光明。</string>
+    <string name="wishes_sentence_2">生日快乐！愿你所有梦想成真！</string>
+    <string name="wishes_sentence_3">圣诞快乐！把爱传播到每个角落。</string>
+    <string name="wishes_sentence_4">最重要的事情是享受生活，快乐才是最重要的。</string>
+    <string name="wishes_sentence_5">当你有梦想时，就要紧紧抓住，不要放手。</string>
+    <string name="wishes_sentence_6">有时候，事情看似分崩离析，可能正是在悄然成形。</string>
+    <string name="wishes_sentence_7">你比自己想象的更勇敢、更强大、更聪明。</string>
+    <string name="wishes_sentence_8">祝你未来的旅程一切顺利！</string>
+    <string name="wishes_sentence_9">祝贺你！为你的成功和美好未来干杯！</string>
+    <string name="wishes_sentence_10">死胡同只是一个转身的好地方。</string>
+
+    <string name="sad_category">伤感</string>
+    <string name="sad_sentence_1">给予者需要设定界限，因为索取者很少会这样做。</string>
+    <string name="sad_sentence_2">别仅仅因为投入了很多时间，就不愿意放弃一个错误。</string>
+    <string name="sad_sentence_3">我现在意识到，曾经的我已不再是现在的我。</string>
+    <string name="sad_sentence_4">悲伤不是幸福的反面，而是幸福的一部分。</string>
+    <string name="sad_sentence_5">最痛苦的莫过于心在哭泣，眼泪却流不出来。</string>
+    <string name="sad_sentence_6">如果你不学会放下，时间也无法治愈你的伤痛。</string>
+    <string name="sad_sentence_7">他们说“跟随你的心”，但如果心碎成千万片，你该跟随哪一片？</string>
+    <string name="sad_sentence_8">如果有什么是你人生中真实的，那就是当下的瞬间，悲伤也是其中的一部分。</string>
+    <string name="sad_sentence_9">一个篇章结束了，新的篇章才能开始。</string>
+    <string name="sad_sentence_10">每一个甜美的微笑背后，可能隐藏着无人能察觉的悲伤。</string>
+
+    <string name="friend_category">朋友</string>
+    <string name="friends_sentence_1">最好的朋友就像四叶草，难以找到，但拥有就是幸运。</string>
+    <string name="friends_sentence_2">朋友的眼睛是一面很好的镜子。</string>
+    <string name="friends_sentence_3">朋友是上天照顾我们的方式。</string>
+    <string name="friends_sentence_4">你笑我笑，你受伤我也受伤，你哭我哭，你跳桥……兄弟，我会想你的。</string>
+    <string name="friends_sentence_5">真正的朋友如钻石，纯净而稀有；虚伪的朋友如落叶，随处可见。</string>
+    <string name="friends_sentence_6">真正的朋友会让你开阔眼界，启迪心灵，让生活更加充实。</string>
+    <string name="friends_sentence_7">朋友是那个了解你的过去，相信你的未来，并接受你现在的那个人。</string>
+    <string name="friends_sentence_8">要拥有真正的朋友，你必须先成为真正的朋友。</string>
+    <string name="friends_sentence_9">友谊就像小提琴，音乐可能会暂停，但琴弦依然相连。</string>
+    <string name="friends_sentence_10">我敌人的敌人是我的朋友。</string>
+
+    <string name="birthday_category">生日</string>
+    <string name="birthday_sentence_1">愿你的生日充满快乐、爱与庆祝，你值得拥有最好的一切！</string>
+    <string name="birthday_sentence_2">希望你的生日愿望都能实现！</string>
+    <string name="birthday_sentence_3">我想不到比你的友谊更好的礼物——生日快乐！</string>
+    <string name="birthday_sentence_4">为你的又一次环绕太阳之旅干杯！</string>
+    <string name="birthday_sentence_5">忘记过去，展望未来，因为最美好的事物尚未到来。</string>
+    <string name="birthday_sentence_6">你今天比昨天年长，但比明天年轻，生日快乐！</string>
+    <string name="birthday_sentence_7">生日快乐，愿你永远年轻！</string>
+    <string name="birthday_sentence_8">一次简单的庆祝，一场朋友的聚会，愿你拥有无尽的快乐和幸福。</string>
+    <string name="birthday_sentence_9">生日快乐！愿你今天尽情享乐，明天少些宿醉！</string>
+    <string name="birthday_sentence_10">今天是属于你的日子，我迫不及待要整天为你庆祝！</string>
+
+    <string name="life_category">人生</string>
+    <string name="life_sentence_1">千里之行，始于足下。</string>
+    <string name="life_sentence_2">人生最大的乐趣就是做别人认为你做不到的事。</string>
+    <string name="life_sentence_3">如果你总是沉浸在过去，就无法拥有更美好的明天。</string>
+    <string name="life_sentence_4">幸福不是一个目标，而是一种生活方式。</string>
+    <string name="life_sentence_5">小心你的言语，说出口的只能被原谅，无法被遗忘。</string>
+    <string name="life_sentence_6">如果你不为某件事而活，就会毫无意义地死去。</string>
+    <string name="life_sentence_7">珍惜微小的事物，它们往往最重要。</string>
+    <string name="life_sentence_8">宽恕需要力量，遗忘则需要愚蠢。</string>
+    <string name="life_sentence_9">人生就是关于梦想，梦想大，成就就大。</string>
+    <string name="life_sentence_10">一切最终都会好起来的，如果还不好，那就说明还没到最后。</string>
+
+    <string name="motivation_category">励志</string>
+    <string name="motivation_sentence_1">没有什么是不可能的。</string>
+    <string name="motivation_sentence_2">相信自己，你的限制只是你的想象力。</string>
+    <string name="motivation_sentence_3">成为你想成为的人，永远不会太晚。</string>
+    <string name="motivation_sentence_4">当没有人相信你时，你必须自己相信自己。</string>
+    <string name="motivation_sentence_5">努力工作，推动自己，因为没有人会替你做到。</string>
+    <string name="motivation_sentence_6">生活充满曲折，你必须紧紧抓住，一路前行。</string>
+    <string name="motivation_sentence_7">始终面向阳光，阴影就会落在身后。</string>
+    <string name="motivation_sentence_8">成功不是终点，失败也不是致命的，关键在于继续前行的勇气。</string>
+    <string name="motivation_sentence_9">不要让别人熄灭你的光芒，如果他们觉得刺眼，让他们戴上墨镜。</string>
+    <string name="motivation_sentence_10">即使环境不理想，也要看到其中的美好，这是关键。</string>
+
+    <string name="savage_category">犀利</string>
+    <string name="savage_sentence_1">成为我最棒的一点就是，我是限量版，没有复制品！</string>
+    <string name="savage_sentence_2">我和疯子的唯一区别就是，我不疯。</string>
+    <string name="savage_sentence_3">如果你觉得我坏，那就来找我，我会给你更多讨厌我的理由。</string>
+    <string name="savage_sentence_4">人生就像T台，而我是那个超级名模。</string>
+    <string name="savage_sentence_5">我忙着做自己的老板。</string>
+    <string name="savage_sentence_6">他们说好事需要时间，所以我总是迟到。</string>
+    <string name="savage_sentence_7">人生苦短，趁还有牙齿多微笑。</string>
+    <string name="savage_sentence_8">别研究我，你毕不了业。</string>
+    <string name="savage_sentence_9">不化妆，不是问题。真实且无所畏惧。</string>
+    <string name="savage_sentence_10">不用导航，我走自己的路。</string>
+
+    <string name="message_not_sent_touch_retry">未发送。触摸即可重试。</string>
+
+    <string name="attachment">依恋</string>
+    <string name="empty_blocked_conversation_title">未找到被阻止的对话。</string>
+    <string name="empty_archived_conversation_title">未找到存档的对话。</string>
+    <string name="empty_scheduled_conversation_title">未找到安排好的对话。</string>
+
+    <string name="send_now">立即发送</string>
+    <string name="please_click_back_again_to_exit">请再次单击“返回”退出</string>
+
+    <string name="leave_this_app">离开此应用程序……？</string>
+    <string name="are_you_sure_leave_this_app">您确定离开此应用程序吗？</string>
+    <string name="no">不</string>
+    <string name="yes">是的</string>
+
+    <string name="set_private_pin_toast">请先设置安全密码，然后尝试将对话添加为私人对话。</string>
+    <string name="no_any_message_found">未找到该收件人的任何消息。</string>
+    <string name="please_select_another_image">我们在选择图像时发现一些问题，请选择另一张图片。</string>
+
+    <string name="attachment_sized_exceeds_max_limit">附件大小超出 MMS 最大限制</string>
+    <string name="compress_error">无法将图像压缩为选定尺寸</string>
+
+    <string name="device_not_support_this_feature">您的设备不支持此功能。</string>
+    <string name="add_conversation_to">将 %1$d 个对话添加到 %2$s</string>
+
+    <string name="app_data_sync_message">正在同步您的消息…\n请等待，我们正在更新您的对话。</string>
+    <string name="empty_filter_conversation_title">未找到 %1$s 对话。</string>
+    <string name="app_language">应用程序语言</string>
+    <string name="sending">正在发送…</string>
+
+</resources>
